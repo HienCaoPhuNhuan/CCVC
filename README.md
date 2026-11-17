@@ -10,6 +10,7 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 ## Các điểm cần xác nhận với người phụ trách báo cáo
 
 - Bản rút gọn ghi 1.691 học sinh Xuất sắc/Giỏi, trong khi bảng đầy đủ ghi 1.619; chưa tự sửa con số theo tài liệu khác.
+- Slide 6–8 có bảng và biểu đồ tổng hợp. Phạm vi 2.387 học sinh và mốc cao nhất/thấp nhất 28,00/15,1 điểm được bổ sung từ bản đầy đủ, mục II.5.1. Bản đầy đủ còn có số liệu chi tiết từng khối và danh hiệu (371 Xuất sắc, 1.248 Giỏi). Chưa vẽ biểu đồ rèn luyện theo khối vì khối 11 ghi 834/835 học sinh mức Tốt, nhưng tỷ lệ in là 99,65%.
 - Tổng quy mô nhân sự năm mới theo bản rút gọn là 138, chỉ tiêu Lao động tiên tiến là 141/141. Cần xác nhận phạm vi thống kê.
 - Tiếng Anh với giáo viên nước ngoài: bản rút gọn ghi khối 10, bản đầy đủ ghi khối 10 và 11 theo điều kiện đăng ký. Slide lấy theo bản rút gọn.
 - Chỉ tiêu Công đoàn: bản rút gọn ghi Hoàn thành tốt nhiệm vụ; bản đầy đủ ghi Hoàn thành xuất sắc nhiệm vụ. Slide lấy theo bản rút gọn.

@@ -6,6 +6,64 @@ const make = (tag, className, text) => {
   if (text) element.textContent = text;
   return element;
 };
+function assessmentChart(slide) {
+  const values = [...slide.body.slice(0, 2).join(' ').matchAll(/(Chưa đạt|Tốt|Khá|Đạt):\s*([\d,]+)%\s*\(([\d.]+) HS\)/gu)];
+  if (values.length !== 4) return null;
+  const chart = make('div', 'assessment');
+  chart.append(make('p', 'chart-note', 'Phạm vi đánh giá: 2.387 học sinh'));
+  const table = make('table', 'chart-table');
+  const head = table.createTHead().insertRow();
+  for (const heading of ['Xếp loại', 'Tỷ lệ (0–100%)', 'Số học sinh']) {
+    const cell = make('th', '', heading);
+    cell.scope = 'col';
+    head.append(cell);
+  }
+  const rows = table.createTBody();
+  for (const [index, [, name, percent, count]] of values.entries()) {
+    const row = rows.insertRow();
+    const label = make('th', '', name);
+    label.scope = 'row';
+    row.append(label);
+    const rate = row.insertCell();
+    const track = make('span', 'chart-track');
+    const fill = make('span', 'chart-fill fill-' + index);
+    fill.style.setProperty('--percent', percent.replace(',', '.') + '%');
+    track.setAttribute('aria-hidden', 'true');
+    track.append(fill);
+    const meter = make('div', 'chart-meter');
+    meter.append(track, make('strong', '', percent + '%'));
+    rate.append(meter);
+    row.insertCell().textContent = count.replace(/^0+(?=\d)/, '');
+  }
+  chart.append(table);
+  const note = slide.body[2].split('; Danh hiệu')[0];
+  chart.append(make('p', 'chart-note', note.endsWith('.') ? note : note + '.'));
+  if (slide.mode === 'learning-chart') {
+    chart.append(make('p', 'chart-note', 'Danh hiệu Xuất sắc/Giỏi: 67,83%. Bản đầy đủ: 1.619 học sinh; bản rút gọn: 1.691.'));
+  }
+  return chart;
+}
+
+function graduationChart(slide) {
+  const chart = make('div', 'graduation-chart');
+  const outcomes = make('div', 'chart-outcomes');
+  for (const [value, label] of [['100%', 'Tốt nghiệp THPT · khối 12'], ['97,53%', 'Trúng tuyển đại học đợt 1 · 30/8/2026']]) {
+    const item = make('div');
+    item.append(make('strong', '', value), make('p', '', label));
+    outcomes.append(item);
+  }
+  const scores = make('div', 'chart-scores');
+  for (const [label, value] of [['Năm 2025', '22,85'], ['Năm 2026', '22,93'], ['So với 2025', '+0,08']]) {
+    const item = make('div');
+    item.append(make('p', '', label), make('strong', '', value + ' điểm'));
+    scores.append(item);
+  }
+  chart.append(outcomes, make('h3', 'chart-heading', 'Điểm trung bình 3 môn thi cao nhất'), scores,
+    make('p', 'chart-note', 'Năm 2026: cao nhất 28,00 điểm, thấp nhất 15,1 điểm.'),
+    make('p', 'chart-note', slide.body[3]));
+  return chart;
+}
+
 window.ccvcSlides.forEach((slide, position) => {
   const section = make('section', ['slide', slide.mode, slide.images.length && 'illustrated'].filter(Boolean).join(' '));
   section.id = 'slide-' + (position + 1);
@@ -23,7 +81,10 @@ window.ccvcSlides.forEach((slide, position) => {
     const body = make('div', 'body');
     const list = make('ul');
     slide.body.forEach(text => list.append(make('li', '', text)));
-    if (slide.body.length) body.append(list);
+    const chart = slide.mode === 'graduation-chart' ? graduationChart(slide)
+      : ['conduct-chart', 'learning-chart'].includes(slide.mode) ? assessmentChart(slide) : null;
+    if (chart) body.append(chart);
+    else if (slide.body.length) body.append(list);
     if (slide.images.length && slide.mode !== 'closing') {
       const figure = make('figure');
       let index = 0;

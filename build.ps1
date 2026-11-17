@@ -52,9 +52,9 @@ Slide 'Đội ngũ nhà trường' @(9,10) @('01:0','01:11')
 Slide 'Quy mô và các tổ chức' @(12,13,15,16,17,19) @()
 Slide 'Đổi mới phương pháp dạy học' @(21) @('05:37','05:38')
 Slide 'Chuyển đổi số và học liệu số' @(23) @('37:2')
-Slide 'Kết quả rèn luyện' (32..34) @() 'results'
-Slide 'Kết quả học tập' (36..38) @() 'results'
-Slide 'Tốt nghiệp THPT và đại học' (40..43) @()
+Slide 'Kết quả rèn luyện' (32..34) @() 'conduct-chart'
+Slide 'Kết quả học tập' (36..38) @() 'learning-chart'
+Slide 'Tốt nghiệp THPT và đại học' (40..43) @() 'graduation-chart'
 Slide 'Thành tích các kỳ thi' (46..48) @()
 Slide 'Thành tích Olympic' (49..50) @()
 Slide 'Thành tích thể dục thể thao' @(51) @()

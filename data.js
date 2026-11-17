@@ -66,7 +66,7 @@ window.ccvcSlides = [
       "100% Học sinh rèn luyện từ Khá trở lên."
     ],
     "images": [],
-    "mode": "results",
+    "mode": "conduct-chart",
     "group": "TỔNG KẾT · 2025–2026"
   },
   {
@@ -77,7 +77,7 @@ window.ccvcSlides = [
       "100% Lên lớp thẳng; Danh hiệu Học sinh Xuất sắc, HS Giỏi: 67,83% (1.691 HS)."
     ],
     "images": [],
-    "mode": "results",
+    "mode": "learning-chart",
     "group": "TỔNG KẾT · 2025–2026"
   },
   {
@@ -89,7 +89,7 @@ window.ccvcSlides = [
       "11 điểm 10 (Toán 6, Lý 1, Sử 2, Tiếng Anh 2)."
     ],
     "images": [],
-    "mode": "",
+    "mode": "graduation-chart",
     "group": "TỔNG KẾT · 2025–2026"
   },
   {
