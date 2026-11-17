@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; color: #142e2f; background: #e4eae3; scroll-snap-type: y mandatory; }
+body, p, h1, h2, figure { margin: 0; }
+.slide { position: relative; min-height: 100svh; display: grid; align-items: center; padding: 44px 5%; scroll-snap-align: start; isolation: isolate; background: #dce7de; }
+.slide:nth-child(3n+2) { background: #e9e5d9; }
+.slide:nth-child(3n) { background: #dce7ed; }
+.inner { width: min(100%, 1540px); margin: auto; }
+.kicker { font-size: 19px; font-weight: 750; color: #9c3027; }
+h1, h2 { margin-block: 14px 26px; line-height: 1.1; text-wrap: balance; }
+h1 { font-size: 86px; }
+h2 { font-size: 62px; }
+.body { display: grid; gap: 40px; align-items: center; }
+.illustrated:not(.cover,.closing) .body { grid-template-columns: minmax(0,1.32fr) minmax(0,1fr); }
+ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 15px; }
+li { font-size: 34px; line-height: 1.35; border-top: 1px solid #142e2f40; padding-top: 12px; overflow-wrap: break-word; text-wrap: pretty; }
+.results ul { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 46px; }
+figure { aspect-ratio: 4 / 3; min-width: 0; background: #142e2f; }
+figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.backdrop { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.cover, .closing, .chapter { color: #fff5dc; background: #183f39 !important; }
+.cover::before, .closing::before { content: ""; position: absolute; inset: 0; z-index: -1; background: #102c2aba; }
+.cover .kicker, .closing .kicker, .chapter .kicker { color: #ffd17b; }
+.subtitle { font-size: 36px; line-height: 1.42; }
+.entered .inner { animation: enter 520ms cubic-bezier(.2,.8,.2,1) both; }
+@keyframes enter { from { opacity: .4; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@media (max-width: 1300px), (max-height: 850px) {
+  h1 { font-size: 64px; } h2 { font-size: 48px; } li, .subtitle { font-size: 27px; }
+}
+@media (max-width: 899px), (max-height: 699px) {
+  :root { scroll-snap-type: y proximity; }
+  .slide { padding: 34px 6%; }
+  h1 { font-size: 44px; } h2 { font-size: 38px; } li, .subtitle { font-size: 22px; }
+  .illustrated:not(.cover,.closing) .body, .results ul { grid-template-columns: 1fr; }
+  .body { gap: 20px; }
+  figure { max-width: 620px; }
+}
+@media (prefers-reduced-motion: reduce) { .entered .inner { animation: none; } }
