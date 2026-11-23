@@ -6,7 +6,8 @@ window.ccvcSlides = [
       "assets/46f3e2caa6559290832d.webp"
     ],
     "mode": "cover",
-    "group": "HỘI NGHỊ CCVC"
+    "group": "HỘI NGHỊ CCVC",
+    "durationSeconds": 5.0
   },
   {
     "title": "Đội ngũ nhà trường",
@@ -19,7 +20,8 @@ window.ccvcSlides = [
       "assets/e92354102399da2fb8c9.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 19.0
   },
   {
     "title": "Quy mô và các tổ chức",
@@ -33,7 +35,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 21.5
   },
   {
     "title": "Đổi mới phương pháp dạy học",
@@ -45,7 +48,8 @@ window.ccvcSlides = [
       "assets/4ae43108310a1aa9578c.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 20.6
   },
   {
     "title": "Chuyển đổi số và học liệu số",
@@ -56,7 +60,8 @@ window.ccvcSlides = [
       "assets/acb1065d873b85f60978.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 17.9
   },
   {
     "title": "Kết quả rèn luyện",
@@ -67,18 +72,20 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "conduct-chart",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 13.4
   },
   {
     "title": "Kết quả học tập",
     "body": [
       "Tốt: 67,83% (1.619 HS) Khá: 30,33% (724 HS)",
       "Đạt: 1,84% (44 HS) Chưa đạt: 0,00% (0 HS)",
-      "100% Lên lớp thẳng; Danh hiệu Học sinh Xuất sắc, HS Giỏi: 67,83% (1.691 HS)."
+      "100% Lên lớp thẳng; Danh hiệu Học sinh Xuất sắc, HS Giỏi: 67,83% (1.619 HS)."
     ],
     "images": [],
     "mode": "learning-chart",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 14.2
   },
   {
     "title": "Tốt nghiệp THPT và đại học",
@@ -90,7 +97,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "graduation-chart",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 14.7
   },
   {
     "title": "Thành tích các kỳ thi",
@@ -101,7 +109,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 17.9
   },
   {
     "title": "Thành tích Olympic",
@@ -111,7 +120,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 15.9
   },
   {
     "title": "Thành tích thể dục thể thao",
@@ -120,7 +130,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 16.9
   },
   {
     "title": "Công tác xã hội và thiện nguyện",
@@ -133,7 +144,8 @@ window.ccvcSlides = [
       "assets/f64eceae37c09bd5ef7f.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 27.7
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
@@ -145,7 +157,8 @@ window.ccvcSlides = [
       "assets/2db260e50a6b8da2e3b5.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 16.8
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -159,7 +172,8 @@ window.ccvcSlides = [
       "assets/d360dcff54ad0cdb51a5.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 23.4
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -170,7 +184,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 17.7
   },
   {
     "title": "Câu lạc bộ và hướng nghiệp",
@@ -182,7 +197,8 @@ window.ccvcSlides = [
       "assets/5df6f92ae2a05249e44e.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 18.3
   },
   {
     "title": "Thành tích câu lạc bộ",
@@ -197,7 +213,8 @@ window.ccvcSlides = [
       "assets/5278d8a83bee8836933d.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 29.2
   },
   {
     "title": "Hoạt động Công đoàn",
@@ -210,7 +227,8 @@ window.ccvcSlides = [
       "assets/b109e445790cd30b0250.webp"
     ],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 24.7
   },
   {
     "title": "Danh hiệu tập thể sư phạm",
@@ -223,7 +241,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 18.8
   },
   {
     "title": "Kết quả thi đua các tổ chức",
@@ -234,7 +253,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "TỔNG KẾT · 2025–2026"
+    "group": "TỔNG KẾT · 2025–2026",
+    "durationSeconds": 13.4
   },
   {
     "title": "Chủ đề năm học",
@@ -243,7 +263,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "chapter",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 10.0
   },
   {
     "title": "Quy mô năm học mới",
@@ -253,7 +274,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 16.9
   },
   {
     "title": "Định hướng chiến lược",
@@ -262,7 +284,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 21.0
   },
   {
     "title": "Đổi mới giảng dạy và chuyển đổi số",
@@ -273,7 +296,8 @@ window.ccvcSlides = [
       "assets/30c7c006515f2b9aa172.webp"
     ],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 17.7
   },
   {
     "title": "STEM và không gian học tập mở",
@@ -284,7 +308,8 @@ window.ccvcSlides = [
       "assets/2b89b31ec7892001947e.webp"
     ],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 16.4
   },
   {
     "title": "Đổi mới kiểm tra đánh giá",
@@ -295,7 +320,8 @@ window.ccvcSlides = [
       "assets/b94e2206b1f2653eda6b.webp"
     ],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 17.7
   },
   {
     "title": "Hoạt động giáo dục tăng cường",
@@ -304,7 +330,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 14.0
   },
   {
     "title": "Hoạt động giáo dục theo nhu cầu",
@@ -317,7 +344,8 @@ window.ccvcSlides = [
       "assets/30dc61db1a1ab6b9a3a7.webp"
     ],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 13.7
   },
   {
     "title": "AI, nghệ thuật và kỹ năng sống",
@@ -330,14 +358,15 @@ window.ccvcSlides = [
       "assets/f3c97e363e9f5ac82f52.webp"
     ],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 13.8
   },
   {
     "title": "Chỉ tiêu thi đua tập thể và cá nhân",
     "body": [
       "1. Chi bộ: Hoàn thành tốt nhiệm vụ.",
       "2. Nhà trường: Tập thể Lao động xuất sắc / Cờ thi đua Thành phố.",
-      "3. Công đoàn: Hoàn thành tốt nhiệm vụ.",
+      "3. Công đoàn: Hoàn thành xuất sắc nhiệm vụ.",
       "4. Đoàn Thanh niên: Hoàn thành xuất sắc nhiệm vụ.",
       "5. Tổ chuyên môn: 100% Tổ đạt danh hiệu Lao động tiên tiến.",
       "1. Lao động tiên tiến: 141/141 (100%).",
@@ -345,7 +374,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 20.8
   },
   {
     "title": "Chỉ tiêu học tập và rèn luyện",
@@ -360,7 +390,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "results",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 13.8
   },
   {
     "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
@@ -372,7 +403,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 14.1
   },
   {
     "title": "Môi trường và quản lý giáo dục",
@@ -382,7 +414,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 20.4
   },
   {
     "title": "Cơ sở vật chất",
@@ -391,7 +424,8 @@ window.ccvcSlides = [
     ],
     "images": [],
     "mode": "",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 14.7
   },
   {
     "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
@@ -400,6 +434,7 @@ window.ccvcSlides = [
       "assets/0367f6d10b2b2475a99b.webp"
     ],
     "mode": "closing",
-    "group": "PHƯƠNG HƯỚNG · 2026–2027"
+    "group": "PHƯƠNG HƯỚNG · 2026–2027",
+    "durationSeconds": 8.0
   }
 ];

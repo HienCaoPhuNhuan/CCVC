@@ -39,7 +39,7 @@ function assessmentChart(slide) {
   const note = slide.body[2].split('; Danh hiệu')[0];
   chart.append(make('p', 'chart-note', note.endsWith('.') ? note : note + '.'));
   if (slide.mode === 'learning-chart') {
-    chart.append(make('p', 'chart-note', 'Danh hiệu Xuất sắc/Giỏi: 67,83%. Bản đầy đủ: 1.619 học sinh; bản rút gọn: 1.691.'));
+    chart.append(make('p', 'chart-note', 'Danh hiệu Xuất sắc/Giỏi: 1.619 học sinh (67,83%), gồm 371 Xuất sắc và 1.248 Giỏi.'));
   }
   return chart;
 }
@@ -96,7 +96,10 @@ window.ccvcSlides.forEach((slide, position) => {
       }
       figure.append(img);
       show();
-      section.addEventListener('photo-cycle', () => { index = (index + 1) % slide.images.length; show(); });
+      section.addEventListener('photo-cycle', event => {
+        index = Number.isInteger(event.detail?.index) ? event.detail.index % slide.images.length : (index + 1) % slide.images.length;
+        show();
+      });
       body.append(figure);
     }
     inner.append(body);
@@ -111,18 +114,68 @@ window.ccvcSlides.forEach((slide, position) => {
   deck.append(section);
 });
 const slides = [...deck.children];
+const phrases = /\b\d[\d.,/]*(?:\s*(?:%|triệu đồng|đồng|tiết\/tuần|học sinh|giáo viên|nhân viên|điểm|huy chương|giải (?:Nhất|Nhì|Ba)))?|Hoàn thành xuất sắc nhiệm vụ|Giải Khuyến khích|giải tiềm năng|Cờ thi đua Thành phố|Tập thể Lao động [Xx]uất sắc/gu;
+for (const slide of slides) {
+  const walker = document.createTreeWalker(slide.querySelector('.inner'), NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) {
+    if (!walker.currentNode.parentElement.closest('.kicker')) textNodes.push(walker.currentNode);
+  }
+  for (const node of textNodes) {
+    const matches = [...node.textContent.matchAll(phrases)];
+    if (!matches.length) continue;
+    const fragment = document.createDocumentFragment();
+    let start = 0;
+    for (const match of matches) {
+      fragment.append(document.createTextNode(node.textContent.slice(start, match.index)), make('mark', 'emphasis', match[0]));
+      start = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(node.textContent.slice(start)));
+    node.replaceWith(fragment);
+  }
+}
+const autoplay = new URLSearchParams(location.search).get('autoplay') === '1';
+const durations = window.ccvcSlides.map(slide => slide.durationSeconds);
+const boundaries = [];
+durations.reduce((offset, seconds) => { boundaries.push(offset); return offset + seconds; }, 0);
+const totalDuration = durations.reduce((sum, seconds) => sum + seconds, 0);
+let clockStart = null;
+let pausedElapsed = 0;
+let scheduledPage = -1;
+let photoIndex = -1;
+function elapsed() { return pausedElapsed + (clockStart === null ? 0 : (performance.now() - clockStart) / 1000); }
+function activate(index) {
+  const target = slides[index];
+  if (target.classList.contains('entered')) return;
+  target.classList.add('entered');
+  if (!reduced.matches) {
+    target.querySelectorAll('li, tbody tr, .chart-outcomes > div, .chart-scores > div').forEach((node, i) => {
+      node.animate([{opacity:.5, transform:'translateY(8px)'}, {opacity:1, transform:'none'}], {
+        duration:480, delay:Math.min(i * 90, 450), easing:'cubic-bezier(.2,.8,.2,1)', fill:'backwards'
+      });
+    });
+  }
+}
 let active = 0;
 let wheelAt = 0;
 const observer = new IntersectionObserver(entries => {
   for (const entry of entries) if (entry.isIntersecting) {
     active = slides.indexOf(entry.target);
-    entry.target.classList.add('entered');
+    activate(active);
   }
 }, {threshold:.55});
 slides.forEach(slide => observer.observe(slide));
 if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
-function go(index) {
+function go(index, fromClock = false) {
   active = Math.min(slides.length - 1, Math.max(0, index));
+  if (autoplay && !fromClock) {
+    pausedElapsed = boundaries[active];
+    clockStart = document.hidden ? null : performance.now();
+    scheduledPage = active;
+    photoIndex = -1;
+    document.documentElement.dataset.playback = 'playing';
+  }
+  activate(active);
   slides[active].scrollIntoView({behavior:reduced.matches ? 'instant' : 'smooth'});
 }
 window.addEventListener('keydown', event => {
@@ -140,4 +193,40 @@ window.addEventListener('wheel', event => {
   if (now - wheelAt > 260) go(active + Math.sign(event.deltaY));
   wheelAt = now;
 }, {passive:false});
-setInterval(() => slides[active]?.dispatchEvent(new Event('photo-cycle')), 4500);
+if (!autoplay) setInterval(() => slides[active]?.dispatchEvent(new Event('photo-cycle')), 4500);
+async function startPlayback() {
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(image => image.decode().catch(() => {})));
+  const initial = slides.findIndex(slide => '#' + slide.id === location.hash);
+  pausedElapsed = boundaries[Math.max(0, initial)];
+  clockStart = document.hidden ? null : performance.now();
+  document.documentElement.dataset.playback = 'playing';
+  function tick() {
+    if (!document.hidden && document.documentElement.dataset.playback !== 'finished') {
+      const time = elapsed();
+      let index = boundaries.findLastIndex(start => time >= start);
+      index = Math.max(0, index);
+      if (index !== scheduledPage) {
+        scheduledPage = index;
+        photoIndex = -1;
+        go(index, true);
+      }
+      const count = window.ccvcSlides[index].images.length;
+      const photo = Math.min(Math.max(0, count - 1), Math.floor(Math.max(0, time - boundaries[index] - 4) / Math.max(1, (durations[index] - 4) / Math.max(1, count))));
+      if (photo !== photoIndex) {
+        slides[index].dispatchEvent(new CustomEvent('photo-cycle', {detail:{index:photo}}));
+        photoIndex = photo;
+      }
+      document.documentElement.dataset.elapsed = Math.min(time, totalDuration).toFixed(2);
+      if (time >= totalDuration) document.documentElement.dataset.playback = 'finished';
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+document.addEventListener('visibilitychange', () => {
+  if (!autoplay) return;
+  if (document.hidden) { pausedElapsed = elapsed(); clockStart = null; }
+  else if (document.documentElement.dataset.playback !== 'finished') clockStart = performance.now();
+});
+if (autoplay) startPlayback();

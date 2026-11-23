@@ -22,6 +22,9 @@ $paragraphs = @('') + @(
 if ($paragraphs.Count -ne 137 -or $paragraphs[9] -notmatch '116' -or $paragraphs[134] -notmatch '100%') {
   throw 'The source outline has changed; review the paragraph mapping before rebuilding.'
 }
+# Approved corrections apply to the presentation without rewriting the source Word file.
+$paragraphs[38] = $paragraphs[38] -replace '1\.691', '1.619'
+$paragraphs[114] = $paragraphs[114] -replace 'Công đoàn: Hoàn thành tốt nhiệm vụ', 'Công đoàn: Hoàn thành xuất sắc nhiệm vụ'
 $assets = Join-Path $PSScriptRoot 'assets'
 New-Item -ItemType Directory -Path $assets -Force | Out-Null
 $catalog = Get-Content -LiteralPath (Join-Path $OldSlides 'assets/media/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -83,6 +86,31 @@ Slide 'Chỉ tiêu tốt nghiệp và các kỳ thi' (126,127,129,130)
 Slide 'Môi trường và quản lý giáo dục' (132..133) @()
 Slide 'Cơ sở vật chất' @(134)
 Slide 'Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất' @() @('47:0') 'closing'
+$fixed = @{ cover = 5.0; closing = 8.0; chapter = 10.0 }
+$baseTotal = 0.0
+$weights = @()
+$bases = @()
+foreach ($slide in $slides) {
+  $weight = if ($fixed.ContainsKey($slide.mode)) { 0 } else { ($slide.body -join ' ' -split '\s+').Count }
+  $base = if ($fixed.ContainsKey($slide.mode)) { $fixed[$slide.mode] } else { [math]::Max(10, 4 + 4.5 * $slide.images.Count) }
+  $weights += $weight
+  $bases += $base
+  $baseTotal += $base
+}
+$weightTotal = ($weights | Measure-Object -Sum).Sum
+$assigned = 0.0
+for ($i = 0; $i -lt $slides.Count; $i++) {
+  $seconds = [math]::Floor(10 * ($bases[$i] + (600 - $baseTotal) * $weights[$i] / $weightTotal)) / 10
+  $slides[$i]['durationSeconds'] = $seconds
+  $assigned += $seconds
+}
+$slides[1]['durationSeconds'] = [math]::Round($slides[1]['durationSeconds'] + 600 - $assigned, 1)
+$offset = 0.0
+$timeline = @(foreach ($slide in $slides) {
+  [ordered]@{ title = $slide.title; startSeconds = [math]::Round($offset, 1); durationSeconds = $slide.durationSeconds }
+  $offset += $slide.durationSeconds
+})
 $utf8 = [Text.UTF8Encoding]::new($false)
 [IO.File]::WriteAllText((Join-Path $PSScriptRoot 'data.js'), ('window.ccvcSlides = ' + (ConvertTo-Json -InputObject @($slides.ToArray()) -Depth 8) + ';'),$utf8)
 [IO.File]::WriteAllText((Join-Path $PSScriptRoot 'photo-map.json'), (ConvertTo-Json -InputObject @($mapping.ToArray()) -Depth 5),$utf8)
+[IO.File]::WriteAllText((Join-Path $PSScriptRoot 'timeline.json'), (ConvertTo-Json -InputObject ([ordered]@{totalSeconds=600; slides=$timeline}) -Depth 5),$utf8)
