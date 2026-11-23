@@ -137,26 +137,31 @@ window.ccvcSlides = [
     "title": "Công tác xã hội và thiện nguyện",
     "body": [
       "Tổ chức đêm nhạc “Cây mùa xuân 2026” để thực hiện công tác xã hội và góp quỹ học bổng “Giúp bạn vượt khó- học tốt”.",
-      "Các hoạt động thiện nguyện, công tác xã hội được thực hiện xuyên suốt trong năm học: chương trình “Tấm bánh nghĩa tình”, quyên góp ủng hộ đồntg bào bị ảnh hưởng bởi thiên tai (164,9 triệu đồng), xây dựng “Nhà tình bạn” cho bạn Dư Thị Yến Nhi, lớp 11A7 trường THPT Trần Văn Quan, xã Long Điền, Thành phố Hồ Chí Minh (60 triệu đồng), thăm tặng quà Mẹ VNAH Nguyễn Thị Tư và các gia đình chính sách trên địa bàn."
+      "Chương trình “Tấm bánh nghĩa tình”.",
+      "Quyên góp ủng hộ đồntg bào bị ảnh hưởng bởi thiên tai (164,9 triệu đồng).",
+      "Xây dựng “Nhà tình bạn” cho bạn Dư Thị Yến Nhi, lớp 11A7 trường THPT Trần Văn Quan, xã Long Điền, Thành phố Hồ Chí Minh (60 triệu đồng).",
+      "Thăm tặng quà Mẹ VNAH Nguyễn Thị Tư và các gia đình chính sách trên địa bàn."
     ],
     "images": [
       "assets/fdb4eb25b1a8d7936d92.webp",
       "assets/f64eceae37c09bd5ef7f.webp"
     ],
-    "mode": "",
+    "mode": "bullet-points",
     "group": "TỔNG KẾT · 2025–2026",
+    "intro": "Các hoạt động thiện nguyện, công tác xã hội được thực hiện xuyên suốt trong năm học:",
     "durationSeconds": 27.6
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
     "body": [
-      "Tổ chức chương trình “Thắp sáng ước mơ tuổi trẻ Việt Nam”, Tham gia chương trình “Chung tay xây dựng nông thôn mới” tại xã Bình Mỹ, TP. HCM..."
+      "Tổ chức chương trình “Thắp sáng ước mơ tuổi trẻ Việt Nam”",
+      "Tham gia chương trình “Chung tay xây dựng nông thôn mới” tại xã Bình Mỹ, TP. HCM..."
     ],
     "images": [
       "assets/80a09153487e8c3e5a51.webp",
       "assets/2db260e50a6b8da2e3b5.webp"
     ],
-    "mode": "",
+    "mode": "bullet-points",
     "group": "TỔNG KẾT · 2025–2026",
     "durationSeconds": 16.8
   },

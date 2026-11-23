@@ -115,11 +115,14 @@ window.ccvcSlides.forEach((slide, position) => {
     const body = make('div', 'body');
     const list = make('ul');
     slide.body.forEach(text => list.append(make('li', '', text)));
+    const textColumn = make('div', 'text-column');
+    if (slide.intro) textColumn.append(make('p', 'bullet-intro', slide.intro));
+    textColumn.append(list);
     const chart = slide.mode === 'graduation-chart' ? graduationChart(slide)
       : slide.mode === 'targets-table' ? targetsTable(slide)
       : ['conduct-chart', 'learning-chart'].includes(slide.mode) ? assessmentChart(slide) : null;
     if (chart) body.append(chart);
-    else if (slide.body.length) body.append(list);
+    else if (slide.body.length) body.append(textColumn);
     if (slide.images.length && slide.mode !== 'closing') {
       const figure = make('figure');
       let index = 0;

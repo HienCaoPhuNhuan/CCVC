@@ -64,7 +64,19 @@ Slide 'Thành tích các kỳ thi' (46..48) @()
 Slide 'Thành tích Olympic' (49..50) @()
 Slide 'Thành tích thể dục thể thao' @(51) @()
 Slide 'Công tác xã hội và thiện nguyện' (55..56) @('10:0','12:0')
+$charity = $slides[$slides.Count - 1]
+$charity['mode'] = 'bullet-points'
+$charity['intro'] = ($paragraphs[56] -split ':', 2)[0] + ':'
+$charity['body'] = @($paragraphs[55]) + @(
+  foreach ($point in (($paragraphs[56] -split ':', 2)[1] -split ', (?=quyên góp|xây dựng|thăm tặng)')) {
+    $point = $point.Trim().TrimEnd('.')
+    $point.Substring(0,1).ToUpper() + $point.Substring(1) + '.'
+  }
+)
 Slide 'Thắp sáng ước mơ tuổi trẻ Việt Nam' @(57) @('11:0','15:0')
+$outreach = $slides[$slides.Count - 1]
+$outreach['mode'] = 'bullet-points'
+$outreach['body'] = @($paragraphs[57] -split ', (?=Tham gia)')
 Slide 'Thành tích Đoàn Thanh niên' (60..63) @('03:0')
 Slide 'Thành tích Đoàn Thanh niên' (64,65,67) @()
 Slide 'Câu lạc bộ và hướng nghiệp' @(69) @('07:0','06:0')
@@ -93,7 +105,7 @@ $baseTotal = 0.0
 $weights = @()
 $bases = @()
 foreach ($slide in $slides) {
-  $weight = if ($fixed.ContainsKey($slide.mode)) { 0 } else { ($slide.body -join ' ' -split '\s+').Count }
+  $weight = if ($fixed.ContainsKey($slide.mode)) { 0 } else { (((@($slide.intro) + @($slide.body)) -join ' ').Trim() -split '\s+').Count }
   $base = if ($fixed.ContainsKey($slide.mode)) { $fixed[$slide.mode] } else { [math]::Max(10, 4 + 4.5 * $slide.images.Count) }
   $weights += $weight
   $bases += $base
