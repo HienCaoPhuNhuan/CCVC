@@ -21,7 +21,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 19.0
+    "durationSeconds": 18.6
   },
   {
     "title": "Quy mô và các tổ chức",
@@ -36,7 +36,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 21.5
+    "durationSeconds": 21.4
   },
   {
     "title": "Đổi mới phương pháp dạy học",
@@ -49,7 +49,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 20.6
+    "durationSeconds": 20.5
   },
   {
     "title": "Chuyển đổi số và học liệu số",
@@ -61,7 +61,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 17.9
+    "durationSeconds": 17.8
   },
   {
     "title": "Kết quả rèn luyện",
@@ -93,12 +93,12 @@ window.ccvcSlides = [
       "Tốt nghiệp: 100% (K12) Tỉ lệ Đậu Đại học (thống kê 30/8/2026): 97,53%",
       "Điểm TB 3 môn thi: 22,93 điểm",
       "(Năm 2025: 22,85)",
-      "11 điểm 10 (Toán 6, Lý 1, Sử 2, Tiếng Anh 2)."
+      "11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Tiếng Anh 2 bài)."
     ],
     "images": [],
     "mode": "graduation-chart",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 14.7
+    "durationSeconds": 15.3
   },
   {
     "title": "Thành tích các kỳ thi",
@@ -110,7 +110,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 17.9
+    "durationSeconds": 17.8
   },
   {
     "title": "Thành tích Olympic",
@@ -121,17 +121,17 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 15.9
+    "durationSeconds": 15.8
   },
   {
     "title": "Thành tích thể dục thể thao",
     "body": [
-      "Thành tích Thể dục thể thao: Giải Thể thao học sinh Cấp Thành phố đạt 01 HC Vàng, 02 HC Bạc, 06 HC Đồng; Giải Thể thao học sinh Toàn quốc đạt 03 HC Vàng, 01 HC Đồng; Giải Cúp Quốc gia môn Cờ vua đạt 04 Vàng, 01 Bạc, 02 Đồng."
+      "Thành tích Thể dục thể thao: Giải Thể thao học sinh Cấp Thành phố đạt 01 huy chương Vàng, 02 huy chương Bạc, 06 huy chương Đồng; Giải Thể thao học sinh Toàn quốc đạt 03 huy chương Vàng, 01 huy chương Đồng; Giải Cúp Quốc gia môn Cờ vua đạt 04 huy chương Vàng, 01 huy chương Bạc, 02 huy chương Đồng."
     ],
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 16.9
+    "durationSeconds": 18.3
   },
   {
     "title": "Công tác xã hội và thiện nguyện",
@@ -145,7 +145,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 27.7
+    "durationSeconds": 27.6
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
@@ -173,7 +173,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 23.4
+    "durationSeconds": 23.3
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -214,7 +214,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 29.2
+    "durationSeconds": 29.1
   },
   {
     "title": "Hoạt động Công đoàn",
@@ -228,7 +228,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 24.7
+    "durationSeconds": 24.6
   },
   {
     "title": "Danh hiệu tập thể sư phạm",
@@ -242,7 +242,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "durationSeconds": 18.8
+    "durationSeconds": 18.7
   },
   {
     "title": "Kết quả thi đua các tổ chức",
@@ -285,7 +285,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 21.0
+    "durationSeconds": 20.9
   },
   {
     "title": "Đổi mới giảng dạy và chuyển đổi số",
@@ -309,7 +309,7 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 16.4
+    "durationSeconds": 16.3
   },
   {
     "title": "Đổi mới kiểm tra đánh giá",
@@ -331,7 +331,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 14.0
+    "durationSeconds": 13.9
   },
   {
     "title": "Hoạt động giáo dục theo nhu cầu",
@@ -375,7 +375,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 20.8
+    "durationSeconds": 20.7
   },
   {
     "title": "Chỉ tiêu học tập và rèn luyện",
@@ -389,7 +389,7 @@ window.ccvcSlides = [
       "Khá đạt 2% (100% Khá trở lên)."
     ],
     "images": [],
-    "mode": "results",
+    "mode": "targets-table",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "durationSeconds": 13.8
   },
@@ -415,7 +415,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 20.4
+    "durationSeconds": 20.3
   },
   {
     "title": "Cơ sở vật chất",
@@ -425,7 +425,7 @@ window.ccvcSlides = [
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "durationSeconds": 14.7
+    "durationSeconds": 14.6
   },
   {
     "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",

@@ -24,6 +24,8 @@ if ($paragraphs.Count -ne 137 -or $paragraphs[9] -notmatch '116' -or $paragraphs
 }
 # Approved corrections apply to the presentation without rewriting the source Word file.
 $paragraphs[38] = $paragraphs[38] -replace '1\.691', '1.619'
+$paragraphs[43] = '11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Tiếng Anh 2 bài).'
+$paragraphs[51] = $paragraphs[51] -replace '\bHC\s+', 'huy chương ' -replace '(\d+)\s+(Vàng|Bạc|Đồng)', '$1 huy chương $2'
 $paragraphs[114] = $paragraphs[114] -replace 'Công đoàn: Hoàn thành tốt nhiệm vụ', 'Công đoàn: Hoàn thành xuất sắc nhiệm vụ'
 $assets = Join-Path $PSScriptRoot 'assets'
 New-Item -ItemType Directory -Path $assets -Force | Out-Null
@@ -81,7 +83,7 @@ Slide 'Hoạt động giáo dục tăng cường' @(101)
 Slide 'Hoạt động giáo dục theo nhu cầu' (103..105) @('40:0')
 Slide 'AI, nghệ thuật và kỹ năng sống' (106..108) @('07:8')
 Slide 'Chỉ tiêu thi đua tập thể và cá nhân' (114,115,117)
-Slide 'Chỉ tiêu học tập và rèn luyện' (119..124) @() 'results'
+Slide 'Chỉ tiêu học tập và rèn luyện' (119..124) @() 'targets-table'
 Slide 'Chỉ tiêu tốt nghiệp và các kỳ thi' (126,127,129,130)
 Slide 'Môi trường và quản lý giáo dục' (132..133) @()
 Slide 'Cơ sở vật chất' @(134)

@@ -7,8 +7,10 @@ const make = (tag, className, text) => {
   return element;
 };
 function assessmentChart(slide) {
-  const values = [...slide.body.slice(0, 2).join(' ').matchAll(/(Chưa đạt|Tốt|Khá|Đạt):\s*([\d,]+)%\s*\(([\d.]+) HS\)/gu)];
-  if (values.length !== 4) return null;
+  const allValues = [...slide.body.slice(0, 2).join(' ').matchAll(/(Chưa đạt|Tốt|Khá|Đạt):\s*([\d,]+)%\s*\(([\d.]+) HS\)/gu)];
+  if (allValues.length !== 4) return null;
+  const visible = slide.mode === 'conduct-chart' ? ['Tốt', 'Khá'] : ['Tốt', 'Khá', 'Chưa đạt'];
+  const values = allValues.filter(([, name]) => visible.includes(name));
   const chart = make('div', 'assessment');
   chart.append(make('p', 'chart-note', 'Phạm vi đánh giá: 2.387 học sinh'));
   const table = make('table', 'chart-table');
@@ -64,6 +66,38 @@ function graduationChart(slide) {
   return chart;
 }
 
+function targetsTable(slide) {
+  const table = make('table', 'targets-table');
+  const header = table.createTHead().insertRow();
+  for (const title of ['Nội dung', 'Chỉ tiêu']) {
+    const cell = make('th', '', title);
+    cell.scope = 'col';
+    header.append(cell);
+  }
+  let group;
+  for (const text of slide.body) {
+    const title = text.match(/^\d+\.\s*(.+):$/u);
+    if (title) {
+      group = table.createTBody();
+      const label = make('th', 'target-group', title[1]);
+      label.colSpan = 2;
+      label.scope = 'rowgroup';
+      group.insertRow().append(label);
+      continue;
+    }
+    const item = text.match(/^(Tốt|Khá|Đạt)(?:\s+đạt)?\s*((?:<=)?\d+%)\s*,?\s*(.*)$/u);
+    if (!item || !group) throw new Error('Invalid target row: ' + text);
+    const row = group.insertRow();
+    const label = make('th', '', item[1]);
+    label.scope = 'row';
+    row.append(label);
+    const value = row.insertCell();
+    value.append(make('strong', '', item[2].replace('<=', '≤')));
+    if (item[3]) (/\d+%/u.test(item[3]) ? value : label).append(make('small', '', item[3]));
+  }
+  return table;
+}
+
 window.ccvcSlides.forEach((slide, position) => {
   const section = make('section', ['slide', slide.mode, slide.images.length && 'illustrated'].filter(Boolean).join(' '));
   section.id = 'slide-' + (position + 1);
@@ -82,6 +116,7 @@ window.ccvcSlides.forEach((slide, position) => {
     const list = make('ul');
     slide.body.forEach(text => list.append(make('li', '', text)));
     const chart = slide.mode === 'graduation-chart' ? graduationChart(slide)
+      : slide.mode === 'targets-table' ? targetsTable(slide)
       : ['conduct-chart', 'learning-chart'].includes(slide.mode) ? assessmentChart(slide) : null;
     if (chart) body.append(chart);
     else if (slide.body.length) body.append(list);
@@ -114,12 +149,12 @@ window.ccvcSlides.forEach((slide, position) => {
   deck.append(section);
 });
 const slides = [...deck.children];
-const phrases = /\b\d[\d.,/]*(?:\s*(?:%|triệu đồng|đồng|tiết\/tuần|học sinh|giáo viên|nhân viên|điểm|huy chương|giải (?:Nhất|Nhì|Ba)))?|Hoàn thành xuất sắc nhiệm vụ|Giải Khuyến khích|giải tiềm năng|Cờ thi đua Thành phố|Tập thể Lao động [Xx]uất sắc/gu;
+const phrases = /\b\d[\d.,/]*\s*(?:%|triệu đồng|đồng|tiết\/tuần|học sinh|giáo viên|nhân viên|điểm|bài(?: điểm 10)?|(?:huy chương|HC)(?: (?:Vàng|Bạc|Đồng))?|[Gg]iải(?: (?:Nhất|Nhì|Ba|Khuyến khích|tiềm năng))?)|Hoàn thành xuất sắc nhiệm vụ|[Gg]iải Khuyến khích|[Gg]iải tiềm năng|Cờ thi đua Thành phố|Tập thể Lao động [Xx]uất sắc/gu;
 for (const slide of slides) {
   const walker = document.createTreeWalker(slide.querySelector('.inner'), NodeFilter.SHOW_TEXT);
   const textNodes = [];
   while (walker.nextNode()) {
-    if (!walker.currentNode.parentElement.closest('.kicker')) textNodes.push(walker.currentNode);
+    if (!walker.currentNode.parentElement.closest('.kicker, h1, h2, .chart-note, .chart-outcomes p, .chart-scores p')) textNodes.push(walker.currentNode);
   }
   for (const node of textNodes) {
     const matches = [...node.textContent.matchAll(phrases)];
@@ -133,6 +168,9 @@ for (const slide of slides) {
     fragment.append(document.createTextNode(node.textContent.slice(start)));
     node.replaceWith(fragment);
   }
+  slide.querySelectorAll('.chart-table tbody td:last-child').forEach(cell => {
+    cell.replaceChildren(make('mark', 'emphasis', cell.textContent));
+  });
 }
 const autoplay = new URLSearchParams(location.search).get('autoplay') === '1';
 const durations = window.ccvcSlides.map(slide => slide.durationSeconds);

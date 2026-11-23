@@ -20,3 +20,9 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự chạy 35 slide trong 600 giây. Có thể tiếp tục dùng `index.html` để trình chiếu thủ công. Mở đầu 5 giây, trang kết 8 giây; các trang còn lại được chia theo lượng chữ và số ảnh. `timeline.json` có mốc và thời lượng từng trang, được tạo lại bởi `build.ps1`. Chuyển trang nằm trong lịch 600 giây, không cộng dồn thời gian chuyển cảnh. Khi ẩn cửa sổ/tab, đồng hồ tạm dừng; dùng phím điều hướng sẽ tiếp tục lịch từ trang vừa chọn. Đây là lịch hình, chưa có voice mới hoặc MP4 10 phút.
 
 Website CMHS và các bản MP4 cũ không thay đổi.
+
+## Quy ước trình bày
+
+- Dùng một màu nhấn đỏ trầm cho số liệu, giải thưởng và chỉ tiêu trên nền sáng; ngày tháng, số thứ tự và phần mô tả không tô rời rạc. Nền tối dùng màu vàng để giữ tương phản.
+- Slide 6 chỉ hiện Tốt/Khá; slide 7 hiện Tốt/Khá/Chưa đạt. Giữ nguyên tỷ lệ gốc trên thang 0–100%, không tính lại phần trăm sau khi ẩn hàng.
+- Slide 8 ghi đơn vị bài cho các bài thi điểm 10; slide 11 viết đầy đủ đơn vị huy chương. Slide 31 có cột nội dung bên trái, chỉ tiêu bên phải.
