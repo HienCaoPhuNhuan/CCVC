@@ -26,14 +26,24 @@ if ($paragraphs.Count -ne 137 -or $paragraphs[9] -notmatch '116' -or $paragraphs
 $paragraphs[38] = $paragraphs[38] -replace '1\.691', '1.619'
 $paragraphs[43] = '11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Tiếng Anh 2 bài).'
 $paragraphs[51] = $paragraphs[51] -replace '\bHC\s+', 'huy chương ' -replace '(\d+)\s+(Vàng|Bạc|Đồng)', '$1 huy chương $2'
+$paragraphs[56] = $paragraphs[56] -replace 'đồntg bào', 'đồng bào'
 $paragraphs[114] = $paragraphs[114] -replace 'Công đoàn: Hoàn thành tốt nhiệm vụ', 'Công đoàn: Hoàn thành xuất sắc nhiệm vụ'
 $assets = Join-Path $PSScriptRoot 'assets'
 New-Item -ItemType Directory -Path $assets -Force | Out-Null
 $catalog = Get-Content -LiteralPath (Join-Path $OldSlides 'assets/media/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$reviewPath = Join-Path $PSScriptRoot 'review-media.json'
+$review = if (Test-Path -LiteralPath $reviewPath) { Get-Content -LiteralPath $reviewPath -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
 $slides = [Collections.Generic.List[object]]::new()
 $mapping = [Collections.Generic.List[object]]::new()
 function Slide($title, [int[]]$lines, [string[]]$photos = @(), $mode = '') {
-  $images = @(foreach ($ref in $photos) {
+  $number = $slides.Count + 1
+  $images = @(if ($review) {
+    foreach ($item in $review.slides[$number - 1].images) {
+      if (!(Test-Path -LiteralPath (Join-Path $PSScriptRoot $item.src))) { throw "Missing reviewed image: $($item.src)" }
+      $mapping.Add([ordered]@{number=$number; slide=$title; source=$item.source; asset=$item.src})
+      $item.src
+    }
+  } else { foreach ($ref in $photos) {
     $section, $offset = $ref.Split(':')
     $item = $catalog.$section[[int]$offset]
     $file = if ($item.type -eq 'video') { $item.poster } else { $item.src }
@@ -42,10 +52,13 @@ function Slide($title, [int[]]$lines, [string[]]$photos = @(), $mode = '') {
     Copy-Item -LiteralPath (Join-Path $OldSlides $file) -Destination (Join-Path $assets $name)
     $mapping.Add([ordered]@{ slide = $title; source = $item.source; asset = "assets/$name" })
     "assets/$name"
-  })
+  } })
   $body = @(foreach($line in $lines) {
     $text = $paragraphs[$line] -replace '^[-+]\s*',''
     if ($line -in @(114,115,117,122)) { $text -split '(?<=\.)\s*(?=[2-5]\.\s)' }
+    elseif ($line -in @(51,69,95,98,132,133,134)) { $text -split ';\s*' }
+    elseif ($line -eq 76) { $text -split ', (?=tổ chức)| và (?=quyên góp)' }
+    elseif ($line -eq 97) { $text -split '(?<=\.) (?=Đẩy mạnh)' }
     else { $text }
   })
   $slides.Add([ordered]@{title=$title; body=$body; images=$images; mode=$mode; group=$group})
@@ -101,24 +114,38 @@ Slide 'Môi trường và quản lý giáo dục' (132..133) @()
 Slide 'Cơ sở vật chất' @(134)
 Slide 'Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất' @() @('47:0') 'closing'
 $fixed = @{ cover = 5.0; closing = 8.0; chapter = 10.0 }
+$voicePath = Join-Path $PSScriptRoot 'voice/manifest.json'
+$voice = if (Test-Path -LiteralPath $voicePath) { Get-Content -LiteralPath $voicePath -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
+$voiceReady = $voice -and @($voice.slides.PSObject.Properties).Count -eq $slides.Count
 $baseTotal = 0.0
 $weights = @()
 $bases = @()
-foreach ($slide in $slides) {
+for ($i = 0; $i -lt $slides.Count; $i++) {
+  $slide = $slides[$i]
   $weight = if ($fixed.ContainsKey($slide.mode)) { 0 } else { (((@($slide.intro) + @($slide.body)) -join ' ').Trim() -split '\s+').Count }
-  $base = if ($fixed.ContainsKey($slide.mode)) { $fixed[$slide.mode] } else { [math]::Max(10, 4 + 4.5 * $slide.images.Count) }
+  if ($voiceReady) {
+    $track = $voice.slides.PSObject.Properties[[string]($i + 1)].Value
+    if (!$track) { throw "Missing voice for slide $($i + 1)" }
+    $slide['voice'] = $track.src
+    $slide['voiceDuration'] = $track.duration
+    $weight = $track.duration
+    $base = [math]::Max($track.duration + 0.5, 4 + 1.6 * $slide.images.Count)
+  } else {
+    $base = if ($fixed.ContainsKey($slide.mode)) { $fixed[$slide.mode] } else { [math]::Max(10, 4 + 1.6 * $slide.images.Count) }
+  }
   $weights += $weight
   $bases += $base
   $baseTotal += $base
 }
 $weightTotal = ($weights | Measure-Object -Sum).Sum
+$targetSeconds = [math]::Max(600, [math]::Ceiling($baseTotal))
 $assigned = 0.0
 for ($i = 0; $i -lt $slides.Count; $i++) {
-  $seconds = [math]::Floor(10 * ($bases[$i] + (600 - $baseTotal) * $weights[$i] / $weightTotal)) / 10
+  $seconds = [math]::Ceiling(10 * ($bases[$i] + ($targetSeconds - $baseTotal) * $weights[$i] / $weightTotal)) / 10
   $slides[$i]['durationSeconds'] = $seconds
   $assigned += $seconds
 }
-$slides[1]['durationSeconds'] = [math]::Round($slides[1]['durationSeconds'] + 600 - $assigned, 1)
+$targetSeconds = [math]::Round($assigned, 1)
 $offset = 0.0
 $timeline = @(foreach ($slide in $slides) {
   [ordered]@{ title = $slide.title; startSeconds = [math]::Round($offset, 1); durationSeconds = $slide.durationSeconds }
@@ -127,4 +154,4 @@ $timeline = @(foreach ($slide in $slides) {
 $utf8 = [Text.UTF8Encoding]::new($false)
 [IO.File]::WriteAllText((Join-Path $PSScriptRoot 'data.js'), ('window.ccvcSlides = ' + (ConvertTo-Json -InputObject @($slides.ToArray()) -Depth 8) + ';'),$utf8)
 [IO.File]::WriteAllText((Join-Path $PSScriptRoot 'photo-map.json'), (ConvertTo-Json -InputObject @($mapping.ToArray()) -Depth 5),$utf8)
-[IO.File]::WriteAllText((Join-Path $PSScriptRoot 'timeline.json'), (ConvertTo-Json -InputObject ([ordered]@{totalSeconds=600; slides=$timeline}) -Depth 5),$utf8)
+[IO.File]::WriteAllText((Join-Path $PSScriptRoot 'timeline.json'), (ConvertTo-Json -InputObject ([ordered]@{totalSeconds=$targetSeconds; voiceReady=[bool]$voiceReady; slides=$timeline}) -Depth 5),$utf8)

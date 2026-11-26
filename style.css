@@ -11,8 +11,9 @@ h1 { font-size: 86px; }
 h2 { font-size: 62px; }
 .body { display: grid; gap: 40px; align-items: center; }
 .illustrated:not(.cover,.closing) .body { grid-template-columns: minmax(0,1.32fr) minmax(0,1fr); }
-ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 15px; }
-li { font-size: 34px; line-height: 1.35; border-top: 1px solid #142e2f40; padding-top: 12px; overflow-wrap: break-word; text-wrap: pretty; }
+ul { margin: 0; padding: 0 0 0 1.05em; list-style: disc; display: grid; gap: 15px; }
+li { font-size: 34px; line-height: 1.35; padding-left: 4px; overflow-wrap: break-word; text-wrap: pretty; }
+li::marker { color: var(--accent); }
 .bullet-points.illustrated .body { grid-template-columns: minmax(0,1.7fr) minmax(0,1fr); }
 .bullet-intro { font-size: 25px; line-height: 1.35; margin-bottom: 16px; }
 .bullet-points ul { list-style: disc; padding-left: 1.1em; gap: 14px; }
@@ -38,6 +39,8 @@ li { font-size: 34px; line-height: 1.35; border-top: 1px solid #142e2f40; paddin
 .chart-outcomes strong { font-size: 64px; color: var(--accent); }
 .chart-scores strong { font-size: 38px; color: var(--accent); }
 .targets-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 31px; font-variant-numeric: tabular-nums; }
+.targets-panels { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 48px; align-items: start; }
+.targets-table caption { text-align: left; font-size: 42px; font-weight: 750; color: #142e2f; padding-bottom: 20px; }
 .targets-table th, .targets-table td { padding: 9px 16px; text-align: left; border-bottom: 1px solid #142e2f40; }
 .targets-table thead th:last-child { width: 28%; }
 .targets-table td, .targets-table thead th:last-child { text-align: right; }
@@ -51,6 +54,13 @@ figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .cover::before, .closing::before { content: ""; position: absolute; inset: 0; z-index: -1; background: #102c2aba; }
 .cover .kicker, .closing .kicker, .chapter .kicker { color: #ffd17b; }
 .subtitle { font-size: 36px; line-height: 1.42; }
+.theme-lines { display: grid; gap: 24px; }
+.theme-lines span { font-size: 80px; line-height: 1.16; font-weight: 750; color: #ffd17b; }
+.chapter.entered .theme-lines span { animation: theme-in 800ms ease-out both; }
+.chapter.entered .theme-lines span:nth-child(2) { animation-delay: 160ms; }
+.chapter.entered .theme-lines span:nth-child(3) { animation-delay: 320ms; }
+@keyframes theme-in { from { transform: translateX(18px); opacity: .5; } to { transform: none; opacity: 1; } }
+.narration-start { position: fixed; z-index: 10; bottom: 24px; left: 50%; transform: translateX(-50%); border: 0; border-radius: 6px; padding: 16px 24px; font: 700 24px "Segoe UI",sans-serif; background: #91382f; color: #fff; cursor: pointer; box-shadow: 0 4px 20px #0003; }
 .emphasis { color: var(--accent); font-weight: 750; background: transparent; border-radius: 0; padding: 0; white-space: nowrap; }
 .chapter .emphasis, .cover .emphasis, .closing .emphasis { color: #ffd17b; }
 .entered .emphasis { animation: emphasize 950ms ease-out both; }
@@ -63,6 +73,7 @@ figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
   .targets-table th, .targets-table td { padding: 7px 12px; }
   .targets-table .target-group { padding-top: 12px; }
   .targets-table small { font-size: 20px; }
+  .theme-lines span { font-size: 62px; }
 }
 @media (max-width: 899px), (max-height: 699px) {
   :root { scroll-snap-type: y proximity; }
@@ -84,5 +95,8 @@ figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
   .targets-table { font-size: 22px; }
   .targets-table th, .targets-table td { padding: 9px 6px; }
   .targets-table small { font-size: 17px; }
+  .targets-panels { grid-template-columns: 1fr; gap: 24px; }
+  .targets-table caption { font-size: 30px; }
+  .theme-lines span { font-size: 36px; }
 }
-@media (prefers-reduced-motion: reduce) { .entered .inner, .entered .chart-fill, .entered .emphasis { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .entered .inner, .entered .chart-fill, .entered .emphasis, .chapter.entered .theme-lines span { animation: none; } }

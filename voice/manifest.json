@@ -1,0 +1,250 @@
+{
+  "voice": "Ngọc Huyền",
+  "slides": {
+    "1": {
+      "src": "assets/voice/b72b12c87a3a7be0b413.mp3",
+      "duration": 10.46,
+      "textHash": "9e2480d0a8d91e7d49374fbc8f96f43cc9840ddf132f37960fcd9449364af19d",
+      "rms": 0.1157,
+      "peak": 0.5674
+    },
+    "2": {
+      "src": "assets/voice/a56c9014a13cbd752a6c.mp3",
+      "duration": 12.26,
+      "textHash": "23c0355e62bbdf28ab129ed1c0c849631f7ff55d6b6d513ea1186af43c438ad9",
+      "rms": 0.1076,
+      "peak": 0.611
+    },
+    "3": {
+      "src": "assets/voice/2954215936d0b8490d91.mp3",
+      "duration": 21.36,
+      "textHash": "eb4d4dc48bc4e125898e4a15460716b1e5e8e6e6bf78c2f6db2132f7203f79ab",
+      "rms": 0.1091,
+      "peak": 0.6065
+    },
+    "4": {
+      "src": "assets/voice/24d7591f7a1bf7364955.mp3",
+      "duration": 13.0,
+      "textHash": "456c2f6639b47cb4f5867e51c26423bb32cb3e968389f1794d1159d0c8ba2a80",
+      "rms": 0.1081,
+      "peak": 0.6224
+    },
+    "5": {
+      "src": "assets/voice/121cf2f1c47a16748162.mp3",
+      "duration": 13.58,
+      "textHash": "ab6d83408d2f1932d6fbd64c6aa0293f522d4ebce2b532b5105591433bf7127c",
+      "rms": 0.1068,
+      "peak": 0.6584
+    },
+    "6": {
+      "src": "assets/voice/a5b793c9c019698a9fab.mp3",
+      "duration": 14.88,
+      "textHash": "e86838e57e41d804ca8f4919adcc7881af84563e5817940c2764863a3da3b080",
+      "rms": 0.1092,
+      "peak": 0.6685
+    },
+    "7": {
+      "src": "assets/voice/db0c29badc2066d7660f.mp3",
+      "duration": 19.25,
+      "textHash": "2a06fa809e69360ff96e2ca24eb4692b520b64118ddb74d726b91035e4d6e98d",
+      "rms": 0.1087,
+      "peak": 0.6235
+    },
+    "8": {
+      "src": "assets/voice/2038884cf176d555a0b8.mp3",
+      "duration": 17.78,
+      "textHash": "b3da4c276fce88c275c141bcddb57bf3eaff16111b03bb79ccd98875d3d55ccf",
+      "rms": 0.1078,
+      "peak": 0.6753
+    },
+    "9": {
+      "src": "assets/voice/d9f85df0277d836b7210.mp3",
+      "duration": 15.91,
+      "textHash": "23755930cc2bcc147a8ddc997c78a6397c62144b74b114668f8f913f73426977",
+      "rms": 0.1087,
+      "peak": 0.6805
+    },
+    "10": {
+      "src": "assets/voice/6d12a1454048284380b7.mp3",
+      "duration": 12.56,
+      "textHash": "36e73aa11293b5d4636350a1442f39289f2d4397b276623d89f0738f2d8fedbb",
+      "rms": 0.1144,
+      "peak": 0.6259
+    },
+    "11": {
+      "src": "assets/voice/ed56b5d0a6dc35defc92.mp3",
+      "duration": 13.89,
+      "textHash": "b9581f496cae41ae13f25ab61fbff0aea8547eceb960d48a530453e30b375163",
+      "rms": 0.1072,
+      "peak": 0.6095
+    },
+    "12": {
+      "src": "assets/voice/acf5045014ea97b648a4.mp3",
+      "duration": 21.75,
+      "textHash": "b4a57783e668e1e6588123cc5e68aba427debcd950a546e76133e46e0005f623",
+      "rms": 0.1075,
+      "peak": 0.6914
+    },
+    "13": {
+      "src": "assets/voice/90c1dce9a8c02a205419.mp3",
+      "duration": 11.84,
+      "textHash": "c9dce1290ef944b61b8456a938109f4cdd500d301bfcdbcd37445a826f4b7bc8",
+      "rms": 0.1095,
+      "peak": 0.6494
+    },
+    "14": {
+      "src": "assets/voice/967df8eb93ca167129fd.mp3",
+      "duration": 14.35,
+      "textHash": "fc8a5cadd6eb48dfd313590f7bc9edd84031e68deeeab1160e36889ec6c167d9",
+      "rms": 0.1106,
+      "peak": 0.702
+    },
+    "15": {
+      "src": "assets/voice/c7039823cca0edee79c3.mp3",
+      "duration": 10.96,
+      "textHash": "a0560b4f6820a50fdac3db3b6620753126b280c431516d1a23f7a214534b40f5",
+      "rms": 0.11,
+      "peak": 0.6034
+    },
+    "16": {
+      "src": "assets/voice/613d9d442e53f2df73c3.mp3",
+      "duration": 11.78,
+      "textHash": "e020d5481726fa93ec9dc31411243cfbb6f36e5e0d916f17f1818088d600cdf9",
+      "rms": 0.1153,
+      "peak": 0.6397
+    },
+    "17": {
+      "src": "assets/voice/d06aca5cdff48a5c46ea.mp3",
+      "duration": 17.66,
+      "textHash": "54ea6413460b59610c8588f9cbe16a926530bb36cb8c78a986f279de5a702f60",
+      "rms": 0.1098,
+      "peak": 0.6475
+    },
+    "18": {
+      "src": "assets/voice/9058a4fef35287f564e3.mp3",
+      "duration": 18.14,
+      "textHash": "0b3f56518ad1176479980b269e921f546de6e7a5801ca417283d4ad56e5fd2ee",
+      "rms": 0.1099,
+      "peak": 0.6141
+    },
+    "19": {
+      "src": "assets/voice/fa86e6b68bf06c197ae5.mp3",
+      "duration": 16.48,
+      "textHash": "4ff3d1ace4c6f336ce5180d3e2fb3b30cef555578857b5fcf60263b979555e57",
+      "rms": 0.1145,
+      "peak": 0.7426
+    },
+    "20": {
+      "src": "assets/voice/341a04f424272a639f93.mp3",
+      "duration": 7.76,
+      "textHash": "3d2826379879ae03b898ebb8063f3c747f7520737793c7a1f5e89c027f5c3238",
+      "rms": 0.1127,
+      "peak": 0.639
+    },
+    "21": {
+      "src": "assets/voice/0f0411357c0c0b680223.mp3",
+      "duration": 6.32,
+      "textHash": "16ce07780d9eddbcdacb7326fca4a361bcfe7d4ba884ea8f5d4df19bdd3d8c4d",
+      "rms": 0.1165,
+      "peak": 0.6079
+    },
+    "22": {
+      "src": "assets/voice/d828d3435a5b4e1b9345.mp3",
+      "duration": 21.78,
+      "textHash": "9576b93acde9b205bcae50c76cb4ea18dceca692c11c48e09e36886c9001ad96",
+      "rms": 0.1127,
+      "peak": 0.58
+    },
+    "23": {
+      "src": "assets/voice/f67032096883dd1210a4.mp3",
+      "duration": 13.64,
+      "textHash": "bf714567b93b77677b33aed7e85f5101965a84867437ad7b1abb766a470cd538",
+      "rms": 0.1105,
+      "peak": 0.6745
+    },
+    "24": {
+      "src": "assets/voice/0c7309897112ce76ab4e.mp3",
+      "duration": 13.27,
+      "textHash": "28c9ec1ef3f6b88935ab9fd2938647a0b06bf82335061660ebe2ade05a511f23",
+      "rms": 0.1117,
+      "peak": 0.7036
+    },
+    "25": {
+      "src": "assets/voice/706b6129fff9760b50bd.mp3",
+      "duration": 11.48,
+      "textHash": "fdccbeec1ecbc4a7074c431b5ada2e85130223c9ed2e7e3ba3b521f18fd6e100",
+      "rms": 0.1136,
+      "peak": 0.5845
+    },
+    "26": {
+      "src": "assets/voice/0663ecbc515d10db4a30.mp3",
+      "duration": 12.26,
+      "textHash": "7c2644a475f6101e632ea72aa6787b7dcaebf05303aaccfa1e2ed6afb2c4b650",
+      "rms": 0.1063,
+      "peak": 0.6359
+    },
+    "27": {
+      "src": "assets/voice/27faf5773869c805021e.mp3",
+      "duration": 8.16,
+      "textHash": "c2a5b73bfadc4ec2e22bc01ee7c59a4b55c41caa67ee5fc1a91676a4d842c4ac",
+      "rms": 0.1055,
+      "peak": 0.5479
+    },
+    "28": {
+      "src": "assets/voice/6712ea1577277dbbe4df.mp3",
+      "duration": 11.92,
+      "textHash": "6249135eb4c6abb011a7b8765cdaecb4de753990962f8f39a1859285bad91027",
+      "rms": 0.1127,
+      "peak": 0.8361
+    },
+    "29": {
+      "src": "assets/voice/0f5d842485f60dfc5e66.mp3",
+      "duration": 13.82,
+      "textHash": "9b962bb09c09d16d683f8e61b9eafd82539b05e17717d3e9bea38610141c6ca5",
+      "rms": 0.115,
+      "peak": 0.5674
+    },
+    "30": {
+      "src": "assets/voice/f2d2a56dfa8d0af6adad.mp3",
+      "duration": 19.1,
+      "textHash": "4ca684aa88862f0ab46cfa5c2318ae82803e1250b9196ccfe0c0b5f6b1c0f91a",
+      "rms": 0.1134,
+      "peak": 0.6307
+    },
+    "31": {
+      "src": "assets/voice/214ccb77876700a5ad8e.mp3",
+      "duration": 13.45,
+      "textHash": "c65816048e3b9aaf41517e2bddb86e5b1ab95062f0a640143eb3052d380c8b37",
+      "rms": 0.1109,
+      "peak": 0.6647
+    },
+    "32": {
+      "src": "assets/voice/ec7efbc74e373e0adebc.mp3",
+      "duration": 14.41,
+      "textHash": "3fe8031d48e8c68bece5a518dce6016d361269a008b3bf60bfdd1791c0d6514b",
+      "rms": 0.1115,
+      "peak": 0.6618
+    },
+    "33": {
+      "src": "assets/voice/e7a9e8375d0368860f9b.mp3",
+      "duration": 13.08,
+      "textHash": "b802ab2b4a765e3e2c3239a42786136eb1495339576b9bd029add02dde15e632",
+      "rms": 0.1079,
+      "peak": 0.6428
+    },
+    "34": {
+      "src": "assets/voice/2e5da1ca59e92cdb71f0.mp3",
+      "duration": 10.21,
+      "textHash": "7bbf529f1d0a9989aa59cc511934d107da4dd990c95f486931536a2e6a8e9e92",
+      "rms": 0.1063,
+      "peak": 0.5875
+    },
+    "35": {
+      "src": "assets/voice/a587ac8b3544cff062a6.mp3",
+      "duration": 8.0,
+      "textHash": "5e8e51b18a613ef78c951ce990593989ddd55f06d0a9b7833feb4f84da5b4c52",
+      "rms": 0.1086,
+      "peak": 0.5416
+    }
+  }
+}

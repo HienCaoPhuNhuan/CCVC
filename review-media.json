@@ -1,0 +1,906 @@
+{
+  "slides": [
+    {
+      "number": 1,
+      "folder": "01 - Trường THPT Phú Nhuận",
+      "images": [
+        {
+          "src": "assets/media/d7bcde6a650dac4919d2.webp",
+          "source": "01 - Trường THPT Phú Nhuận/01-46f3e2caa6559290832d.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "folder": "02 - Đội ngũ nhà trường",
+      "images": [
+        {
+          "src": "assets/media/ba249424f05d2fbc569d.webp",
+          "source": "02 - Đội ngũ nhà trường/4-DSC06085.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/0ea2fd937014b72d68a3.webp",
+          "source": "02 - Đội ngũ nhà trường/5-DSC06088.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/10dea79cc2a191705a22.webp",
+          "source": "02 - Đội ngũ nhà trường/7-DSC06093.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/ba7fb15239a8da04b57b.webp",
+          "source": "02 - Đội ngũ nhà trường/8-DSC06095.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/8d624f26a27ea9db2feb.webp",
+          "source": "02 - Đội ngũ nhà trường/9-DSC06102.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/1e83474a45cae8814eb8.webp",
+          "source": "02 - Đội ngũ nhà trường/10-DSC06108.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/4bc46abdcc2b92182404.webp",
+          "source": "02 - Đội ngũ nhà trường/11-DSC06068.jpg",
+          "width": 1920,
+          "height": 1275
+        },
+        {
+          "src": "assets/media/76222c65454c560ac4a6.webp",
+          "source": "02 - Đội ngũ nhà trường/11-DSC06112.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/6148d54fcdb227f0496b.webp",
+          "source": "02 - Đội ngũ nhà trường/12-DSC06116.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/580001eebac017dac1d4.webp",
+          "source": "02 - Đội ngũ nhà trường/13-DSC06076.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/f6a96eb86b0a11eb0f24.webp",
+          "source": "02 - Đội ngũ nhà trường/13-DSC06120.jpg",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "folder": "03 - Quy mô và các tổ chức",
+      "images": [
+        {
+          "src": "assets/media/e92354102399da2fb8c9.webp",
+          "source": "03 - Quy mô và các tổ chức/14-DSC06133.jpg",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "folder": "04 - Đổi mới phương pháp dạy học",
+      "images": [
+        {
+          "src": "assets/media/7b37692f8d4a2a48a885.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/_DSC4559.jpg",
+          "width": 1920,
+          "height": 1279
+        },
+        {
+          "src": "assets/media/8ff360c498526712d7b0.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/CEEC-51.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/0b4765a871eb1ab4b41a.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/CEEC-115.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/8731865d5dde850ad7d4.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-5.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/04573e9667f4ad76a530.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-105.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/c1aaa5d4cc0acb0abd9d.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-129.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/8e7d69c09e3785f26eeb.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC00108.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/db03f5539f4949f15fa4.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC03679.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/7fc8f508d38f4825ad54.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC03728.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/94e9cb1422fedaacebfc.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC03857.jpg",
+          "width": 1920,
+          "height": 1167
+        },
+        {
+          "src": "assets/media/bc19619bb2b004055955.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC04240.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/daa3b4fcdfcd3da4fe43.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC04362.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/0f008e35d45d85f0c661.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC04384.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/c6fe54771716771cb866.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC08756.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/1e5e5dd293e2a4b277bc.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC08770.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/e4c8f0217316c742c14a.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC08887.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/6793e5a0a06c32637288.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC09073.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/a3d5843c45f9333abafc.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC09153.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/14c39c8adf644085a8bb.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC09324.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/5ba209a839c84f6e0f72.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSC09936.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/e6eb57734211fb91d892.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF0142.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/dc150f782c24f6f41eb1.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF0508.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/f8e535db917459034824.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF0629.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/98df40a0907431140b03.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF1527.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/2a9a3f15905936325671.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF1829.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/3624bcbbfe3ab66bbc0e.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF9811.jpg",
+          "width": 1920,
+          "height": 1081
+        },
+        {
+          "src": "assets/media/73288917deb0919fcad1.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/DSCF9997.jpg",
+          "width": 1920,
+          "height": 1081
+        },
+        {
+          "src": "assets/media/7590a25d944bffcbebac.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Giáo dục NVQS.jpg",
+          "width": 1920,
+          "height": 1272
+        },
+        {
+          "src": "assets/media/e4338f82a09847ba9635.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Hội khỏe phù đổng.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/eec453f44a406e0eb65a.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/IMG_8502.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/afc364cb1b7846fcec0f.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/IMG_8788.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/9c361bbce37d3d29b1ee.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Khi tôi là đại sứ du lịch.JPG",
+          "width": 1920,
+          "height": 1275
+        },
+        {
+          "src": "assets/media/562c8b7ab4db820665e5.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Quốc phòng.jpg",
+          "width": 1920,
+          "height": 1275
+        },
+        {
+          "src": "assets/media/f15c7df3a577a8f221b8.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Sắc màu văn học.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/4ae43108310a1aa9578c.webp",
+          "source": "04 - Đổi mới phương pháp dạy học/Toán.JPG",
+          "width": 1920,
+          "height": 1275
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "folder": "05 - Chuyển đổi số và học liệu số",
+      "images": [
+        {
+          "src": "assets/media/acb1065d873b85f60978.webp",
+          "source": "05 - Chuyển đổi số và học liệu số/03 - Google.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/30c7c006515f2b9aa172.webp",
+          "source": "05 - Chuyển đổi số và học liệu số/04 - Google1.JPG",
+          "width": 1920,
+          "height": 1078
+        },
+        {
+          "src": "assets/media/6516e8afae61ebbe67d9.webp",
+          "source": "05 - Chuyển đổi số và học liệu số/Tin.jpg",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "folder": "06 - Kết quả rèn luyện",
+      "images": []
+    },
+    {
+      "number": 7,
+      "folder": "07 - Kết quả học tập",
+      "images": []
+    },
+    {
+      "number": 8,
+      "folder": "08 - Tốt nghiệp THPT và đại học",
+      "images": []
+    },
+    {
+      "number": 9,
+      "folder": "09 - Thành tích các kỳ thi",
+      "images": [
+        {
+          "src": "assets/media/05e43c195bd5c1d1d669.webp",
+          "source": "09 - Thành tích các kỳ thi/20260116_141636.jpg",
+          "width": 1920,
+          "height": 887
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "folder": "10 - Thành tích Olympic",
+      "images": [
+        {
+          "src": "assets/media/92cea75ccbf248364968.webp",
+          "source": "10 - Thành tích Olympic/z.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/e0e0f8ee531eb2cb33c9.webp",
+          "source": "10 - Thành tích Olympic/zz.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "folder": "11 - Thành tích thể dục thể thao",
+      "images": []
+    },
+    {
+      "number": 12,
+      "folder": "12 - Công tác xã hội và thiện nguyện",
+      "images": [
+        {
+          "src": "assets/media/fdb4eb25b1a8d7936d92.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/01 - _DSC7998.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/1483d9c19b1b6f941e34.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/02 - _DSC8063.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/9534d80d30270c907bf7.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/03 - _DSC8188.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/01f58b623bd2c192ded2.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/592756427_1325257739401792_1502003753424946571_n.jpg",
+          "width": 1276,
+          "height": 956
+        },
+        {
+          "src": "assets/media/5d01b3b4de12f1ce3dcc.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/710746191_1467278758533022_5720829495332795740_n.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/759320cef68b04c520ee.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/_DSC7528.JPG",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/433ba87e1d005b26eef4.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/DSC08923.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/ecefae3b8c062ce9a6df.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/IMG_6769.HEIC",
+          "width": 1920,
+          "height": 1564
+        },
+        {
+          "src": "assets/media/6dd63c6bccc7d7e09a49.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 1.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/4ac4ec533ddfec02095b.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 2.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/d7eed117d4e4958e6e63.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 4.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/c33b3fbcad06907929db.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 5.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/2539bb24f2f88b2e2412.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 6.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/621b5daa438c913d3c15.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 7.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/0ab2e02648dc1c536ae2.webp",
+          "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 8.jpg",
+          "width": 1920,
+          "height": 1219
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "folder": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam",
+      "images": [
+        {
+          "src": "assets/media/80a09153487e8c3e5a51.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584569998_1317101863550713_8386345895742958748_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/3aed8dde6f4a24ca75a3.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584616688_1317101893550710_676959945717858966_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/6043b5ebdf7e922a106e.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584965056_1317101823550717_4484808454200205147_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/ff8c1e2dad4e322f9478.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/630220712_1379180457342853_8681044061613682448_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/dcf9e2c31703ea1344a9.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/631137449_1379180407342858_9185506391268111348_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/bb0b85c040a98d0edcba.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/632584719_1379180557342843_1023220563343288946_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/2db260e50a6b8da2e3b5.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/746351060_122204208410932175_6084629529464558654_n.jpg",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "assets/media/8a8ec5b6e2d0d9574aaa.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/746477096_2414361092393293_1402304626409218034_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/da7a5f1b04321a840f45.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/747604971_2414361049059964_923569932146359162_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/7c40607d3b62e0d6aee6.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/747877201_2414361055726630_2401733085988654870_n.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "src": "assets/media/e0b9b2a2052948edf567.webp",
+          "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/748665954_2414361099059959_8751777577314677384_n.jpg",
+          "width": 1920,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "folder": "14 - Thành tích Đoàn Thanh niên",
+      "images": [
+        {
+          "src": "assets/media/ef34093e1979d3da7305.webp",
+          "source": "14 - Thành tích Đoàn Thanh niên/01-d360dcff54ad0cdb51a5.webp",
+          "width": 1920,
+          "height": 1278
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "folder": "15 - Thành tích Đoàn Thanh niên",
+      "images": []
+    },
+    {
+      "number": 16,
+      "folder": "16 - Câu lạc bộ và hướng nghiệp",
+      "images": [
+        {
+          "src": "assets/media/f3c97e363e9f5ac82f52.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/00.jpg",
+          "width": 1280,
+          "height": 908
+        },
+        {
+          "src": "assets/media/20df810949953047fc2a.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/01-4aea8bb154305a0dac58.webp",
+          "width": 1206,
+          "height": 880
+        },
+        {
+          "src": "assets/media/2dabb12b02f099960e4f.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/02-5df6f92ae2a05249e44e.webp",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/5bf7e4e442d8abc97cae.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/05 - VGU04198.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/54cf631f0669ffcc9c44.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/06 - _01.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/91013816521b52e5ae66.webp",
+          "source": "16 - Câu lạc bộ và hướng nghiệp/579903280_1309235017670731_7384107382269230526_n.jpg",
+          "width": 1920,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "folder": "17 - Thành tích câu lạc bộ",
+      "images": [
+        {
+          "src": "assets/media/d1b85834123ce3c85da1.webp",
+          "source": "17 - Thành tích câu lạc bộ/01-16374aa2f96581691f61.webp",
+          "width": 1357,
+          "height": 1920
+        },
+        {
+          "src": "assets/media/2e6f57c4ba491f93323c.webp",
+          "source": "17 - Thành tích câu lạc bộ/02-481dad811dd315b9d4aa.webp",
+          "width": 394,
+          "height": 394
+        },
+        {
+          "src": "assets/media/bdccbfeb4fc7f83cadf6.webp",
+          "source": "17 - Thành tích câu lạc bộ/03-5278d8a83bee8836933d.webp",
+          "width": 1920,
+          "height": 1357
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "folder": "18 - Hoạt động Công đoàn",
+      "images": [
+        {
+          "src": "assets/media/f64eceae37c09bd5ef7f.webp",
+          "source": "18 - Hoạt động Công đoàn/01 - _TIN5102.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/1405afaa588ebf9b3c57.webp",
+          "source": "18 - Hoạt động Công đoàn/01-b109e445790cd30b0250.webp",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/8766eaf94735fd7777ec.webp",
+          "source": "18 - Hoạt động Công đoàn/644619028_1395983512329214_354964792051570053_n.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/399e996dea21c3ce0e86.webp",
+          "source": "18 - Hoạt động Công đoàn/646840767_1395986848995547_6992238943572412705_n.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/b02879d6f08641849e34.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20250815094734.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/e05ef16e00e29a678b77.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20251004165002.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/22b72a49a894ba602040.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20251004175656.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/6208df905c8a77a496f4.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20251108145227.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/ab7280b389a0ff548cc6.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20251108145750.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/15b6e92c9678dfdbc450.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG20251214063946.jpg",
+          "width": 1920,
+          "height": 1083
+        },
+        {
+          "src": "assets/media/882bfa7911525a871df6.webp",
+          "source": "18 - Hoạt động Công đoàn/IMG_1765672936846_1765672974938.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "src": "assets/media/34dc9e8f58cae11e6653.webp",
+          "source": "18 - Hoạt động Công đoàn/z7515056832424_f82fc759706d359a6edf829bee9061ab.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/55c2472ea4a96e2820ef.webp",
+          "source": "18 - Hoạt động Công đoàn/z7515056872027_7d08c3910a51fd55226b544565e01696.jpg",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/media/8e334da1e809062dce4b.webp",
+          "source": "18 - Hoạt động Công đoàn/z7575211367188_ff50bf33466c7304b91e0e8f14063a3b.jpg",
+          "width": 1920,
+          "height": 1425
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "folder": "19 - Danh hiệu tập thể sư phạm",
+      "images": []
+    },
+    {
+      "number": 20,
+      "folder": "20 - Kết quả thi đua các tổ chức",
+      "images": []
+    },
+    {
+      "number": 21,
+      "folder": "21 - Chủ đề năm học",
+      "images": []
+    },
+    {
+      "number": 22,
+      "folder": "22 - Quy mô năm học mới",
+      "images": []
+    },
+    {
+      "number": 23,
+      "folder": "23 - Định hướng chiến lược",
+      "images": []
+    },
+    {
+      "number": 24,
+      "folder": "24 - Đổi mới giảng dạy và chuyển đổi số",
+      "images": [
+        {
+          "src": "assets/media/9bec92c08952df060035.webp",
+          "source": "24 - Đổi mới giảng dạy và chuyển đổi số/01 - 3-DSC09146.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/4f7114841fd45950ee7d.webp",
+          "source": "24 - Đổi mới giảng dạy và chuyển đổi số/02 - 4-DSC09143.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "folder": "25 - STEM và không gian học tập mở",
+      "images": [
+        {
+          "src": "assets/media/2b89b31ec7892001947e.webp",
+          "source": "25 - STEM và không gian học tập mở/01 - Unitour_033.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/6cc7907729460c3237a5.webp",
+          "source": "25 - STEM và không gian học tập mở/02 - Unitour_056.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/44b0c75a5cdd0ba19342.webp",
+          "source": "25 - STEM và không gian học tập mở/03 - CEECxTHPTPN-85.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/efbad6a2e7d17195ed2a.webp",
+          "source": "25 - STEM và không gian học tập mở/04 - _DSC4673.jpg",
+          "width": 1920,
+          "height": 1279
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "folder": "26 - Đổi mới kiểm tra đánh giá",
+      "images": [
+        {
+          "src": "assets/media/b94e2206b1f2653eda6b.webp",
+          "source": "26 - Đổi mới kiểm tra đánh giá/2-DSC09207.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/e6019b38bd072cae7948.webp",
+          "source": "26 - Đổi mới kiểm tra đánh giá/DSC09239.jpg",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/media/55bbb7e0ef93e4bdd55e.webp",
+          "source": "26 - Đổi mới kiểm tra đánh giá/UIT bootcamp.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/8f880b8135dd604a7f1c.webp",
+          "source": "26 - Đổi mới kiểm tra đánh giá/z7620605066713_a3e909e2b29d63a3610477e68e8e7a8b.jpg",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "folder": "27 - Hoạt động giáo dục tăng cường",
+      "images": []
+    },
+    {
+      "number": 28,
+      "folder": "28 - Hoạt động giáo dục theo nhu cầu",
+      "images": [
+        {
+          "src": "assets/media/f0244d82de5845a4f689.webp",
+          "source": "28 - Hoạt động giáo dục theo nhu cầu/01-30dc61db1a1ab6b9a3a7.webp",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "folder": "29 - AI, nghệ thuật và kỹ năng sống",
+      "images": [
+        {
+          "src": "assets/media/afc364cb1b7846fcec0f.webp",
+          "source": "29 - AI, nghệ thuật và kỹ năng sống/02 - IMG_8788.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/f15c7df3a577a8f221b8.webp",
+          "source": "29 - AI, nghệ thuật và kỹ năng sống/03 - Sắc màu văn học.jpg",
+          "width": 1920,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "folder": "30 - Chỉ tiêu thi đua tập thể và cá nhân",
+      "images": []
+    },
+    {
+      "number": 31,
+      "folder": "31 - Chỉ tiêu học tập và rèn luyện",
+      "images": []
+    },
+    {
+      "number": 32,
+      "folder": "32 - Chỉ tiêu tốt nghiệp và các kỳ thi",
+      "images": []
+    },
+    {
+      "number": 33,
+      "folder": "33 - Môi trường và quản lý giáo dục",
+      "images": []
+    },
+    {
+      "number": 34,
+      "folder": "34 - Cơ sở vật chất",
+      "images": []
+    },
+    {
+      "number": 35,
+      "folder": "35 - Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
+      "images": [
+        {
+          "src": "assets/media/deada5d874daafa5fefb.webp",
+          "source": "35 - Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất/01-0367f6d10b2b2475a99b.webp",
+          "width": 1920,
+          "height": 1078
+        }
+      ]
+    }
+  ]
+}

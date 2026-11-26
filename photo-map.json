@@ -1,117 +1,710 @@
 [
   {
+    "number": 1,
     "slide": "Trường THPT Phú Nhuận",
-    "source": "00 - Mở đầu/01 - Khung hình video - campus-pn5.webp",
-    "asset": "assets/46f3e2caa6559290832d.webp"
+    "source": "01 - Trường THPT Phú Nhuận/01-46f3e2caa6559290832d.webp",
+    "asset": "assets/media/d7bcde6a650dac4919d2.webp"
   },
   {
+    "number": 2,
     "slide": "Đội ngũ nhà trường",
-    "source": "01 - A. Nhân sự nhà trường/4-DSC06085.jpg",
-    "asset": "assets/ba249424f05d2fbc569d.webp"
+    "source": "02 - Đội ngũ nhà trường/4-DSC06085.jpg",
+    "asset": "assets/media/ba249424f05d2fbc569d.webp"
   },
   {
+    "number": 2,
     "slide": "Đội ngũ nhà trường",
-    "source": "01 - A. Nhân sự nhà trường/14-DSC06133.jpg",
-    "asset": "assets/e92354102399da2fb8c9.webp"
+    "source": "02 - Đội ngũ nhà trường/5-DSC06088.jpg",
+    "asset": "assets/media/0ea2fd937014b72d68a3.webp"
   },
   {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/7-DSC06093.jpg",
+    "asset": "assets/media/10dea79cc2a191705a22.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/8-DSC06095.jpg",
+    "asset": "assets/media/ba7fb15239a8da04b57b.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/9-DSC06102.jpg",
+    "asset": "assets/media/8d624f26a27ea9db2feb.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/10-DSC06108.jpg",
+    "asset": "assets/media/1e83474a45cae8814eb8.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/11-DSC06068.jpg",
+    "asset": "assets/media/4bc46abdcc2b92182404.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/11-DSC06112.jpg",
+    "asset": "assets/media/76222c65454c560ac4a6.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/12-DSC06116.jpg",
+    "asset": "assets/media/6148d54fcdb227f0496b.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/13-DSC06076.jpg",
+    "asset": "assets/media/580001eebac017dac1d4.webp"
+  },
+  {
+    "number": 2,
+    "slide": "Đội ngũ nhà trường",
+    "source": "02 - Đội ngũ nhà trường/13-DSC06120.jpg",
+    "asset": "assets/media/f6a96eb86b0a11eb0f24.webp"
+  },
+  {
+    "number": 3,
+    "slide": "Quy mô và các tổ chức",
+    "source": "03 - Quy mô và các tổ chức/14-DSC06133.jpg",
+    "asset": "assets/media/e92354102399da2fb8c9.webp"
+  },
+  {
+    "number": 4,
     "slide": "Đổi mới phương pháp dạy học",
-    "source": "05 - B.2. Hoạt động chuyên môn/Sắc màu văn học.jpg",
-    "asset": "assets/f15c7df3a577a8f221b8.webp"
+    "source": "04 - Đổi mới phương pháp dạy học/_DSC4559.jpg",
+    "asset": "assets/media/7b37692f8d4a2a48a885.webp"
   },
   {
+    "number": 4,
     "slide": "Đổi mới phương pháp dạy học",
-    "source": "05 - B.2. Hoạt động chuyên môn/Toán.JPG",
-    "asset": "assets/4ae43108310a1aa9578c.webp"
+    "source": "04 - Đổi mới phương pháp dạy học/CEEC-51.jpg",
+    "asset": "assets/media/8ff360c498526712d7b0.webp"
   },
   {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/CEEC-115.jpg",
+    "asset": "assets/media/0b4765a871eb1ab4b41a.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-5.jpg",
+    "asset": "assets/media/8731865d5dde850ad7d4.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-105.jpg",
+    "asset": "assets/media/04573e9667f4ad76a530.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/CEECxTHPTPN-129.jpg",
+    "asset": "assets/media/c1aaa5d4cc0acb0abd9d.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC00108.jpg",
+    "asset": "assets/media/8e7d69c09e3785f26eeb.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC03679.jpg",
+    "asset": "assets/media/db03f5539f4949f15fa4.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC03728.jpg",
+    "asset": "assets/media/7fc8f508d38f4825ad54.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC03857.jpg",
+    "asset": "assets/media/94e9cb1422fedaacebfc.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC04240.jpg",
+    "asset": "assets/media/bc19619bb2b004055955.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC04362.jpg",
+    "asset": "assets/media/daa3b4fcdfcd3da4fe43.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC04384.jpg",
+    "asset": "assets/media/0f008e35d45d85f0c661.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC08756.jpg",
+    "asset": "assets/media/c6fe54771716771cb866.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC08770.jpg",
+    "asset": "assets/media/1e5e5dd293e2a4b277bc.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC08887.jpg",
+    "asset": "assets/media/e4c8f0217316c742c14a.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC09073.jpg",
+    "asset": "assets/media/6793e5a0a06c32637288.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC09153.jpg",
+    "asset": "assets/media/a3d5843c45f9333abafc.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC09324.jpg",
+    "asset": "assets/media/14c39c8adf644085a8bb.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSC09936.jpg",
+    "asset": "assets/media/5ba209a839c84f6e0f72.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF0142.jpg",
+    "asset": "assets/media/e6eb57734211fb91d892.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF0508.jpg",
+    "asset": "assets/media/dc150f782c24f6f41eb1.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF0629.jpg",
+    "asset": "assets/media/f8e535db917459034824.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF1527.JPG",
+    "asset": "assets/media/98df40a0907431140b03.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF1829.JPG",
+    "asset": "assets/media/2a9a3f15905936325671.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF9811.jpg",
+    "asset": "assets/media/3624bcbbfe3ab66bbc0e.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/DSCF9997.jpg",
+    "asset": "assets/media/73288917deb0919fcad1.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Giáo dục NVQS.jpg",
+    "asset": "assets/media/7590a25d944bffcbebac.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Hội khỏe phù đổng.jpg",
+    "asset": "assets/media/e4338f82a09847ba9635.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/IMG_8502.jpg",
+    "asset": "assets/media/eec453f44a406e0eb65a.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/IMG_8788.jpg",
+    "asset": "assets/media/afc364cb1b7846fcec0f.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Khi tôi là đại sứ du lịch.JPG",
+    "asset": "assets/media/9c361bbce37d3d29b1ee.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Quốc phòng.jpg",
+    "asset": "assets/media/562c8b7ab4db820665e5.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Sắc màu văn học.jpg",
+    "asset": "assets/media/f15c7df3a577a8f221b8.webp"
+  },
+  {
+    "number": 4,
+    "slide": "Đổi mới phương pháp dạy học",
+    "source": "04 - Đổi mới phương pháp dạy học/Toán.JPG",
+    "asset": "assets/media/4ae43108310a1aa9578c.webp"
+  },
+  {
+    "number": 5,
     "slide": "Chuyển đổi số và học liệu số",
-    "source": "37 - II.1. Chuyển đổi số và AI/03 - Google.jpg",
-    "asset": "assets/acb1065d873b85f60978.webp"
+    "source": "05 - Chuyển đổi số và học liệu số/03 - Google.jpg",
+    "asset": "assets/media/acb1065d873b85f60978.webp"
   },
   {
+    "number": 5,
+    "slide": "Chuyển đổi số và học liệu số",
+    "source": "05 - Chuyển đổi số và học liệu số/04 - Google1.JPG",
+    "asset": "assets/media/30c7c006515f2b9aa172.webp"
+  },
+  {
+    "number": 5,
+    "slide": "Chuyển đổi số và học liệu số",
+    "source": "05 - Chuyển đổi số và học liệu số/Tin.jpg",
+    "asset": "assets/media/6516e8afae61ebbe67d9.webp"
+  },
+  {
+    "number": 9,
+    "slide": "Thành tích các kỳ thi",
+    "source": "09 - Thành tích các kỳ thi/20260116_141636.jpg",
+    "asset": "assets/media/05e43c195bd5c1d1d669.webp"
+  },
+  {
+    "number": 10,
+    "slide": "Thành tích Olympic",
+    "source": "10 - Thành tích Olympic/z.jpg",
+    "asset": "assets/media/92cea75ccbf248364968.webp"
+  },
+  {
+    "number": 10,
+    "slide": "Thành tích Olympic",
+    "source": "10 - Thành tích Olympic/zz.jpg",
+    "asset": "assets/media/e0e0f8ee531eb2cb33c9.webp"
+  },
+  {
+    "number": 12,
     "slide": "Công tác xã hội và thiện nguyện",
-    "source": "10 - B.4. Công tác xã hội và thiện nguyện/01 - _DSC7998.jpg",
-    "asset": "assets/fdb4eb25b1a8d7936d92.webp"
+    "source": "12 - Công tác xã hội và thiện nguyện/01 - _DSC7998.jpg",
+    "asset": "assets/media/fdb4eb25b1a8d7936d92.webp"
   },
   {
+    "number": 12,
     "slide": "Công tác xã hội và thiện nguyện",
-    "source": "12 - B.4. Ủng hộ đồng bào bị thiên tai/01 - _TIN5102.JPG",
-    "asset": "assets/f64eceae37c09bd5ef7f.webp"
+    "source": "12 - Công tác xã hội và thiện nguyện/02 - _DSC8063.jpg",
+    "asset": "assets/media/1483d9c19b1b6f941e34.webp"
   },
   {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/03 - _DSC8188.jpg",
+    "asset": "assets/media/9534d80d30270c907bf7.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/592756427_1325257739401792_1502003753424946571_n.jpg",
+    "asset": "assets/media/01f58b623bd2c192ded2.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/710746191_1467278758533022_5720829495332795740_n.jpg",
+    "asset": "assets/media/5d01b3b4de12f1ce3dcc.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/_DSC7528.JPG",
+    "asset": "assets/media/759320cef68b04c520ee.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/DSC08923.jpg",
+    "asset": "assets/media/433ba87e1d005b26eef4.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/IMG_6769.HEIC",
+    "asset": "assets/media/ecefae3b8c062ce9a6df.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 1.jpg",
+    "asset": "assets/media/6dd63c6bccc7d7e09a49.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 2.jpg",
+    "asset": "assets/media/4ac4ec533ddfec02095b.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 4.jpg",
+    "asset": "assets/media/d7eed117d4e4958e6e63.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 5.jpg",
+    "asset": "assets/media/c33b3fbcad06907929db.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 6.jpg",
+    "asset": "assets/media/2539bb24f2f88b2e2412.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 7.jpg",
+    "asset": "assets/media/621b5daa438c913d3c15.webp"
+  },
+  {
+    "number": 12,
+    "slide": "Công tác xã hội và thiện nguyện",
+    "source": "12 - Công tác xã hội và thiện nguyện/về nguồn 8.jpg",
+    "asset": "assets/media/0ab2e02648dc1c536ae2.webp"
+  },
+  {
+    "number": 13,
     "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
-    "source": "11 - B.4. Gương sáng học đường/584569998_1317101863550713_8386345895742958748_n.jpg",
-    "asset": "assets/80a09153487e8c3e5a51.webp"
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584569998_1317101863550713_8386345895742958748_n.jpg",
+    "asset": "assets/media/80a09153487e8c3e5a51.webp"
   },
   {
+    "number": 13,
     "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
-    "source": "15 - B.4. Chung tay xây dựng nông thôn mới/746351060_122204208410932175_6084629529464558654_n.jpg",
-    "asset": "assets/2db260e50a6b8da2e3b5.webp"
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584616688_1317101893550710_676959945717858966_n.jpg",
+    "asset": "assets/media/3aed8dde6f4a24ca75a3.webp"
   },
   {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/584965056_1317101823550717_4484808454200205147_n.jpg",
+    "asset": "assets/media/6043b5ebdf7e922a106e.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/630220712_1379180457342853_8681044061613682448_n.jpg",
+    "asset": "assets/media/ff8c1e2dad4e322f9478.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/631137449_1379180407342858_9185506391268111348_n.jpg",
+    "asset": "assets/media/dcf9e2c31703ea1344a9.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/632584719_1379180557342843_1023220563343288946_n.jpg",
+    "asset": "assets/media/bb0b85c040a98d0edcba.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/746351060_122204208410932175_6084629529464558654_n.jpg",
+    "asset": "assets/media/2db260e50a6b8da2e3b5.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/746477096_2414361092393293_1402304626409218034_n.jpg",
+    "asset": "assets/media/8a8ec5b6e2d0d9574aaa.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/747604971_2414361049059964_923569932146359162_n.jpg",
+    "asset": "assets/media/da7a5f1b04321a840f45.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/747877201_2414361055726630_2401733085988654870_n.jpg",
+    "asset": "assets/media/7c40607d3b62e0d6aee6.webp"
+  },
+  {
+    "number": 13,
+    "slide": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+    "source": "13 - Thắp sáng ước mơ tuổi trẻ Việt Nam/748665954_2414361099059959_8751777577314677384_n.jpg",
+    "asset": "assets/media/e0b9b2a2052948edf567.webp"
+  },
+  {
+    "number": 14,
     "slide": "Thành tích Đoàn Thanh niên",
-    "source": "03 - A. Các tổ chức và cha mẹ học sinh/0000000004.JPG",
-    "asset": "assets/d360dcff54ad0cdb51a5.webp"
+    "source": "14 - Thành tích Đoàn Thanh niên/01-d360dcff54ad0cdb51a5.webp",
+    "asset": "assets/media/ef34093e1979d3da7305.webp"
   },
   {
+    "number": 16,
     "slide": "Câu lạc bộ và hướng nghiệp",
-    "source": "07 - B.3. Hoạt động câu lạc bộ/01 - 1. CLB Nghiên cứu Khoa học PNR.png",
-    "asset": "assets/4aea8bb154305a0dac58.webp"
+    "source": "16 - Câu lạc bộ và hướng nghiệp/00.jpg",
+    "asset": "assets/media/f3c97e363e9f5ac82f52.webp"
   },
   {
+    "number": 16,
     "slide": "Câu lạc bộ và hướng nghiệp",
-    "source": "06 - B.2. Tư vấn tuyển sinh và hướng nghiệp/01 - 1.png",
-    "asset": "assets/5df6f92ae2a05249e44e.webp"
+    "source": "16 - Câu lạc bộ và hướng nghiệp/01-4aea8bb154305a0dac58.webp",
+    "asset": "assets/media/20df810949953047fc2a.webp"
   },
   {
+    "number": 16,
+    "slide": "Câu lạc bộ và hướng nghiệp",
+    "source": "16 - Câu lạc bộ và hướng nghiệp/02-5df6f92ae2a05249e44e.webp",
+    "asset": "assets/media/2dabb12b02f099960e4f.webp"
+  },
+  {
+    "number": 16,
+    "slide": "Câu lạc bộ và hướng nghiệp",
+    "source": "16 - Câu lạc bộ và hướng nghiệp/05 - VGU04198.jpg",
+    "asset": "assets/media/5bf7e4e442d8abc97cae.webp"
+  },
+  {
+    "number": 16,
+    "slide": "Câu lạc bộ và hướng nghiệp",
+    "source": "16 - Câu lạc bộ và hướng nghiệp/06 - _01.jpg",
+    "asset": "assets/media/54cf631f0669ffcc9c44.webp"
+  },
+  {
+    "number": 16,
+    "slide": "Câu lạc bộ và hướng nghiệp",
+    "source": "16 - Câu lạc bộ và hướng nghiệp/579903280_1309235017670731_7384107382269230526_n.jpg",
+    "asset": "assets/media/91013816521b52e5ae66.webp"
+  },
+  {
+    "number": 17,
     "slide": "Thành tích câu lạc bộ",
-    "source": "07 - B.3. Hoạt động câu lạc bộ/06 - 22. CLB Âm Nhạc PNY.jpg",
-    "asset": "assets/16374aa2f96581691f61.webp"
+    "source": "17 - Thành tích câu lạc bộ/01-16374aa2f96581691f61.webp",
+    "asset": "assets/media/d1b85834123ce3c85da1.webp"
   },
   {
+    "number": 17,
     "slide": "Thành tích câu lạc bộ",
-    "source": "07 - B.3. Hoạt động câu lạc bộ/07 - 23. CLB Nhảy PND.png",
-    "asset": "assets/481dad811dd315b9d4aa.webp"
+    "source": "17 - Thành tích câu lạc bộ/02-481dad811dd315b9d4aa.webp",
+    "asset": "assets/media/2e6f57c4ba491f93323c.webp"
   },
   {
+    "number": 17,
     "slide": "Thành tích câu lạc bộ",
-    "source": "07 - B.3. Hoạt động câu lạc bộ/02 - 21. CLB Tin học.PNG",
-    "asset": "assets/5278d8a83bee8836933d.webp"
+    "source": "17 - Thành tích câu lạc bộ/03-5278d8a83bee8836933d.webp",
+    "asset": "assets/media/bdccbfeb4fc7f83cadf6.webp"
   },
   {
+    "number": 18,
     "slide": "Hoạt động Công đoàn",
-    "source": "03 - A. Các tổ chức và cha mẹ học sinh/000003.jpg",
-    "asset": "assets/b109e445790cd30b0250.webp"
+    "source": "18 - Hoạt động Công đoàn/01 - _TIN5102.JPG",
+    "asset": "assets/media/f64eceae37c09bd5ef7f.webp"
   },
   {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/01-b109e445790cd30b0250.webp",
+    "asset": "assets/media/1405afaa588ebf9b3c57.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/644619028_1395983512329214_354964792051570053_n.jpg",
+    "asset": "assets/media/8766eaf94735fd7777ec.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/646840767_1395986848995547_6992238943572412705_n.jpg",
+    "asset": "assets/media/399e996dea21c3ce0e86.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20250815094734.jpg",
+    "asset": "assets/media/b02879d6f08641849e34.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20251004165002.jpg",
+    "asset": "assets/media/e05ef16e00e29a678b77.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20251004175656.jpg",
+    "asset": "assets/media/22b72a49a894ba602040.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20251108145227.jpg",
+    "asset": "assets/media/6208df905c8a77a496f4.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20251108145750.jpg",
+    "asset": "assets/media/ab7280b389a0ff548cc6.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG20251214063946.jpg",
+    "asset": "assets/media/15b6e92c9678dfdbc450.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/IMG_1765672936846_1765672974938.jpg",
+    "asset": "assets/media/882bfa7911525a871df6.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/z7515056832424_f82fc759706d359a6edf829bee9061ab.jpg",
+    "asset": "assets/media/34dc9e8f58cae11e6653.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/z7515056872027_7d08c3910a51fd55226b544565e01696.jpg",
+    "asset": "assets/media/55c2472ea4a96e2820ef.webp"
+  },
+  {
+    "number": 18,
+    "slide": "Hoạt động Công đoàn",
+    "source": "18 - Hoạt động Công đoàn/z7575211367188_ff50bf33466c7304b91e0e8f14063a3b.jpg",
+    "asset": "assets/media/8e334da1e809062dce4b.webp"
+  },
+  {
+    "number": 24,
     "slide": "Đổi mới giảng dạy và chuyển đổi số",
-    "source": "37 - II.1. Chuyển đổi số và AI/04 - Google1.JPG",
-    "asset": "assets/30c7c006515f2b9aa172.webp"
+    "source": "24 - Đổi mới giảng dạy và chuyển đổi số/01 - 3-DSC09146.jpg",
+    "asset": "assets/media/9bec92c08952df060035.webp"
   },
   {
+    "number": 24,
+    "slide": "Đổi mới giảng dạy và chuyển đổi số",
+    "source": "24 - Đổi mới giảng dạy và chuyển đổi số/02 - 4-DSC09143.jpg",
+    "asset": "assets/media/4f7114841fd45950ee7d.webp"
+  },
+  {
+    "number": 25,
     "slide": "STEM và không gian học tập mở",
-    "source": "39 - II.2. Đổi mới phương pháp và hoạt động giáo dục/01 - Unitour_033.JPG",
-    "asset": "assets/2b89b31ec7892001947e.webp"
+    "source": "25 - STEM và không gian học tập mở/01 - Unitour_033.JPG",
+    "asset": "assets/media/2b89b31ec7892001947e.webp"
   },
   {
+    "number": 25,
+    "slide": "STEM và không gian học tập mở",
+    "source": "25 - STEM và không gian học tập mở/02 - Unitour_056.JPG",
+    "asset": "assets/media/6cc7907729460c3237a5.webp"
+  },
+  {
+    "number": 25,
+    "slide": "STEM và không gian học tập mở",
+    "source": "25 - STEM và không gian học tập mở/03 - CEECxTHPTPN-85.jpg",
+    "asset": "assets/media/44b0c75a5cdd0ba19342.webp"
+  },
+  {
+    "number": 25,
+    "slide": "STEM và không gian học tập mở",
+    "source": "25 - STEM và không gian học tập mở/04 - _DSC4673.jpg",
+    "asset": "assets/media/efbad6a2e7d17195ed2a.webp"
+  },
+  {
+    "number": 26,
     "slide": "Đổi mới kiểm tra đánh giá",
-    "source": "38 - II.1. Đổi mới kiểm tra đánh giá/2-DSC09207.jpg",
-    "asset": "assets/b94e2206b1f2653eda6b.webp"
+    "source": "26 - Đổi mới kiểm tra đánh giá/2-DSC09207.jpg",
+    "asset": "assets/media/b94e2206b1f2653eda6b.webp"
   },
   {
+    "number": 26,
+    "slide": "Đổi mới kiểm tra đánh giá",
+    "source": "26 - Đổi mới kiểm tra đánh giá/DSC09239.jpg",
+    "asset": "assets/media/e6019b38bd072cae7948.webp"
+  },
+  {
+    "number": 26,
+    "slide": "Đổi mới kiểm tra đánh giá",
+    "source": "26 - Đổi mới kiểm tra đánh giá/UIT bootcamp.jpg",
+    "asset": "assets/media/55bbb7e0ef93e4bdd55e.webp"
+  },
+  {
+    "number": 26,
+    "slide": "Đổi mới kiểm tra đánh giá",
+    "source": "26 - Đổi mới kiểm tra đánh giá/z7620605066713_a3e909e2b29d63a3610477e68e8e7a8b.jpg",
+    "asset": "assets/media/8f880b8135dd604a7f1c.webp"
+  },
+  {
+    "number": 28,
     "slide": "Hoạt động giáo dục theo nhu cầu",
-    "source": "40 - II.2. Ngoại ngữ, tin học và AI/01 - Anh.JPG",
-    "asset": "assets/30dc61db1a1ab6b9a3a7.webp"
+    "source": "28 - Hoạt động giáo dục theo nhu cầu/01-30dc61db1a1ab6b9a3a7.webp",
+    "asset": "assets/media/f0244d82de5845a4f689.webp"
   },
   {
+    "number": 29,
     "slide": "AI, nghệ thuật và kỹ năng sống",
-    "source": "07 - B.3. Hoạt động câu lạc bộ/09 - 2. CLB Vẽ.jpg",
-    "asset": "assets/f3c97e363e9f5ac82f52.webp"
+    "source": "29 - AI, nghệ thuật và kỹ năng sống/02 - IMG_8788.jpg",
+    "asset": "assets/media/afc364cb1b7846fcec0f.webp"
   },
   {
+    "number": 29,
+    "slide": "AI, nghệ thuật và kỹ năng sống",
+    "source": "29 - AI, nghệ thuật và kỹ năng sống/03 - Sắc màu văn học.jpg",
+    "asset": "assets/media/f15c7df3a577a8f221b8.webp"
+  },
+  {
+    "number": 35,
     "slide": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
-    "source": "47 - Lời cảm ơn/01 - 0002.jpeg",
-    "asset": "assets/0367f6d10b2b2475a99b.webp"
+    "source": "35 - Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất/01-0367f6d10b2b2475a99b.webp",
+    "asset": "assets/media/deada5d874daafa5fefb.webp"
   }
 ]

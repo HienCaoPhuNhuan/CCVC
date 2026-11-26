@@ -3,7 +3,7 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const make = (tag, className, text) => {
   const element = document.createElement(tag);
   if (className) element.className = className;
-  if (text) element.textContent = text;
+  if (text) element.textContent = text.replace(/Hồ Chí Minh/gu, 'Hồ\u00a0Chí\u00a0Minh');
   return element;
 };
 function assessmentChart(slide) {
@@ -67,22 +67,22 @@ function graduationChart(slide) {
 }
 
 function targetsTable(slide) {
-  const table = make('table', 'targets-table');
-  const header = table.createTHead().insertRow();
-  for (const title of ['Nội dung', 'Chỉ tiêu']) {
-    const cell = make('th', '', title);
-    cell.scope = 'col';
-    header.append(cell);
-  }
+  const panels = make('div', 'targets-panels');
   let group;
+  let table;
   for (const text of slide.body) {
     const title = text.match(/^\d+\.\s*(.+):$/u);
     if (title) {
+      table = make('table', 'targets-table');
+      table.append(make('caption', '', title[1]));
+      const header = table.createTHead().insertRow();
+      for (const label of ['Nội dung', 'Chỉ tiêu']) {
+        const cell = make('th', '', label);
+        cell.scope = 'col';
+        header.append(cell);
+      }
       group = table.createTBody();
-      const label = make('th', 'target-group', title[1]);
-      label.colSpan = 2;
-      label.scope = 'rowgroup';
-      group.insertRow().append(label);
+      panels.append(table);
       continue;
     }
     const item = text.match(/^(Tốt|Khá|Đạt)(?:\s+đạt)?\s*((?:<=)?\d+%)\s*,?\s*(.*)$/u);
@@ -93,9 +93,13 @@ function targetsTable(slide) {
     row.append(label);
     const value = row.insertCell();
     value.append(make('strong', '', item[2].replace('<=', '≤')));
-    if (item[3]) (/\d+%/u.test(item[3]) ? value : label).append(make('small', '', item[3]));
+    if (item[3]) {
+      const note = table.createTFoot().insertRow().insertCell();
+      note.colSpan = 2;
+      note.append(make('small', '', item[3]));
+    }
   }
-  return table;
+  return panels;
 }
 
 window.ccvcSlides.forEach((slide, position) => {
@@ -121,7 +125,12 @@ window.ccvcSlides.forEach((slide, position) => {
     const chart = slide.mode === 'graduation-chart' ? graduationChart(slide)
       : slide.mode === 'targets-table' ? targetsTable(slide)
       : ['conduct-chart', 'learning-chart'].includes(slide.mode) ? assessmentChart(slide) : null;
-    if (chart) body.append(chart);
+    if (slide.mode === 'chapter') {
+      const theme = slide.body[0].match(/“([^”]+)”/u)?.[1] || slide.body[0];
+      const lines = make('div', 'theme-lines');
+      theme.split(/\s+[–-]\s+/u).forEach(line => lines.append(make('span', '', line)));
+      body.append(lines);
+    } else if (chart) body.append(chart);
     else if (slide.body.length) body.append(textColumn);
     if (slide.images.length && slide.mode !== 'closing') {
       const figure = make('figure');
@@ -176,6 +185,8 @@ for (const slide of slides) {
   });
 }
 const autoplay = new URLSearchParams(location.search).get('autoplay') === '1';
+const narration = autoplay && window.ccvcSlides.every(slide => slide.voice)
+  ? window.createCcvcNarration(window.ccvcSlides) : null;
 const durations = window.ccvcSlides.map(slide => slide.durationSeconds);
 const boundaries = [];
 durations.reduce((offset, seconds) => { boundaries.push(offset); return offset + seconds; }, 0);
@@ -209,6 +220,7 @@ slides.forEach(slide => observer.observe(slide));
 if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 function go(index, fromClock = false) {
   active = Math.min(slides.length - 1, Math.max(0, index));
+  if (narration) narration.setSlide(active);
   if (autoplay && !fromClock) {
     pausedElapsed = boundaries[active];
     clockStart = document.hidden ? null : performance.now();
@@ -220,7 +232,7 @@ function go(index, fromClock = false) {
   slides[active].scrollIntoView({behavior:reduced.matches ? 'instant' : 'smooth'});
 }
 window.addEventListener('keydown', event => {
-  if (event.ctrlKey || event.metaKey || event.altKey) return;
+  if (event.ctrlKey || event.metaKey || event.altKey || event.target.closest('button,input,textarea,select,[contenteditable="true"]')) return;
   const delta = {ArrowDown:1, ArrowRight:1, PageDown:1, ' ':1, ArrowUp:-1, ArrowLeft:-1, PageUp:-1}[event.key];
   if (!delta && !['Home','End'].includes(event.key)) return;
   if (event.key === ' ' && event.shiftKey) { event.preventDefault(); go(active - 1); return; }
@@ -242,9 +254,13 @@ async function startPlayback() {
   pausedElapsed = boundaries[Math.max(0, initial)];
   clockStart = document.hidden ? null : performance.now();
   document.documentElement.dataset.playback = 'playing';
+  if (narration) {
+    scheduledPage = Math.max(0, initial);
+    go(scheduledPage, true);
+  }
   function tick() {
     if (!document.hidden && document.documentElement.dataset.playback !== 'finished') {
-      const time = elapsed();
+      const time = narration ? boundaries[scheduledPage] + narration.elapsed() : elapsed();
       let index = boundaries.findLastIndex(start => time >= start);
       index = Math.max(0, index);
       if (index !== scheduledPage) {
@@ -267,6 +283,11 @@ async function startPlayback() {
 }
 document.addEventListener('visibilitychange', () => {
   if (!autoplay) return;
+  if (narration) {
+    if (document.hidden) narration.pause();
+    else if (document.documentElement.dataset.playback !== 'finished') narration.resume();
+    return;
+  }
   if (document.hidden) { pausedElapsed = elapsed(); clockStart = null; }
   else if (document.documentElement.dataset.playback !== 'finished') clockStart = performance.now();
 });
