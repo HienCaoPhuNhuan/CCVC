@@ -22,6 +22,10 @@ li::marker { color: var(--accent); }
 .bullet-points ul { list-style: disc; padding-left: 1.1em; gap: 20px; }
 .bullet-points li { border: 0; padding-top: 0; }
 .bullet-points li::marker { color: var(--accent); }
+#slide-12 h2 { font-size: clamp(38px, min(3.5vw, 6vh), 90px); }
+#slide-12 li { font-size: clamp(22px, min(2.1vw, 3.9vh), 54px); }
+#slide-12 .bullet-intro { font-size: clamp(20px, min(1.75vw, 3.1vh), 44px); }
+#slide-12 ul { gap: clamp(10px, 1.3vh, 18px); }
 .results ul { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 46px; }
 .assessment, .graduation-chart { display: grid; gap: 18px; }
 .chart-note, .chart-heading { margin: 0; font-size: clamp(36px, 2.1vw, 54px); line-height: 1.3; }

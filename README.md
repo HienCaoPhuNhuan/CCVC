@@ -41,6 +41,8 @@ Chỉnh tiếp ngày 27/11: sửa đầu câu và bỏ các nhãn thừa ở sli
 
 Website CMHS và các bản MP4 cũ không thay đổi.
 
+Slide 12 giảm riêng cỡ tiêu đề, chữ và khoảng cách giữa các ý để có khoảng trống an toàn trong một trang. Chữ nội dung khoảng 40 px ở Full HD, 54 px ở QHD và giảm theo chiều cao cửa sổ nếu có thanh công cụ trình duyệt. Thời lượng và voice giữ nguyên.
+
 Ngày 27/11/2026: đồng bộ lại toàn bộ 35 folder ảnh (118 lượt ảnh); bỏ chỉ tiêu kỳ thi KHKT TP ở slide 32 và tạo lại riêng voice 32. Bản chiếu ưu tiên phần chữ, thu nhỏ thumbnail trước khi ảnh mở toàn màn hình. Chữ nội dung 48–62 px ở Full HD, 64–83 px ở QHD tùy độ dài nội dung; bảng biểu và chú thích cũng tăng cỡ. Slide cuối tăng ba dòng chủ đề lên khoảng 134 px/179 px. Giữ các cụm từ trên cùng dòng và chuyển về khoảng cách tự nhiên ở những đoạn căn đều gây giãn từ quá mức.
 
 ## Quy ước trình bày
