@@ -1,181 +1,181 @@
 {
-  "totalSeconds": 601.9,
+  "totalSeconds": 601.7,
   "voiceReady": true,
   "slides": [
     {
       "title": "Trường THPT Phú Nhuận",
       "startSeconds": 0.0,
-      "durationSeconds": 11.4
+      "durationSeconds": 11.3
     },
     {
       "title": "Đội ngũ nhà trường",
-      "startSeconds": 11.4,
-      "durationSeconds": 22.1
+      "startSeconds": 11.3,
+      "durationSeconds": 21.9
     },
     {
       "title": "Quy mô và các tổ chức",
-      "startSeconds": 33.5,
-      "durationSeconds": 22.6
+      "startSeconds": 33.2,
+      "durationSeconds": 20.9
     },
     {
       "title": "Đổi mới phương pháp dạy học",
-      "startSeconds": 56.1,
-      "durationSeconds": 60.5
+      "startSeconds": 54.1,
+      "durationSeconds": 60.4
     },
     {
       "title": "Chuyển đổi số và học liệu số",
-      "startSeconds": 116.6,
-      "durationSeconds": 14.6
-    },
-    {
-      "title": "Kết quả rèn luyện",
-      "startSeconds": 131.2,
-      "durationSeconds": 15.9
-    },
-    {
-      "title": "Kết quả học tập",
-      "startSeconds": 147.1,
-      "durationSeconds": 20.5
-    },
-    {
-      "title": "Tốt nghiệp THPT và đại học",
-      "startSeconds": 167.6,
-      "durationSeconds": 18.9
-    },
-    {
-      "title": "Thành tích các kỳ thi",
-      "startSeconds": 186.5,
-      "durationSeconds": 17.0
-    },
-    {
-      "title": "Thành tích Olympic",
-      "startSeconds": 203.5,
-      "durationSeconds": 13.5
-    },
-    {
-      "title": "Thành tích thể dục thể thao",
-      "startSeconds": 217.0,
-      "durationSeconds": 14.9
-    },
-    {
-      "title": "Công tác xã hội và thiện nguyện",
-      "startSeconds": 231.9,
-      "durationSeconds": 28.8
-    },
-    {
-      "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
-      "startSeconds": 260.7,
-      "durationSeconds": 22.1
-    },
-    {
-      "title": "Thành tích Đoàn Thanh niên",
-      "startSeconds": 282.8,
-      "durationSeconds": 15.4
-    },
-    {
-      "title": "Thành tích Đoàn Thanh niên",
-      "startSeconds": 298.2,
-      "durationSeconds": 11.9
-    },
-    {
-      "title": "Câu lạc bộ và hướng nghiệp",
-      "startSeconds": 310.1,
-      "durationSeconds": 14.0
-    },
-    {
-      "title": "Thành tích câu lạc bộ",
-      "startSeconds": 324.1,
-      "durationSeconds": 18.8
-    },
-    {
-      "title": "Hoạt động Công đoàn",
-      "startSeconds": 342.9,
-      "durationSeconds": 27.1
-    },
-    {
-      "title": "Danh hiệu tập thể sư phạm",
-      "startSeconds": 370.0,
-      "durationSeconds": 17.6
-    },
-    {
-      "title": "Kết quả thi đua các tổ chức",
-      "startSeconds": 387.6,
-      "durationSeconds": 8.6
-    },
-    {
-      "title": "Chủ đề năm học",
-      "startSeconds": 396.2,
-      "durationSeconds": 7.1
-    },
-    {
-      "title": "Quy mô năm học mới",
-      "startSeconds": 403.3,
-      "durationSeconds": 23.1
-    },
-    {
-      "title": "Định hướng chiến lược",
-      "startSeconds": 426.4,
-      "durationSeconds": 14.7
-    },
-    {
-      "title": "Đổi mới giảng dạy và chuyển đổi số",
-      "startSeconds": 441.1,
-      "durationSeconds": 14.3
-    },
-    {
-      "title": "STEM và không gian học tập mở",
-      "startSeconds": 455.4,
-      "durationSeconds": 12.4
-    },
-    {
-      "title": "Đổi mới kiểm tra đánh giá",
-      "startSeconds": 467.8,
-      "durationSeconds": 13.2
-    },
-    {
-      "title": "Hoạt động giáo dục tăng cường",
-      "startSeconds": 481.0,
-      "durationSeconds": 9.0
-    },
-    {
-      "title": "Hoạt động giáo dục theo nhu cầu",
-      "startSeconds": 490.0,
-      "durationSeconds": 12.9
-    },
-    {
-      "title": "AI, nghệ thuật và kỹ năng sống",
-      "startSeconds": 502.9,
-      "durationSeconds": 14.8
-    },
-    {
-      "title": "Chỉ tiêu thi đua tập thể và cá nhân",
-      "startSeconds": 517.7,
-      "durationSeconds": 20.3
-    },
-    {
-      "title": "Chỉ tiêu học tập và rèn luyện",
-      "startSeconds": 538.0,
+      "startSeconds": 114.5,
       "durationSeconds": 14.5
     },
     {
-      "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
-      "startSeconds": 552.5,
-      "durationSeconds": 15.4
+      "title": "Kết quả rèn luyện",
+      "startSeconds": 129.0,
+      "durationSeconds": 15.8
     },
     {
-      "title": "Môi trường và quản lý giáo dục",
-      "startSeconds": 567.9,
+      "title": "Kết quả học tập",
+      "startSeconds": 144.8,
+      "durationSeconds": 20.3
+    },
+    {
+      "title": "Tốt nghiệp THPT và đại học",
+      "startSeconds": 165.1,
+      "durationSeconds": 18.8
+    },
+    {
+      "title": "Thành tích các kỳ thi",
+      "startSeconds": 183.9,
+      "durationSeconds": 20.3
+    },
+    {
+      "title": "Thành tích Olympic",
+      "startSeconds": 204.2,
+      "durationSeconds": 13.4
+    },
+    {
+      "title": "Thành tích thể dục thể thao",
+      "startSeconds": 217.6,
+      "durationSeconds": 14.8
+    },
+    {
+      "title": "Công tác xã hội và thiện nguyện",
+      "startSeconds": 232.4,
+      "durationSeconds": 28.6
+    },
+    {
+      "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
+      "startSeconds": 261.0,
+      "durationSeconds": 21.9
+    },
+    {
+      "title": "Thành tích Đoàn Thanh niên",
+      "startSeconds": 282.9,
+      "durationSeconds": 15.2
+    },
+    {
+      "title": "Thành tích Đoàn Thanh niên",
+      "startSeconds": 298.1,
+      "durationSeconds": 11.8
+    },
+    {
+      "title": "Câu lạc bộ và hướng nghiệp",
+      "startSeconds": 309.9,
+      "durationSeconds": 13.9
+    },
+    {
+      "title": "Thành tích câu lạc bộ",
+      "startSeconds": 323.8,
+      "durationSeconds": 18.6
+    },
+    {
+      "title": "Hoạt động Công đoàn",
+      "startSeconds": 342.4,
+      "durationSeconds": 26.9
+    },
+    {
+      "title": "Danh hiệu tập thể sư phạm",
+      "startSeconds": 369.3,
+      "durationSeconds": 17.4
+    },
+    {
+      "title": "Kết quả thi đua các tổ chức",
+      "startSeconds": 386.7,
+      "durationSeconds": 8.5
+    },
+    {
+      "title": "Chủ đề năm học 2026 - 2027",
+      "startSeconds": 395.2,
+      "durationSeconds": 7.0
+    },
+    {
+      "title": "Quy mô năm học mới",
+      "startSeconds": 402.2,
+      "durationSeconds": 22.9
+    },
+    {
+      "title": "Định hướng chiến lược",
+      "startSeconds": 425.1,
+      "durationSeconds": 14.5
+    },
+    {
+      "title": "Đổi mới giảng dạy và chuyển đổi số",
+      "startSeconds": 439.6,
       "durationSeconds": 14.1
     },
     {
+      "title": "STEM và không gian học tập mở",
+      "startSeconds": 453.7,
+      "durationSeconds": 12.3
+    },
+    {
+      "title": "Đổi mới kiểm tra đánh giá",
+      "startSeconds": 466.0,
+      "durationSeconds": 13.1
+    },
+    {
+      "title": "Hoạt động giáo dục tăng cường",
+      "startSeconds": 479.1,
+      "durationSeconds": 8.9
+    },
+    {
+      "title": "Hoạt động giáo dục theo nhu cầu",
+      "startSeconds": 488.0,
+      "durationSeconds": 12.8
+    },
+    {
+      "title": "AI, nghệ thuật và kỹ năng sống",
+      "startSeconds": 500.8,
+      "durationSeconds": 14.7
+    },
+    {
+      "title": "Chỉ tiêu thi đua tập thể và cá nhân",
+      "startSeconds": 515.5,
+      "durationSeconds": 20.1
+    },
+    {
+      "title": "Chỉ tiêu học tập và rèn luyện",
+      "startSeconds": 535.6,
+      "durationSeconds": 14.3
+    },
+    {
+      "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
+      "startSeconds": 549.9,
+      "durationSeconds": 15.3
+    },
+    {
+      "title": "Môi trường và quản lý giáo dục",
+      "startSeconds": 565.2,
+      "durationSeconds": 13.9
+    },
+    {
       "title": "Cơ sở vật chất",
-      "startSeconds": 582.0,
-      "durationSeconds": 11.1
+      "startSeconds": 579.1,
+      "durationSeconds": 11.0
     },
     {
       "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
-      "startSeconds": 593.1,
-      "durationSeconds": 8.8
+      "startSeconds": 590.1,
+      "durationSeconds": 11.6
     }
   ]
 }

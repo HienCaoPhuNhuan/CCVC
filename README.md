@@ -20,7 +20,7 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 
 Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự chạy cùng lời đọc. Nếu trình duyệt chặn tự phát âm thanh, bấm “Bật tiếng và bắt đầu”; trang không tự chuyển trong lúc chờ cấp quyền. `index.html` không có tham số dùng để kiểm tra thủ công, không phát tiếng.
 
-35 lời đọc dài tổng cộng 486,55 giây; lịch hình khoảng 601,9 giây (10 phút 2 giây), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; trang nhiều ảnh có thêm thời gian xem ảnh. Không tăng tốc lời đọc để ép về đúng 600 giây. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
+35 lời đọc dài tổng cộng 491,17 giây; lịch hình khoảng 601,7 giây (10 phút 2 giây), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; trang nhiều ảnh có thêm thời gian xem ảnh. Không tăng tốc lời đọc để ép về đúng 600 giây. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
 
 `timeline.json` có mốc và thời lượng từng trang, được tạo lại bởi `build.ps1`. Đây là bản web đã ghép lời, chưa xuất MP4 mới.
 
@@ -31,6 +31,10 @@ Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự 
 3. Chạy `build.ps1` để ghép ảnh, voice và tính lại lịch. Script giữ các xác nhận của người dùng, không sửa file Word gốc.
 
 Ngày 27/11/2026: sửa “đồng bào” ở slide 12; chủ đề slide 21 có ba dòng chữ lớn; slide 31 có hai bảng Học tập/Rèn luyện song song; các nội dung liệt kê được tách dòng và đánh dấu đầu dòng.
+
+Ảnh ở các trang nội dung được phóng toàn màn hình sau 4 giây, giữ trọn ảnh bằng `object-fit: contain`, không cắt mép. Quy tắc này áp dụng cho cả bản tự chạy có voice và bản xem thủ công. Khi chuyển slide, ảnh toàn màn hình được đóng ngay. Trang mở đầu và trang kết giữ ảnh nền, không mở thêm lớp ảnh.
+
+Chỉnh tiếp ngày 27/11: sửa đầu câu và bỏ các nhãn thừa ở slide 4, 5, 27, 33, 34; bỏ số thứ tự dư ở slide 30. Trang chủ đề hiện là slide 21, giữ slide 19 là Danh hiệu tập thể sư phạm theo xác nhận. Slide 35 trình bày ba dòng chủ đề canh giữa, có hiệu ứng phóng to. Chỉ tạo lại voice 3, 9, 35; voice kết dẫn kết thúc và cảm ơn, không đọc lại chủ đề.
 
 Website CMHS và các bản MP4 cũ không thay đổi.
 

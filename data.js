@@ -9,7 +9,7 @@ window.ccvcSlides = [
     "group": "HỘI NGHỊ CCVC",
     "voice": "assets/voice/b72b12c87a3a7be0b413.mp3",
     "voiceDuration": 10.46,
-    "durationSeconds": 11.4
+    "durationSeconds": 11.3
   },
   {
     "title": "Đội ngũ nhà trường",
@@ -34,7 +34,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/a56c9014a13cbd752a6c.mp3",
     "voiceDuration": 12.26,
-    "durationSeconds": 22.1
+    "durationSeconds": 21.9
   },
   {
     "title": "Quy mô và các tổ chức",
@@ -51,14 +51,14 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "voice": "assets/voice/2954215936d0b8490d91.mp3",
-    "voiceDuration": 21.36,
-    "durationSeconds": 22.6
+    "voice": "assets/voice/27be017a0459037235de.mp3",
+    "voiceDuration": 19.82,
+    "durationSeconds": 20.9
   },
   {
     "title": "Đổi mới phương pháp dạy học",
     "body": [
-      "Về Đổi mới phương pháp dạy học: Nhà trường triển khai kế hoạch giáo dục theo định hướng phát triển phẩm chất, năng lực học sinh; tổ chức dạy học phân hóa, bồi dưỡng học sinh giỏi và phụ đạo học sinh chưa đạt; đổi mới kiểm tra đánh giá đúng thực chất theo Thông tư 22/2021/TT-BGDĐT."
+      "Nhà trường triển khai kế hoạch giáo dục theo định hướng phát triển phẩm chất, năng lực học sinh; tổ chức dạy học phân hóa, bồi dưỡng học sinh giỏi và phụ đạo học sinh chưa đạt; đổi mới kiểm tra đánh giá đúng thực chất theo Thông tư 22/2021/TT-BGDĐT."
     ],
     "images": [
       "assets/media/7b37692f8d4a2a48a885.webp",
@@ -101,12 +101,12 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/24d7591f7a1bf7364955.mp3",
     "voiceDuration": 13.0,
-    "durationSeconds": 60.5
+    "durationSeconds": 60.4
   },
   {
     "title": "Chuyển đổi số và học liệu số",
     "body": [
-      "Về Chuyển đổi số, học liệu số: 100% các môn học thực hiện ứng dụng CNTT, xây dựng kho học liệu số, ngân hàng câu hỏi trắc nghiệm và bài giảng tương tác trên LMS/K12Online; đẩy mạnh ứng dụng mô hình dạy học kết hợp Trực tiếp và Trực tuyến, lớp học thông minh Google và dạy học STEM/STEAM."
+      "100% các môn học thực hiện ứng dụng CNTT, xây dựng kho học liệu số, ngân hàng câu hỏi trắc nghiệm và bài giảng tương tác trên LMS/K12Online; đẩy mạnh ứng dụng mô hình dạy học kết hợp Trực tiếp và Trực tuyến, lớp học thông minh Google và dạy học STEM/STEAM."
     ],
     "images": [
       "assets/media/acb1065d873b85f60978.webp",
@@ -117,7 +117,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/121cf2f1c47a16748162.mp3",
     "voiceDuration": 13.58,
-    "durationSeconds": 14.6
+    "durationSeconds": 14.5
   },
   {
     "title": "Kết quả rèn luyện",
@@ -131,7 +131,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/a5b793c9c019698a9fab.mp3",
     "voiceDuration": 14.88,
-    "durationSeconds": 15.9
+    "durationSeconds": 15.8
   },
   {
     "title": "Kết quả học tập",
@@ -145,7 +145,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/db0c29badc2066d7660f.mp3",
     "voiceDuration": 19.25,
-    "durationSeconds": 20.5
+    "durationSeconds": 20.3
   },
   {
     "title": "Tốt nghiệp THPT và đại học",
@@ -160,7 +160,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/2038884cf176d555a0b8.mp3",
     "voiceDuration": 17.78,
-    "durationSeconds": 18.9
+    "durationSeconds": 18.8
   },
   {
     "title": "Thành tích các kỳ thi",
@@ -174,9 +174,9 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "voice": "assets/voice/d9f85df0277d836b7210.mp3",
-    "voiceDuration": 15.91,
-    "durationSeconds": 17.0
+    "voice": "assets/voice/1baa76419bf39fbec8db.mp3",
+    "voiceDuration": 19.28,
+    "durationSeconds": 20.3
   },
   {
     "title": "Thành tích Olympic",
@@ -192,7 +192,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/6d12a1454048284380b7.mp3",
     "voiceDuration": 12.56,
-    "durationSeconds": 13.5
+    "durationSeconds": 13.4
   },
   {
     "title": "Thành tích thể dục thể thao",
@@ -206,7 +206,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/ed56b5d0a6dc35defc92.mp3",
     "voiceDuration": 13.89,
-    "durationSeconds": 14.9
+    "durationSeconds": 14.8
   },
   {
     "title": "Công tác xã hội và thiện nguyện",
@@ -239,7 +239,7 @@ window.ccvcSlides = [
     "intro": "Các hoạt động thiện nguyện, công tác xã hội được thực hiện xuyên suốt trong năm học:",
     "voice": "assets/voice/acf5045014ea97b648a4.mp3",
     "voiceDuration": 21.75,
-    "durationSeconds": 28.8
+    "durationSeconds": 28.6
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
@@ -264,7 +264,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/90c1dce9a8c02a205419.mp3",
     "voiceDuration": 11.84,
-    "durationSeconds": 22.1
+    "durationSeconds": 21.9
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -281,7 +281,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/967df8eb93ca167129fd.mp3",
     "voiceDuration": 14.35,
-    "durationSeconds": 15.4
+    "durationSeconds": 15.2
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -295,13 +295,13 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/c7039823cca0edee79c3.mp3",
     "voiceDuration": 10.96,
-    "durationSeconds": 11.9
+    "durationSeconds": 11.8
   },
   {
     "title": "Câu lạc bộ và hướng nghiệp",
     "body": [
       "Hoạt động Câu lạc bộ: Duy trì hiệu quả 24 CLB với hơn 1.500 học sinh tham gia",
-      "tổ chức 04 đợt tư vấn hướng nghiệp, ngày hội tuyển sinh và chương trình trải nghiệm “1 ngày làm sinh viên”."
+      "Tổ chức 04 đợt tư vấn hướng nghiệp, ngày hội tuyển sinh và chương trình trải nghiệm “1 ngày làm sinh viên”."
     ],
     "images": [
       "assets/media/f3c97e363e9f5ac82f52.webp",
@@ -315,7 +315,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/613d9d442e53f2df73c3.mp3",
     "voiceDuration": 11.78,
-    "durationSeconds": 14.0
+    "durationSeconds": 13.9
   },
   {
     "title": "Thành tích câu lạc bộ",
@@ -333,14 +333,14 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/d06aca5cdff48a5c46ea.mp3",
     "voiceDuration": 17.66,
-    "durationSeconds": 18.8
+    "durationSeconds": 18.6
   },
   {
     "title": "Hoạt động Công đoàn",
     "body": [
       "Chăm lo tốt đời sống người lao động, trao 92 lượt “Học bổng Nguyễn Đức Cảnh” (12,5 triệu đồng)",
-      "tổ chức Tết Trung thu, “Đêm hội trăng rằm” (22,3 triệu đồng)",
-      "quyên góp ủng hộ biển đảo, tình nghĩa xã hội.",
+      "Tổ chức Tết Trung thu, “Đêm hội trăng rằm” (22,3 triệu đồng)",
+      "Quyên góp ủng hộ biển đảo, tình nghĩa xã hội.",
       "Công đoàn vận động NGNLĐ thực hiện đường lối, chủ trương của Đảng, chính sách pháp luật của Nhà nước; Nghị quyết, chủ trương công tác công đoàn; phát triển đội ngũ nhà giáo và cán bộ quản lý giáo dục.",
       "Công đoàn tổ chức các phong trào thi đua yêu nước, các cuộc vận động mang tính xã hội rộng lớn trong đội ngũ cán bộ, NGNLĐ."
     ],
@@ -364,7 +364,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/9058a4fef35287f564e3.mp3",
     "voiceDuration": 18.14,
-    "durationSeconds": 27.1
+    "durationSeconds": 26.9
   },
   {
     "title": "Danh hiệu tập thể sư phạm",
@@ -380,7 +380,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/fa86e6b68bf06c197ae5.mp3",
     "voiceDuration": 16.48,
-    "durationSeconds": 17.6
+    "durationSeconds": 17.4
   },
   {
     "title": "Kết quả thi đua các tổ chức",
@@ -394,10 +394,10 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/341a04f424272a639f93.mp3",
     "voiceDuration": 7.76,
-    "durationSeconds": 8.6
+    "durationSeconds": 8.5
   },
   {
-    "title": "Chủ đề năm học",
+    "title": "Chủ đề năm học 2026 - 2027",
     "body": [
       "Chủ đề năm học của Ngành: “Đổi mới tư duy - Chuyển biến mạnh mẽ - Kết quả thực chất”"
     ],
@@ -406,7 +406,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0f0411357c0c0b680223.mp3",
     "voiceDuration": 6.32,
-    "durationSeconds": 7.1
+    "durationSeconds": 7.0
   },
   {
     "title": "Quy mô năm học mới",
@@ -419,13 +419,13 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/d828d3435a5b4e1b9345.mp3",
     "voiceDuration": 21.78,
-    "durationSeconds": 23.1
+    "durationSeconds": 22.9
   },
   {
     "title": "Định hướng chiến lược",
     "body": [
       "Định hướng chiến lược: Triển khai Chương trình GDPT 2018 theo hướng cá nhân hóa",
-      "bám sát Nghị quyết số 71-NQ/TW ngày 22/08/2025 của Bộ Chính trị về đột phá phát triển giáo dục và đào tạo, tập trung tăng cường giáo dục ngoại ngữ, từng bước đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học trên toàn quốc",
+      "Bám sát Nghị quyết số 71-NQ/TW ngày 22/08/2025 của Bộ Chính trị về đột phá phát triển giáo dục và đào tạo, tập trung tăng cường giáo dục ngoại ngữ, từng bước đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học trên toàn quốc",
       "Nghị quyết 57-NQ/TW ngày 24/01/2025 của Bộ Chính trị khóa XIII về Hội nhập quốc tế trong tình hình mới."
     ],
     "images": [],
@@ -433,7 +433,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f67032096883dd1210a4.mp3",
     "voiceDuration": 13.64,
-    "durationSeconds": 14.7
+    "durationSeconds": 14.5
   },
   {
     "title": "Đổi mới giảng dạy và chuyển đổi số",
@@ -449,14 +449,14 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0c7309897112ce76ab4e.mp3",
     "voiceDuration": 13.27,
-    "durationSeconds": 14.3
+    "durationSeconds": 14.1
   },
   {
     "title": "STEM và không gian học tập mở",
     "body": [
       "Giáo dục STEM, dạy học với không gian mở: Thực hiện thực chất bài học STEM",
-      "mỗi tổ chuyên môn xây dựng ít nhất 01 tiết học ngoài không gian lớp học/khối/năm",
-      "phát triển các hoạt động nghiên cứu khoa học và dự án khởi nghiệp học sinh."
+      "Mỗi tổ chuyên môn xây dựng ít nhất 01 tiết học ngoài không gian lớp học/khối/năm",
+      "Phát triển các hoạt động nghiên cứu khoa học và dự án khởi nghiệp học sinh."
     ],
     "images": [
       "assets/media/2b89b31ec7892001947e.webp",
@@ -468,7 +468,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/706b6129fff9760b50bd.mp3",
     "voiceDuration": 11.48,
-    "durationSeconds": 12.4
+    "durationSeconds": 12.3
   },
   {
     "title": "Đổi mới kiểm tra đánh giá",
@@ -485,19 +485,19 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0663ecbc515d10db4a30.mp3",
     "voiceDuration": 12.26,
-    "durationSeconds": 13.2
+    "durationSeconds": 13.1
   },
   {
     "title": "Hoạt động giáo dục tăng cường",
     "body": [
-      "Hoạt động giáo dục Tăng cường: Bồi dưỡng HS Giỏi, phụ đạo học sinh Chưa đạt, giảng dạy AI, hoạt động các Câu lạc bộ học thuật, kỹ năng …"
+      "Bồi dưỡng HS Giỏi, phụ đạo học sinh Chưa đạt, giảng dạy AI, hoạt động các Câu lạc bộ học thuật, kỹ năng …"
     ],
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/27faf5773869c805021e.mp3",
     "voiceDuration": 8.16,
-    "durationSeconds": 9.0
+    "durationSeconds": 8.9
   },
   {
     "title": "Hoạt động giáo dục theo nhu cầu",
@@ -513,7 +513,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/6712ea1577277dbbe4df.mp3",
     "voiceDuration": 11.92,
-    "durationSeconds": 12.9
+    "durationSeconds": 12.8
   },
   {
     "title": "AI, nghệ thuật và kỹ năng sống",
@@ -530,25 +530,25 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0f5d842485f60dfc5e66.mp3",
     "voiceDuration": 13.82,
-    "durationSeconds": 14.8
+    "durationSeconds": 14.7
   },
   {
     "title": "Chỉ tiêu thi đua tập thể và cá nhân",
     "body": [
-      "1. Chi bộ: Hoàn thành tốt nhiệm vụ.",
-      "2. Nhà trường: Tập thể Lao động xuất sắc / Cờ thi đua Thành phố.",
-      "3. Công đoàn: Hoàn thành xuất sắc nhiệm vụ.",
-      "4. Đoàn Thanh niên: Hoàn thành xuất sắc nhiệm vụ.",
-      "5. Tổ chuyên môn: 100% Tổ đạt danh hiệu Lao động tiên tiến.",
-      "1. Lao động tiên tiến: 141/141 (100%).",
-      "2. Chiến sĩ thi đua cơ sở: Đạt tỷ lệ 25% tổng số cán bộ, giáo viên, nhân viên."
+      "Chi bộ: Hoàn thành tốt nhiệm vụ.",
+      "Nhà trường: Tập thể Lao động xuất sắc / Cờ thi đua Thành phố.",
+      "Công đoàn: Hoàn thành xuất sắc nhiệm vụ.",
+      "Đoàn Thanh niên: Hoàn thành xuất sắc nhiệm vụ.",
+      "Tổ chuyên môn: 100% Tổ đạt danh hiệu Lao động tiên tiến.",
+      "Lao động tiên tiến: 141/141 (100%).",
+      "Chiến sĩ thi đua cơ sở: Đạt tỷ lệ 25% tổng số cán bộ, giáo viên, nhân viên."
     ],
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f2d2a56dfa8d0af6adad.mp3",
     "voiceDuration": 19.1,
-    "durationSeconds": 20.3
+    "durationSeconds": 20.1
   },
   {
     "title": "Chỉ tiêu học tập và rèn luyện",
@@ -566,7 +566,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/214ccb77876700a5ad8e.mp3",
     "voiceDuration": 13.45,
-    "durationSeconds": 14.5
+    "durationSeconds": 14.3
   },
   {
     "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
@@ -581,36 +581,36 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/ec7efbc74e373e0adebc.mp3",
     "voiceDuration": 14.41,
-    "durationSeconds": 15.4
+    "durationSeconds": 15.3
   },
   {
     "title": "Môi trường và quản lý giáo dục",
     "body": [
-      "Môi trường giáo dục: Xây dựng mô hình “Trường học Hạnh phúc”, “Trường học Xanh”",
-      "tăng cường tư vấn tâm lý học đường, phòng chống bạo lực và đảm bảo an toàn giao thông cổng trường.",
-      "Quản lý, Cải cách hành chính: Đẩy mạnh tự chủ chuyên môn",
-      "quản lý chặt chẽ hoạt động dạy thêm - học thêm theo Thông tư 29/2024/TT-BGDĐT và Thông tư 19/2026/TT-BGDĐT",
-      "thực hiện công khai tài chính và tự chủ tài chính."
+      "Xây dựng mô hình “Trường học Hạnh phúc”, “Trường học Xanh”",
+      "Tăng cường tư vấn tâm lý học đường, phòng chống bạo lực và đảm bảo an toàn giao thông cổng trường.",
+      "Đẩy mạnh tự chủ chuyên môn",
+      "Quản lý chặt chẽ hoạt động dạy thêm - học thêm theo Thông tư 29/2024/TT-BGDĐT và Thông tư 19/2026/TT-BGDĐT",
+      "Thực hiện công khai tài chính và tự chủ tài chính."
     ],
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/e7a9e8375d0368860f9b.mp3",
     "voiceDuration": 13.08,
-    "durationSeconds": 14.1
+    "durationSeconds": 13.9
   },
   {
     "title": "Cơ sở vật chất",
     "body": [
-      "Cơ sở vật chất: Nâng cấp thư viện hiện đại, nhà vệ sinh sạch đẹp, hệ thống nước uống tinh khiết",
-      "đẩy mạnh đề án thanh toán học phí không dùng tiền mặt đạt 100%."
+      "Nâng cấp thư viện hiện đại, nhà vệ sinh sạch đẹp, hệ thống nước uống tinh khiết",
+      "Đẩy mạnh đề án thanh toán học phí không dùng tiền mặt đạt 100%."
     ],
     "images": [],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/2e5da1ca59e92cdb71f0.mp3",
     "voiceDuration": 10.21,
-    "durationSeconds": 11.1
+    "durationSeconds": 11.0
   },
   {
     "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
@@ -620,8 +620,8 @@ window.ccvcSlides = [
     ],
     "mode": "closing",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "voice": "assets/voice/a587ac8b3544cff062a6.mp3",
-    "voiceDuration": 8.0,
-    "durationSeconds": 8.8
+    "voice": "assets/voice/76e894e6a67a393d4161.mp3",
+    "voiceDuration": 10.79,
+    "durationSeconds": 11.6
   }
 ];

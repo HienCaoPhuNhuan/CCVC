@@ -1,5 +1,6 @@
 const deck = document.querySelector('#deck');
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+const photoStage = window.createCcvcPhotoStage(reduced.matches);
 const make = (tag, className, text) => {
   const element = document.createElement(tag);
   if (className) element.className = className;
@@ -109,6 +110,9 @@ window.ccvcSlides.forEach((slide, position) => {
   const header = make('header');
   header.append(make('p', 'kicker', String(position + 1).padStart(2, '0') + '  /  ' + slide.group));
   const title = make(position ? 'h2' : 'h1', '', slide.title);
+  if (slide.mode === 'closing') {
+    title.replaceChildren(...['Đổi mới tư duy', 'Chuyển biến mạnh mẽ', 'Kết quả thực chất'].map(text => make('span', '', text)));
+  }
   title.id = section.id + '-title';
   section.setAttribute('aria-labelledby', title.id);
   header.append(title);
@@ -146,6 +150,7 @@ window.ccvcSlides.forEach((slide, position) => {
       section.addEventListener('photo-cycle', event => {
         index = Number.isInteger(event.detail?.index) ? event.detail.index % slide.images.length : (index + 1) % slide.images.length;
         show();
+        if (event.detail?.expanded) photoStage.show(img, section);
       });
       body.append(figure);
     }
@@ -195,6 +200,8 @@ let clockStart = null;
 let pausedElapsed = 0;
 let scheduledPage = -1;
 let photoIndex = -1;
+let photoExpanded = false;
+let manualStart = performance.now();
 function elapsed() { return pausedElapsed + (clockStart === null ? 0 : (performance.now() - clockStart) / 1000); }
 function activate(index) {
   const target = slides[index];
@@ -212,13 +219,24 @@ let active = 0;
 let wheelAt = 0;
 const observer = new IntersectionObserver(entries => {
   for (const entry of entries) if (entry.isIntersecting) {
-    active = slides.indexOf(entry.target);
+    const next = slides.indexOf(entry.target);
+    if (next !== active) {
+      photoStage.stop();
+      photoIndex = -1;
+      photoExpanded = false;
+      manualStart = performance.now();
+    }
+    active = next;
     activate(active);
   }
 }, {threshold:.55});
 slides.forEach(slide => observer.observe(slide));
 if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 function go(index, fromClock = false) {
+  photoStage.stop();
+  photoExpanded = false;
+  photoIndex = -1;
+  manualStart = performance.now();
   active = Math.min(slides.length - 1, Math.max(0, index));
   if (narration) narration.setSlide(active);
   if (autoplay && !fromClock) {
@@ -246,7 +264,17 @@ window.addEventListener('wheel', event => {
   if (now - wheelAt > 260) go(active + Math.sign(event.deltaY));
   wheelAt = now;
 }, {passive:false});
-if (!autoplay) setInterval(() => slides[active]?.dispatchEvent(new Event('photo-cycle')), 4500);
+if (!autoplay) setInterval(() => {
+  const seconds = (performance.now() - manualStart) / 1000;
+  const slide = window.ccvcSlides[active];
+  const expanded = seconds >= 4 && slide.images.length > 0 && !['cover','closing'].includes(slide.mode);
+  const index = seconds < 4 ? 0 : Math.floor((seconds - 4) / 4.5) % Math.max(1, slide.images.length);
+  if (index !== photoIndex || expanded !== photoExpanded) {
+    slides[active]?.dispatchEvent(new CustomEvent('photo-cycle', {detail:{index,expanded}}));
+    photoIndex = index;
+    photoExpanded = expanded;
+  }
+}, 100);
 async function startPlayback() {
   await document.fonts.ready;
   await Promise.all([...document.images].map(image => image.decode().catch(() => {})));
@@ -270,9 +298,11 @@ async function startPlayback() {
       }
       const count = window.ccvcSlides[index].images.length;
       const photo = Math.min(Math.max(0, count - 1), Math.floor(Math.max(0, time - boundaries[index] - 4) / Math.max(1, (durations[index] - 4) / Math.max(1, count))));
-      if (photo !== photoIndex) {
-        slides[index].dispatchEvent(new CustomEvent('photo-cycle', {detail:{index:photo}}));
+      const expanded = time - boundaries[index] >= 4 && count > 0 && !['cover','closing'].includes(window.ccvcSlides[index].mode);
+      if (photo !== photoIndex || expanded !== photoExpanded) {
+        slides[index].dispatchEvent(new CustomEvent('photo-cycle', {detail:{index:photo,expanded}}));
         photoIndex = photo;
+        photoExpanded = expanded;
       }
       document.documentElement.dataset.elapsed = Math.min(time, totalDuration).toFixed(2);
       if (time >= totalDuration) document.documentElement.dataset.playback = 'finished';

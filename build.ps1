@@ -28,6 +28,12 @@ $paragraphs[43] = '11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Ti
 $paragraphs[51] = $paragraphs[51] -replace '\bHC\s+', 'huy chương ' -replace '(\d+)\s+(Vàng|Bạc|Đồng)', '$1 huy chương $2'
 $paragraphs[56] = $paragraphs[56] -replace 'đồntg bào', 'đồng bào'
 $paragraphs[114] = $paragraphs[114] -replace 'Công đoàn: Hoàn thành tốt nhiệm vụ', 'Công đoàn: Hoàn thành xuất sắc nhiệm vụ'
+$paragraphs[21] = $paragraphs[21] -replace '^Về Đổi mới phương pháp dạy học:\s*', ''
+$paragraphs[23] = $paragraphs[23] -replace '^Về Chuyển đổi số, học liệu số:\s*', ''
+$paragraphs[101] = $paragraphs[101] -replace '^Hoạt động giáo dục Tăng cường:\s*', ''
+$paragraphs[132] = $paragraphs[132] -replace '^[-\s]*Môi trường giáo dục:\s*', ''
+$paragraphs[133] = $paragraphs[133] -replace '^[-\s]*Quản lý, Cải cách hành chính:\s*', ''
+$paragraphs[134] = $paragraphs[134] -replace '^[-\s]*Cơ sở vật chất:\s*', ''
 $assets = Join-Path $PSScriptRoot 'assets'
 New-Item -ItemType Directory -Path $assets -Force | Out-Null
 $catalog = Get-Content -LiteralPath (Join-Path $OldSlides 'assets/media/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -55,12 +61,14 @@ function Slide($title, [int[]]$lines, [string[]]$photos = @(), $mode = '') {
   } })
   $body = @(foreach($line in $lines) {
     $text = $paragraphs[$line] -replace '^[-+]\s*',''
-    if ($line -in @(114,115,117,122)) { $text -split '(?<=\.)\s*(?=[2-5]\.\s)' }
+    if ($line -in @(114,115,117)) { ($text -split '(?<=\.)\s*(?=[2-5]\.\s)') -replace '^\d+\.\s*','' }
+    elseif ($line -eq 122) { $text -split '(?<=\.)\s*(?=[2-5]\.\s)' }
     elseif ($line -in @(51,69,95,98,132,133,134)) { $text -split ';\s*' }
     elseif ($line -eq 76) { $text -split ', (?=tổ chức)| và (?=quyên góp)' }
     elseif ($line -eq 97) { $text -split '(?<=\.) (?=Đẩy mạnh)' }
     else { $text }
   })
+  $body = @($body | ForEach-Object { $value = $_.Trim(); if ($value) { $value.Substring(0,1).ToUpper() + $value.Substring(1) } })
   $slides.Add([ordered]@{title=$title; body=$body; images=$images; mode=$mode; group=$group})
 }
 $group = 'HỘI NGHỊ CCVC'
@@ -98,7 +106,7 @@ Slide 'Hoạt động Công đoàn' (76..78) @('03:1')
 Slide 'Danh hiệu tập thể sư phạm' (81..85) @()
 Slide 'Kết quả thi đua các tổ chức' (86..88) @()
 $group = 'PHƯƠNG HƯỚNG · 2026–2027'
-Slide 'Chủ đề năm học' @(91) @() 'chapter'
+Slide 'Chủ đề năm học 2026 - 2027' @(91) @() 'chapter'
 Slide 'Quy mô năm học mới' (93..94) @()
 Slide 'Định hướng chiến lược' @(95) @()
 Slide 'Đổi mới giảng dạy và chuyển đổi số' @(97) @('37:3')
