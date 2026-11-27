@@ -9,11 +9,11 @@
       "peak": 0.5674
     },
     "2": {
-      "src": "assets/voice/a56c9014a13cbd752a6c.mp3",
-      "duration": 12.26,
-      "textHash": "23c0355e62bbdf28ab129ed1c0c849631f7ff55d6b6d513ea1186af43c438ad9",
-      "rms": 0.1076,
-      "peak": 0.611
+      "src": "assets/voice/7e3446704f5825a7dad9.mp3",
+      "duration": 12.46,
+      "textHash": "e4b120a72a626715628ca732a03bc617c7c1638987499d900783c484afe2d80d",
+      "rms": 0.1094,
+      "peak": 0.5797
     },
     "3": {
       "src": "assets/voice/27be017a0459037235de.mp3",
@@ -51,11 +51,11 @@
       "peak": 0.6235
     },
     "8": {
-      "src": "assets/voice/2038884cf176d555a0b8.mp3",
-      "duration": 17.78,
-      "textHash": "b3da4c276fce88c275c141bcddb57bf3eaff16111b03bb79ccd98875d3d55ccf",
-      "rms": 0.1078,
-      "peak": 0.6753
+      "src": "assets/voice/7d136af195055eb8ce62.mp3",
+      "duration": 15.14,
+      "textHash": "9317e847823405fb188effdb526c46c7fc4dc263aab999bb293a59464f2149e6",
+      "rms": 0.1127,
+      "peak": 0.5974
     },
     "9": {
       "src": "assets/voice/1baa76419bf39fbec8db.mp3",
@@ -135,11 +135,11 @@
       "peak": 0.7426
     },
     "20": {
-      "src": "assets/voice/341a04f424272a639f93.mp3",
-      "duration": 7.76,
-      "textHash": "3d2826379879ae03b898ebb8063f3c747f7520737793c7a1f5e89c027f5c3238",
-      "rms": 0.1127,
-      "peak": 0.639
+      "src": "assets/voice/a6643dead3129c472442.mp3",
+      "duration": 7.84,
+      "textHash": "56609170d1c10c2e048b507f71b0c6c5f99c944c8e44fe2d7508b9fa36dc0280",
+      "rms": 0.1045,
+      "peak": 0.5824
     },
     "21": {
       "src": "assets/voice/0f0411357c0c0b680223.mp3",
@@ -191,11 +191,11 @@
       "peak": 0.5479
     },
     "28": {
-      "src": "assets/voice/6712ea1577277dbbe4df.mp3",
-      "duration": 11.92,
-      "textHash": "6249135eb4c6abb011a7b8765cdaecb4de753990962f8f39a1859285bad91027",
-      "rms": 0.1127,
-      "peak": 0.8361
+      "src": "assets/voice/d966b90db85007760d50.mp3",
+      "duration": 11.44,
+      "textHash": "782039c41cd52016904b7f44867ca018dab271928773cc55cc624d25ca1e84e5",
+      "rms": 0.1143,
+      "peak": 0.5858
     },
     "29": {
       "src": "assets/voice/0f5d842485f60dfc5e66.mp3",

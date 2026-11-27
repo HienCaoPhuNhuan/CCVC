@@ -15,13 +15,13 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 - Slide 6–8 có bảng và biểu đồ tổng hợp. Phạm vi 2.387 học sinh và mốc cao nhất/thấp nhất 28,00/15,1 điểm được bổ sung từ bản đầy đủ, mục II.5.1. Bản đầy đủ còn có số liệu chi tiết từng khối và danh hiệu (371 Xuất sắc, 1.248 Giỏi). Chưa vẽ biểu đồ rèn luyện theo khối vì khối 11 ghi 834/835 học sinh mức Tốt, nhưng tỷ lệ in là 99,65%.
 - Tổng quy mô nhân sự năm mới theo bản rút gọn là 138, chỉ tiêu Lao động tiên tiến là 141/141. Cần xác nhận phạm vi thống kê.
 - Tiếng Anh với giáo viên nước ngoài: bản rút gọn ghi khối 10, bản đầy đủ ghi khối 10 và 11 theo điều kiện đăng ký. Slide lấy theo bản rút gọn.
-- Chỉ tiêu Công đoàn năm 2026–2027: Hoàn thành xuất sắc nhiệm vụ theo xác nhận ngày 23/11/2026. Kết quả 2025–2026 vẫn giữ Hoàn thành tốt nhiệm vụ.
+- Công đoàn: Hoàn thành xuất sắc nhiệm vụ ở cả kết quả slide 20 (cập nhật theo yêu cầu ngày 27/11/2026) và chỉ tiêu năm 2026–2027.
 
 ## Chế độ chuẩn bị clip 10 phút
 
 Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự chạy cùng lời đọc. Nếu trình duyệt chặn tự phát âm thanh, bấm “Bật tiếng và bắt đầu”; trang không tự chuyển trong lúc chờ cấp quyền. `index.html` không có tham số dùng để kiểm tra thủ công, không phát tiếng.
 
-35 lời đọc dài tổng cộng 486,95 giây; lịch trình chiếu đúng 600 giây (10 phút), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; ảnh bắt đầu sau 4 giây, thời gian còn lại chia đều cho số ảnh của trang (ít nhất 1,8 giây/ảnh). Hai trang nền mở đầu và kết thúc không chạy lớp ảnh. Phần thời gian dư được chia theo độ dài lời đọc, làm tròn theo phần dư lớn nhất để giữ tổng chính xác 600 giây. Build sẽ báo lỗi nếu voice và số ảnh tối thiểu không thể nằm trong 10 phút. Không tăng tốc lời đọc. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
+35 lời đọc dài tổng cộng 484,11 giây; lịch trình chiếu đúng 600 giây (10 phút), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; ảnh bắt đầu sau 4 giây, thời gian còn lại chia đều cho số ảnh của trang (ít nhất 1,8 giây/ảnh). Hai trang nền mở đầu và kết thúc không chạy lớp ảnh. Phần thời gian dư được chia theo độ dài lời đọc, làm tròn theo phần dư lớn nhất để giữ tổng chính xác 600 giây. Build sẽ báo lỗi nếu voice và số ảnh tối thiểu không thể nằm trong 10 phút. Không tăng tốc lời đọc. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
 
 `timeline.json` có mốc, thời lượng từng trang, số ảnh và số giây mỗi ảnh, được tạo lại bởi `build.ps1`. Đây là bản web đã ghép lời, chưa xuất MP4 mới. Thời gian chờ quyền phát âm thanh, tải dữ liệu hoặc tạm dừng tab không tính vào 10 phút trình chiếu.
 
@@ -42,6 +42,8 @@ Chỉnh tiếp ngày 27/11: sửa đầu câu và bỏ các nhãn thừa ở sli
 Website CMHS và các bản MP4 cũ không thay đổi.
 
 Slide 12 giảm riêng cỡ tiêu đề, chữ và khoảng cách giữa các ý để có khoảng trống an toàn trong một trang. Chữ nội dung khoảng 40 px ở Full HD, 54 px ở QHD và giảm theo chiều cao cửa sổ nếu có thanh công cụ trình duyệt. Thời lượng và voice giữ nguyên.
+
+Slide 2: Ban Giám hiệu gồm 01 Hiệu trưởng và 02 Phó hiệu trưởng. Slide 8 bỏ số liệu 100% tốt nghiệp THPT khỏi phần trình bày và lời đọc, giữ kết quả trúng tuyển đại học và điểm thi. Slide 20 cập nhật Công đoàn hoàn thành xuất sắc nhiệm vụ. Slide 28 hiển thị MOS, lời đọc dùng phiên âm “mót”. Tạo lại riêng voice 2, 8, 20, 28 và phân bổ lại thời lượng để giữ đủ 600 giây.
 
 Ngày 27/11/2026: đồng bộ lại toàn bộ 35 folder ảnh (118 lượt ảnh); bỏ chỉ tiêu kỳ thi KHKT TP ở slide 32 và tạo lại riêng voice 32. Bản chiếu ưu tiên phần chữ, thu nhỏ thumbnail trước khi ảnh mở toàn màn hình. Chữ nội dung 48–62 px ở Full HD, 64–83 px ở QHD tùy độ dài nội dung; bảng biểu và chú thích cũng tăng cỡ. Slide cuối tăng ba dòng chủ đề lên khoảng 134 px/179 px. Giữ các cụm từ trên cùng dòng và chuyển về khoảng cách tự nhiên ở những đoạn căn đều gây giãn từ quá mức.
 

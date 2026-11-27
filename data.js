@@ -9,13 +9,13 @@ window.ccvcSlides = [
     "group": "HỘI NGHỊ CCVC",
     "voice": "assets/voice/b72b12c87a3a7be0b413.mp3",
     "voiceDuration": 10.46,
-    "durationSeconds": 11.0
+    "durationSeconds": 11.1
   },
   {
     "title": "Đội ngũ nhà trường",
     "body": [
       "116 Giáo viên (100% đạt chuẩn, 46 Thạc sĩ, 03 đang học Cao học) và 22 Nhân viên.",
-      "Ban Giám hiệu gồm 01 Hiệu trưởng và 03 Phó Hiệu trưởng."
+      "Ban Giám hiệu gồm 01 Hiệu trưởng và 02 Phó hiệu trưởng."
     ],
     "images": [
       "assets/media/ba249424f05d2fbc569d.webp",
@@ -32,8 +32,8 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "voice": "assets/voice/a56c9014a13cbd752a6c.mp3",
-    "voiceDuration": 12.26,
+    "voice": "assets/voice/7e3446704f5825a7dad9.mp3",
+    "voiceDuration": 12.46,
     "durationSeconds": 23.9
   },
   {
@@ -53,7 +53,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/27be017a0459037235de.mp3",
     "voiceDuration": 19.82,
-    "durationSeconds": 20.5
+    "durationSeconds": 20.6
   },
   {
     "title": "Đổi mới phương pháp dạy học",
@@ -96,7 +96,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/24d7591f7a1bf7364955.mp3",
     "voiceDuration": 13.0,
-    "durationSeconds": 58.1
+    "durationSeconds": 58.2
   },
   {
     "title": "Chuyển đổi số và học liệu số",
@@ -112,7 +112,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/121cf2f1c47a16748162.mp3",
     "voiceDuration": 13.58,
-    "durationSeconds": 14.2
+    "durationSeconds": 14.3
   },
   {
     "title": "Kết quả rèn luyện",
@@ -126,7 +126,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/a5b793c9c019698a9fab.mp3",
     "voiceDuration": 14.88,
-    "durationSeconds": 15.5
+    "durationSeconds": 15.6
   },
   {
     "title": "Kết quả học tập",
@@ -140,12 +140,12 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/db0c29badc2066d7660f.mp3",
     "voiceDuration": 19.25,
-    "durationSeconds": 19.9
+    "durationSeconds": 20.0
   },
   {
     "title": "Tốt nghiệp THPT và đại học",
     "body": [
-      "Tốt nghiệp: 100% (K12) Tỉ lệ Đậu Đại học (thống kê 30/8/2026): 97,53%",
+      "Tỉ lệ Đậu Đại học (thống kê 30/8/2026): 97,53%",
       "Điểm TB 3 môn thi: 22,93 điểm",
       "(Năm 2025: 22,85)",
       "11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Tiếng Anh 2 bài)."
@@ -153,9 +153,9 @@ window.ccvcSlides = [
     "images": [],
     "mode": "graduation-chart",
     "group": "TỔNG KẾT · 2025–2026",
-    "voice": "assets/voice/2038884cf176d555a0b8.mp3",
-    "voiceDuration": 17.78,
-    "durationSeconds": 18.4
+    "voice": "assets/voice/7d136af195055eb8ce62.mp3",
+    "voiceDuration": 15.14,
+    "durationSeconds": 15.9
   },
   {
     "title": "Thành tích các kỳ thi",
@@ -171,7 +171,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/1baa76419bf39fbec8db.mp3",
     "voiceDuration": 19.28,
-    "durationSeconds": 19.9
+    "durationSeconds": 20.0
   },
   {
     "title": "Thành tích Olympic",
@@ -201,7 +201,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/ed56b5d0a6dc35defc92.mp3",
     "voiceDuration": 13.89,
-    "durationSeconds": 14.5
+    "durationSeconds": 14.6
   },
   {
     "title": "Công tác xã hội và thiện nguyện",
@@ -234,7 +234,7 @@ window.ccvcSlides = [
     "intro": "Các hoạt động thiện nguyện, công tác xã hội được thực hiện xuyên suốt trong năm học:",
     "voice": "assets/voice/acf5045014ea97b648a4.mp3",
     "voiceDuration": 21.75,
-    "durationSeconds": 31.1
+    "durationSeconds": 31.3
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
@@ -276,7 +276,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/967df8eb93ca167129fd.mp3",
     "voiceDuration": 14.35,
-    "durationSeconds": 15.0
+    "durationSeconds": 15.1
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -290,7 +290,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/c7039823cca0edee79c3.mp3",
     "voiceDuration": 10.96,
-    "durationSeconds": 11.5
+    "durationSeconds": 11.6
   },
   {
     "title": "Câu lạc bộ và hướng nghiệp",
@@ -328,7 +328,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/d06aca5cdff48a5c46ea.mp3",
     "voiceDuration": 17.66,
-    "durationSeconds": 18.3
+    "durationSeconds": 18.4
   },
   {
     "title": "Hoạt động Công đoàn",
@@ -360,7 +360,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/9058a4fef35287f564e3.mp3",
     "voiceDuration": 18.14,
-    "durationSeconds": 31.1
+    "durationSeconds": 31.2
   },
   {
     "title": "Danh hiệu tập thể sư phạm",
@@ -376,21 +376,21 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/fa86e6b68bf06c197ae5.mp3",
     "voiceDuration": 16.48,
-    "durationSeconds": 17.1
+    "durationSeconds": 17.2
   },
   {
     "title": "Kết quả thi đua các tổ chức",
     "body": [
       "Chi bộ:  Hoàn thành Tốt nhiệm vụ",
-      "Công đoàn:  Hoàn thành Tốt nhiệm vụ",
+      "Công đoàn: Hoàn thành xuất sắc nhiệm vụ",
       "Đoàn TNCS: Hoàn thành Xuất sắc nhiệm vụ; Bằng Khen Thành Đoàn."
     ],
     "images": [],
     "mode": "",
     "group": "TỔNG KẾT · 2025–2026",
-    "voice": "assets/voice/341a04f424272a639f93.mp3",
-    "voiceDuration": 7.76,
-    "durationSeconds": 8.3
+    "voice": "assets/voice/a6643dead3129c472442.mp3",
+    "voiceDuration": 7.84,
+    "durationSeconds": 8.5
   },
   {
     "title": "Chủ đề năm học 2026 - 2027",
@@ -402,7 +402,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0f0411357c0c0b680223.mp3",
     "voiceDuration": 6.32,
-    "durationSeconds": 6.9
+    "durationSeconds": 7.0
   },
   {
     "title": "Quy mô năm học mới",
@@ -415,7 +415,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/d828d3435a5b4e1b9345.mp3",
     "voiceDuration": 21.78,
-    "durationSeconds": 22.4
+    "durationSeconds": 22.6
   },
   {
     "title": "Định hướng chiến lược",
@@ -429,7 +429,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f67032096883dd1210a4.mp3",
     "voiceDuration": 13.64,
-    "durationSeconds": 14.3
+    "durationSeconds": 14.4
   },
   {
     "title": "Đổi mới giảng dạy và chuyển đổi số",
@@ -447,7 +447,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0c7309897112ce76ab4e.mp3",
     "voiceDuration": 13.27,
-    "durationSeconds": 13.9
+    "durationSeconds": 14.0
   },
   {
     "title": "STEM và không gian học tập mở",
@@ -496,7 +496,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/27faf5773869c805021e.mp3",
     "voiceDuration": 8.16,
-    "durationSeconds": 8.7
+    "durationSeconds": 8.8
   },
   {
     "title": "Hoạt động giáo dục theo nhu cầu",
@@ -510,9 +510,9 @@ window.ccvcSlides = [
     ],
     "mode": "",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "voice": "assets/voice/6712ea1577277dbbe4df.mp3",
-    "voiceDuration": 11.92,
-    "durationSeconds": 12.6
+    "voice": "assets/voice/d966b90db85007760d50.mp3",
+    "voiceDuration": 11.44,
+    "durationSeconds": 12.1
   },
   {
     "title": "AI, nghệ thuật và kỹ năng sống",
@@ -530,7 +530,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0f5d842485f60dfc5e66.mp3",
     "voiceDuration": 13.82,
-    "durationSeconds": 14.5
+    "durationSeconds": 14.6
   },
   {
     "title": "Chỉ tiêu thi đua tập thể và cá nhân",
@@ -548,7 +548,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f2d2a56dfa8d0af6adad.mp3",
     "voiceDuration": 19.1,
-    "durationSeconds": 19.7
+    "durationSeconds": 19.8
   },
   {
     "title": "Chỉ tiêu học tập và rèn luyện",
@@ -566,7 +566,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/214ccb77876700a5ad8e.mp3",
     "voiceDuration": 13.45,
-    "durationSeconds": 14.1
+    "durationSeconds": 14.2
   },
   {
     "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
@@ -580,7 +580,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/a0a49161f20b58976ac6.mp3",
     "voiceDuration": 11.14,
-    "durationSeconds": 11.7
+    "durationSeconds": 11.8
   },
   {
     "title": "Môi trường và quản lý giáo dục",
@@ -596,7 +596,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/e7a9e8375d0368860f9b.mp3",
     "voiceDuration": 13.08,
-    "durationSeconds": 13.7
+    "durationSeconds": 13.8
   },
   {
     "title": "Cơ sở vật chất",
@@ -609,7 +609,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/2e5da1ca59e92cdb71f0.mp3",
     "voiceDuration": 10.21,
-    "durationSeconds": 10.8
+    "durationSeconds": 10.9
   },
   {
     "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
@@ -621,6 +621,6 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/ec1284fbc8fd5c12cec8.mp3",
     "voiceDuration": 9.84,
-    "durationSeconds": 10.4
+    "durationSeconds": 10.5
   }
 ];

@@ -50,11 +50,9 @@ function assessmentChart(slide) {
 function graduationChart(slide) {
   const chart = make('div', 'graduation-chart');
   const outcomes = make('div', 'chart-outcomes');
-  for (const [value, label] of [['100%', 'Tốt nghiệp THPT · khối 12'], ['97,53%', 'Trúng tuyển đại học đợt 1 · 30/8/2026']]) {
-    const item = make('div');
-    item.append(make('strong', '', value), make('p', '', label));
-    outcomes.append(item);
-  }
+  const outcome = make('div');
+  outcome.append(make('strong', '', '97,53%'), make('p', '', 'Trúng tuyển đại học đợt 1 · 30/8/2026'));
+  outcomes.append(outcome);
   const scores = make('div', 'chart-scores');
   for (const [label, value] of [['Năm 2025', '22,85'], ['Năm 2026', '22,93'], ['So với 2025', '+0,08']]) {
     const item = make('div');

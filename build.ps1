@@ -23,6 +23,9 @@ if ($paragraphs.Count -ne 137 -or $paragraphs[9] -notmatch '116' -or $paragraphs
   throw 'The source outline has changed; review the paragraph mapping before rebuilding.'
 }
 # Approved corrections apply to the presentation without rewriting the source Word file.
+$paragraphs[10] = 'Ban Giám hiệu gồm 01 Hiệu trưởng và 02 Phó hiệu trưởng.'
+$paragraphs[40] = $paragraphs[40] -replace '^Tốt nghiệp:\s*100%\s*\(K12\)\s*', ''
+$paragraphs[87] = 'Công đoàn: Hoàn thành xuất sắc nhiệm vụ'
 $paragraphs[38] = $paragraphs[38] -replace '1\.691', '1.619'
 $paragraphs[43] = '11 bài điểm 10 (Toán 6 bài, Lý 1 bài, Sử 2 bài, Tiếng Anh 2 bài).'
 $paragraphs[51] = $paragraphs[51] -replace '\bHC\s+', 'huy chương ' -replace '(\d+)\s+(Vàng|Bạc|Đồng)', '$1 huy chương $2'
