@@ -1,6 +1,6 @@
-# CCVC · THPT Phú Nhuận
+# Hội nghị Viên chức và Người lao động năm học 2026 - 2027 · THPT Phú Nhuận
 
-Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cuộn hoặc các phím mũi tên, Page Up/Down, Home/End. Bản tự chạy có lời đọc riêng cho 35 slide, dùng giọng Ngọc Huyền; không lấy lời đọc cũ của CMHS.
+Bản chiếu Hội nghị Viên chức và Người lao động năm học 2026 - 2027, xem trực tiếp bằng `index.html`. Dùng cuộn hoặc các phím mũi tên, Page Up/Down, Home/End. Bản tự chạy có lời đọc riêng cho 35 slide, dùng giọng Ngọc Huyền; không lấy lời đọc cũ của CMHS.
 
 - Thư mục làm việc: `C:\Users\rongl\OneDrive\2026 - 2027\Cô Tâm\CCVC\website`. Hai file Word nguồn và folder ảnh kiểm duyệt ở thư mục CCVC phía trên, không bị ghi đè.
 - Nguồn nội dung: `../BÁO CÁO NH 25-26-PHƯƠNG HƯỚNG-26-27-rut gon.docx`.
@@ -21,7 +21,7 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 
 Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự chạy cùng lời đọc. Nếu trình duyệt chặn tự phát âm thanh, bấm “Bật tiếng và bắt đầu”; trang không tự chuyển trong lúc chờ cấp quyền. `index.html` không có tham số dùng để kiểm tra thủ công, không phát tiếng.
 
-35 lời đọc dài tổng cộng 484,11 giây; lịch trình chiếu đúng 600 giây (10 phút), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; ảnh bắt đầu sau 4 giây, thời gian còn lại chia đều cho số ảnh của trang (ít nhất 1,8 giây/ảnh). Hai trang nền mở đầu và kết thúc không chạy lớp ảnh. Phần thời gian dư được chia theo độ dài lời đọc, làm tròn theo phần dư lớn nhất để giữ tổng chính xác 600 giây. Build sẽ báo lỗi nếu voice và số ảnh tối thiểu không thể nằm trong 10 phút. Không tăng tốc lời đọc. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
+35 lời đọc dài tổng cộng 485,44 giây; lịch trình chiếu đúng 600 giây (10 phút), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; ảnh bắt đầu sau 4 giây, thời gian còn lại chia đều cho số ảnh của trang (ít nhất 1,8 giây/ảnh). Hai trang nền mở đầu và kết thúc không chạy lớp ảnh. Phần thời gian dư được chia theo độ dài lời đọc, làm tròn theo phần dư lớn nhất để giữ tổng chính xác 600 giây. Build sẽ báo lỗi nếu voice và số ảnh tối thiểu không thể nằm trong 10 phút. Không tăng tốc lời đọc. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
 
 `timeline.json` có mốc, thời lượng từng trang, số ảnh và số giây mỗi ảnh, được tạo lại bởi `build.ps1`. Đây là bản web đã ghép lời, chưa xuất MP4 mới. Thời gian chờ quyền phát âm thanh, tải dữ liệu hoặc tạm dừng tab không tính vào 10 phút trình chiếu.
 

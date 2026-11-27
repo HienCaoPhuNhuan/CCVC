@@ -74,7 +74,7 @@ function Slide($title, [int[]]$lines, [string[]]$photos = @(), $mode = '') {
   $body = @($body | ForEach-Object { $value = $_.Trim(); if ($value) { $value.Substring(0,1).ToUpper() + $value.Substring(1) } })
   $slides.Add([ordered]@{title=$title; body=$body; images=$images; mode=$mode; group=$group})
 }
-$group = 'HỘI NGHỊ CCVC'
+$group = 'Hội nghị Viên chức và Người lao động năm học 2026 - 2027'
 Slide 'Trường THPT Phú Nhuận' @() @('00:0') 'cover'
 $group = 'TỔNG KẾT · 2025–2026'
 Slide 'Đội ngũ nhà trường' @(9,10) @('01:0','01:11')

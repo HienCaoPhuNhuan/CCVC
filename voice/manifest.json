@@ -2,11 +2,11 @@
   "voice": "Ngọc Huyền",
   "slides": {
     "1": {
-      "src": "assets/voice/b72b12c87a3a7be0b413.mp3",
-      "duration": 10.46,
-      "textHash": "9e2480d0a8d91e7d49374fbc8f96f43cc9840ddf132f37960fcd9449364af19d",
-      "rms": 0.1157,
-      "peak": 0.5674
+      "src": "assets/voice/10e303f252dd4764503c.mp3",
+      "duration": 11.79,
+      "textHash": "b4531a450a450abbb30f919cfb13a76400daeee250327c065843a8d9453a2f38",
+      "rms": 0.1139,
+      "peak": 0.748
     },
     "2": {
       "src": "assets/voice/7e3446704f5825a7dad9.mp3",

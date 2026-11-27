@@ -6,10 +6,10 @@ window.ccvcSlides = [
       "assets/media/d7bcde6a650dac4919d2.webp"
     ],
     "mode": "cover",
-    "group": "HỘI NGHỊ CCVC",
-    "voice": "assets/voice/b72b12c87a3a7be0b413.mp3",
-    "voiceDuration": 10.46,
-    "durationSeconds": 11.1
+    "group": "Hội nghị Viên chức và Người lao động năm học 2026 - 2027",
+    "voice": "assets/voice/10e303f252dd4764503c.mp3",
+    "voiceDuration": 11.79,
+    "durationSeconds": 12.4
   },
   {
     "title": "Đội ngũ nhà trường",
@@ -96,7 +96,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/24d7591f7a1bf7364955.mp3",
     "voiceDuration": 13.0,
-    "durationSeconds": 58.2
+    "durationSeconds": 58.1
   },
   {
     "title": "Chuyển đổi số và học liệu số",
@@ -112,7 +112,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/121cf2f1c47a16748162.mp3",
     "voiceDuration": 13.58,
-    "durationSeconds": 14.3
+    "durationSeconds": 14.2
   },
   {
     "title": "Kết quả rèn luyện",
@@ -126,7 +126,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/a5b793c9c019698a9fab.mp3",
     "voiceDuration": 14.88,
-    "durationSeconds": 15.6
+    "durationSeconds": 15.5
   },
   {
     "title": "Kết quả học tập",
@@ -155,7 +155,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/7d136af195055eb8ce62.mp3",
     "voiceDuration": 15.14,
-    "durationSeconds": 15.9
+    "durationSeconds": 15.8
   },
   {
     "title": "Thành tích các kỳ thi",
@@ -201,7 +201,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/ed56b5d0a6dc35defc92.mp3",
     "voiceDuration": 13.89,
-    "durationSeconds": 14.6
+    "durationSeconds": 14.5
   },
   {
     "title": "Công tác xã hội và thiện nguyện",
@@ -234,7 +234,7 @@ window.ccvcSlides = [
     "intro": "Các hoạt động thiện nguyện, công tác xã hội được thực hiện xuyên suốt trong năm học:",
     "voice": "assets/voice/acf5045014ea97b648a4.mp3",
     "voiceDuration": 21.75,
-    "durationSeconds": 31.3
+    "durationSeconds": 31.2
   },
   {
     "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
@@ -276,7 +276,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/967df8eb93ca167129fd.mp3",
     "voiceDuration": 14.35,
-    "durationSeconds": 15.1
+    "durationSeconds": 15.0
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -415,7 +415,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/d828d3435a5b4e1b9345.mp3",
     "voiceDuration": 21.78,
-    "durationSeconds": 22.6
+    "durationSeconds": 22.5
   },
   {
     "title": "Định hướng chiến lược",
@@ -429,7 +429,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f67032096883dd1210a4.mp3",
     "voiceDuration": 13.64,
-    "durationSeconds": 14.4
+    "durationSeconds": 14.3
   },
   {
     "title": "Đổi mới giảng dạy và chuyển đổi số",
@@ -447,7 +447,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0c7309897112ce76ab4e.mp3",
     "voiceDuration": 13.27,
-    "durationSeconds": 14.0
+    "durationSeconds": 13.9
   },
   {
     "title": "STEM và không gian học tập mở",
@@ -530,7 +530,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0f5d842485f60dfc5e66.mp3",
     "voiceDuration": 13.82,
-    "durationSeconds": 14.6
+    "durationSeconds": 14.5
   },
   {
     "title": "Chỉ tiêu thi đua tập thể và cá nhân",
@@ -566,7 +566,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/214ccb77876700a5ad8e.mp3",
     "voiceDuration": 13.45,
-    "durationSeconds": 14.2
+    "durationSeconds": 14.1
   },
   {
     "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
@@ -596,7 +596,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/e7a9e8375d0368860f9b.mp3",
     "voiceDuration": 13.08,
-    "durationSeconds": 13.8
+    "durationSeconds": 13.7
   },
   {
     "title": "Cơ sở vật chất",
