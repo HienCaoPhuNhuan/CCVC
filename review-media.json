@@ -89,10 +89,10 @@
       "folder": "03 - Quy mô và các tổ chức",
       "images": [
         {
-          "src": "assets/media/e92354102399da2fb8c9.webp",
-          "source": "03 - Quy mô và các tổ chức/14-DSC06133.jpg",
+          "src": "assets/media/f9b832804899ce5c298e.webp",
+          "source": "03 - Quy mô và các tổ chức/2aOboRFUnRyVixRAonRFBKFVfkrnIybc4RjbYW4e.jpg",
           "width": 1920,
-          "height": 1280
+          "height": 854
         }
       ]
     },
@@ -269,44 +269,14 @@
           "height": 1272
         },
         {
-          "src": "assets/media/e4338f82a09847ba9635.webp",
-          "source": "04 - Đổi mới phương pháp dạy học/Hội khỏe phù đổng.jpg",
-          "width": 1920,
-          "height": 1280
-        },
-        {
           "src": "assets/media/eec453f44a406e0eb65a.webp",
           "source": "04 - Đổi mới phương pháp dạy học/IMG_8502.jpg",
           "width": 1920,
           "height": 1280
         },
         {
-          "src": "assets/media/afc364cb1b7846fcec0f.webp",
-          "source": "04 - Đổi mới phương pháp dạy học/IMG_8788.jpg",
-          "width": 1920,
-          "height": 1280
-        },
-        {
           "src": "assets/media/9c361bbce37d3d29b1ee.webp",
           "source": "04 - Đổi mới phương pháp dạy học/Khi tôi là đại sứ du lịch.JPG",
-          "width": 1920,
-          "height": 1275
-        },
-        {
-          "src": "assets/media/562c8b7ab4db820665e5.webp",
-          "source": "04 - Đổi mới phương pháp dạy học/Quốc phòng.jpg",
-          "width": 1920,
-          "height": 1275
-        },
-        {
-          "src": "assets/media/f15c7df3a577a8f221b8.webp",
-          "source": "04 - Đổi mới phương pháp dạy học/Sắc màu văn học.jpg",
-          "width": 1920,
-          "height": 1280
-        },
-        {
-          "src": "assets/media/4ae43108310a1aa9578c.webp",
-          "source": "04 - Đổi mới phương pháp dạy học/Toán.JPG",
           "width": 1920,
           "height": 1275
         }
@@ -559,10 +529,10 @@
       "folder": "14 - Thành tích Đoàn Thanh niên",
       "images": [
         {
-          "src": "assets/media/ef34093e1979d3da7305.webp",
-          "source": "14 - Thành tích Đoàn Thanh niên/01-d360dcff54ad0cdb51a5.webp",
+          "src": "assets/media/6c4f7b9384553fe55104.webp",
+          "source": "14 - Thành tích Đoàn Thanh niên/843264815_952844761228750_678448207765407369_n.jpg",
           "width": 1920,
-          "height": 1278
+          "height": 1193
         }
       ]
     },
@@ -666,20 +636,26 @@
           "height": 1280
         },
         {
+          "src": "assets/media/014d2a34669cbd66c481.webp",
+          "source": "18 - Hoạt động Công đoàn/DSC00091.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/15e982db8eb4a4c8a562.webp",
+          "source": "18 - Hoạt động Công đoàn/DSC00250.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/801913936335a158a9b0.webp",
+          "source": "18 - Hoạt động Công đoàn/DSC00353.JPG",
+          "width": 1920,
+          "height": 1280
+        },
+        {
           "src": "assets/media/b02879d6f08641849e34.webp",
           "source": "18 - Hoạt động Công đoàn/IMG20250815094734.jpg",
-          "width": 1920,
-          "height": 1083
-        },
-        {
-          "src": "assets/media/e05ef16e00e29a678b77.webp",
-          "source": "18 - Hoạt động Công đoàn/IMG20251004165002.jpg",
-          "width": 1920,
-          "height": 1083
-        },
-        {
-          "src": "assets/media/22b72a49a894ba602040.webp",
-          "source": "18 - Hoạt động Công đoàn/IMG20251004175656.jpg",
           "width": 1920,
           "height": 1083
         },
@@ -767,6 +743,18 @@
           "source": "24 - Đổi mới giảng dạy và chuyển đổi số/02 - 4-DSC09143.jpg",
           "width": 1920,
           "height": 1080
+        },
+        {
+          "src": "assets/media/04573e9667f4ad76a530.webp",
+          "source": "24 - Đổi mới giảng dạy và chuyển đổi số/CEECxTHPTPN-105.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/afc364cb1b7846fcec0f.webp",
+          "source": "24 - Đổi mới giảng dạy và chuyển đổi số/IMG_8788.jpg",
+          "width": 1920,
+          "height": 1280
         }
       ]
     },
@@ -797,6 +785,12 @@
           "source": "25 - STEM và không gian học tập mở/04 - _DSC4673.jpg",
           "width": 1920,
           "height": 1279
+        },
+        {
+          "src": "assets/media/932bee3c418b4b812067.webp",
+          "source": "25 - STEM và không gian học tập mở/IMG_0423.jpg",
+          "width": 1920,
+          "height": 1280
         }
       ]
     },
@@ -858,8 +852,14 @@
           "height": 1280
         },
         {
-          "src": "assets/media/f15c7df3a577a8f221b8.webp",
-          "source": "29 - AI, nghệ thuật và kỹ năng sống/03 - Sắc màu văn học.jpg",
+          "src": "assets/media/1250a25ee621dd53dfaa.webp",
+          "source": "29 - AI, nghệ thuật và kỹ năng sống/IMG_0436.jpg",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/media/b6d61c5666dda42c6032.webp",
+          "source": "29 - AI, nghệ thuật và kỹ năng sống/IMG_0441.jpg",
           "width": 1920,
           "height": 1280
         }

@@ -2,10 +2,11 @@
 
 Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cuộn hoặc các phím mũi tên, Page Up/Down, Home/End. Bản tự chạy có lời đọc riêng cho 35 slide, dùng giọng Ngọc Huyền; không lấy lời đọc cũ của CMHS.
 
-- Nguồn nội dung: `BÁO CÁO NH 25-26-PHƯƠNG HƯỚNG-26-27-rut gon.docx` trong thư mục CCVC.
+- Thư mục làm việc: `C:\Users\rongl\OneDrive\2026 - 2027\Cô Tâm\CCVC\website`. Hai file Word nguồn và folder ảnh kiểm duyệt ở thư mục CCVC phía trên, không bị ghi đè.
+- Nguồn nội dung: `../BÁO CÁO NH 25-26-PHƯƠNG HƯỚNG-26-27-rut gon.docx`.
 - `photo-map.json` ghi nguồn ảnh theo slide. Chỉ các ảnh được dùng mới được đưa vào repo.
 - Nguồn ảnh đã chuyển sang 35 folder trong `../Anh-kiem-duyet-CCVC`. `review-media.json` chứa ảnh theo đúng số slide. Folder trống nghĩa là slide không dùng ảnh. Ảnh gốc không bị sửa; các bản tối ưu nằm trong `assets/media`.
-- `build.ps1` trích nội dung Word và ghép ảnh từ bộ thử nghiệm cũ. Truyền `-Source` và `-OldSlides` để dùng đường dẫn khác. `data.js` được tạo sẵn nên không cần Word hoặc Node để trình chiếu.
+- `build.ps1` trích nội dung Word và ghép ảnh đã kiểm duyệt trong `review-media.json`. `-OldSlides` chỉ là nguồn dự phòng nếu chưa có danh sách ảnh kiểm duyệt. `data.js` được tạo sẵn nên không cần Word hoặc Node để trình chiếu.
 - Dòng ghi chú đặt ảnh/bố cục không đưa lên slide; mục khen thưởng Tháng Thanh niên trùng nguyên văn chỉ hiện một lần.
 
 ## Các điểm cần xác nhận với người phụ trách báo cáo
@@ -20,13 +21,13 @@ Bản chiếu Hội nghị CCVC, xem trực tiếp bằng `index.html`. Dùng cu
 
 Mở `tu-chay-10-phut.html` (chuyển tới `index.html?autoplay=1`) để tự chạy cùng lời đọc. Nếu trình duyệt chặn tự phát âm thanh, bấm “Bật tiếng và bắt đầu”; trang không tự chuyển trong lúc chờ cấp quyền. `index.html` không có tham số dùng để kiểm tra thủ công, không phát tiếng.
 
-35 lời đọc dài tổng cộng 490,22 giây; lịch hình khoảng 601,7 giây (10 phút 2 giây), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; trang nhiều ảnh có thêm thời gian xem ảnh. Không tăng tốc lời đọc để ép về đúng 600 giây. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
+35 lời đọc dài tổng cộng 486,95 giây; lịch trình chiếu đúng 600 giây (10 phút), chia theo độ dài voice và lượng ảnh. Mỗi trang giữ ít nhất hết lời đọc và 0,5 giây đệm; ảnh bắt đầu sau 4 giây, thời gian còn lại chia đều cho số ảnh của trang (ít nhất 1,8 giây/ảnh). Hai trang nền mở đầu và kết thúc không chạy lớp ảnh. Phần thời gian dư được chia theo độ dài lời đọc, làm tròn theo phần dư lớn nhất để giữ tổng chính xác 600 giây. Build sẽ báo lỗi nếu voice và số ảnh tối thiểu không thể nằm trong 10 phút. Không tăng tốc lời đọc. Đồng hồ dùng vị trí phát audio, nên chờ tải âm thanh không cắt mất lời. Khi ẩn tab, âm thanh và thời gian xem ảnh cùng tạm dừng. Chuyển trang thủ công sẽ dừng voice cũ và phát đúng voice của trang mới.
 
-`timeline.json` có mốc và thời lượng từng trang, được tạo lại bởi `build.ps1`. Đây là bản web đã ghép lời, chưa xuất MP4 mới.
+`timeline.json` có mốc, thời lượng từng trang, số ảnh và số giây mỗi ảnh, được tạo lại bởi `build.ps1`. Đây là bản web đã ghép lời, chưa xuất MP4 mới. Thời gian chờ quyền phát âm thanh, tải dữ liệu hoặc tạm dừng tab không tính vào 10 phút trình chiếu.
 
 ## Cập nhật ảnh và lời đọc
 
-1. Thay ảnh trong `../Anh-kiem-duyet-CCVC`, giữ đủ 35 folder. Chạy `scripts/import-review-media.py` bằng Python có Pillow và pillow-heif (môi trường cũ có trong `.local-tools/media-tools` của bản thử nghiệm CMHS).
+1. Thay ảnh trong `../Anh-kiem-duyet-CCVC`, giữ đủ 35 folder. Chạy `scripts/import-review-media.py` bằng Python. Thư viện ảnh và FFmpeg đã được sao chép vào `.local-tools/media-tools` của website, không còn phụ thuộc thư mục công cụ của bản CMHS; không đưa các thư viện này vào Git.
 2. Sửa lời đọc trong `voice/scripts.json` nếu cần. Chạy `scripts/generate-voice.py` bằng Python TTS local tại `C:\Users\rongl\Documents\Codex\2026-10-05\kie\work\vieneu-venv\Scripts\python.exe`. Có thể dùng `--slides 12 21` để chỉ tạo lại các trang đó. WAV nằm trong `voice/rendered`, không đưa vào Git; MP3 tối ưu và manifest được đưa vào repo riêng tư.
 3. Chạy `build.ps1` để ghép ảnh, voice và tính lại lịch. Script giữ các xác nhận của người dùng, không sửa file Word gốc.
 
@@ -39,6 +40,8 @@ Chủ đề slide 21 nhấn sáng nhẹ liên tục trong lúc hiện trên màn
 Chỉnh tiếp ngày 27/11: sửa đầu câu và bỏ các nhãn thừa ở slide 4, 5, 27, 33, 34; bỏ số thứ tự dư ở slide 30. Trang chủ đề hiện là slide 21, giữ slide 19 là Danh hiệu tập thể sư phạm theo xác nhận. Slide 35 trình bày ba dòng chủ đề canh giữa, có hiệu ứng phóng to. Chỉ tạo lại voice 3, 9, 35; voice kết dẫn kết thúc và cảm ơn, không đọc lại chủ đề.
 
 Website CMHS và các bản MP4 cũ không thay đổi.
+
+Ngày 27/11/2026: đồng bộ lại toàn bộ 35 folder ảnh (118 lượt ảnh); bỏ chỉ tiêu kỳ thi KHKT TP ở slide 32 và tạo lại riêng voice 32. Bản chiếu ưu tiên phần chữ, thu nhỏ thumbnail trước khi ảnh mở toàn màn hình. Chữ nội dung 48–62 px ở Full HD, 64–83 px ở QHD tùy độ dài nội dung; bảng biểu và chú thích cũng tăng cỡ. Slide cuối tăng ba dòng chủ đề lên khoảng 134 px/179 px. Giữ các cụm từ trên cùng dòng và chuyển về khoảng cách tự nhiên ở những đoạn căn đều gây giãn từ quá mức.
 
 ## Quy ước trình bày
 

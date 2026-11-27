@@ -1,181 +1,286 @@
 {
-  "totalSeconds": 601.7,
+  "totalSeconds": 600.0,
   "voiceReady": true,
   "slides": [
     {
       "title": "Trường THPT Phú Nhuận",
       "startSeconds": 0.0,
-      "durationSeconds": 11.3
+      "durationSeconds": 11.0,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Đội ngũ nhà trường",
-      "startSeconds": 11.3,
-      "durationSeconds": 22.0
+      "startSeconds": 11.0,
+      "durationSeconds": 23.9,
+      "imageCount": 11,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.809
     },
     {
       "title": "Quy mô và các tổ chức",
-      "startSeconds": 33.3,
-      "durationSeconds": 20.9
+      "startSeconds": 34.9,
+      "durationSeconds": 20.5,
+      "imageCount": 1,
+      "contentSeconds": 4,
+      "secondsPerImage": 16.5
     },
     {
       "title": "Đổi mới phương pháp dạy học",
-      "startSeconds": 54.2,
-      "durationSeconds": 60.4
+      "startSeconds": 55.4,
+      "durationSeconds": 58.1,
+      "imageCount": 30,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.803
     },
     {
       "title": "Chuyển đổi số và học liệu số",
-      "startSeconds": 114.6,
-      "durationSeconds": 14.5
+      "startSeconds": 113.5,
+      "durationSeconds": 14.2,
+      "imageCount": 3,
+      "contentSeconds": 4,
+      "secondsPerImage": 3.4
     },
     {
       "title": "Kết quả rèn luyện",
-      "startSeconds": 129.1,
-      "durationSeconds": 15.8
+      "startSeconds": 127.7,
+      "durationSeconds": 15.5,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Kết quả học tập",
-      "startSeconds": 144.9,
-      "durationSeconds": 20.3
+      "startSeconds": 143.2,
+      "durationSeconds": 19.9,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Tốt nghiệp THPT và đại học",
-      "startSeconds": 165.2,
-      "durationSeconds": 18.8
+      "startSeconds": 163.1,
+      "durationSeconds": 18.4,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Thành tích các kỳ thi",
-      "startSeconds": 184.0,
-      "durationSeconds": 20.3
+      "startSeconds": 181.5,
+      "durationSeconds": 19.9,
+      "imageCount": 1,
+      "contentSeconds": 4,
+      "secondsPerImage": 15.9
     },
     {
       "title": "Thành tích Olympic",
-      "startSeconds": 204.3,
-      "durationSeconds": 13.4
+      "startSeconds": 201.4,
+      "durationSeconds": 13.2,
+      "imageCount": 2,
+      "contentSeconds": 4,
+      "secondsPerImage": 4.6
     },
     {
       "title": "Thành tích thể dục thể thao",
-      "startSeconds": 217.7,
-      "durationSeconds": 14.8
+      "startSeconds": 214.6,
+      "durationSeconds": 14.5,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Công tác xã hội và thiện nguyện",
-      "startSeconds": 232.5,
-      "durationSeconds": 28.6
+      "startSeconds": 229.1,
+      "durationSeconds": 31.1,
+      "imageCount": 15,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.807
     },
     {
       "title": "Thắp sáng ước mơ tuổi trẻ Việt Nam",
-      "startSeconds": 261.1,
-      "durationSeconds": 22.0
+      "startSeconds": 260.2,
+      "durationSeconds": 23.9,
+      "imageCount": 11,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.809
     },
     {
       "title": "Thành tích Đoàn Thanh niên",
-      "startSeconds": 283.1,
-      "durationSeconds": 15.3
+      "startSeconds": 284.1,
+      "durationSeconds": 15.0,
+      "imageCount": 1,
+      "contentSeconds": 4,
+      "secondsPerImage": 11.0
     },
     {
       "title": "Thành tích Đoàn Thanh niên",
-      "startSeconds": 298.4,
-      "durationSeconds": 11.8
+      "startSeconds": 299.1,
+      "durationSeconds": 11.5,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Câu lạc bộ và hướng nghiệp",
-      "startSeconds": 310.2,
-      "durationSeconds": 14.0
+      "startSeconds": 310.6,
+      "durationSeconds": 14.9,
+      "imageCount": 6,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.817
     },
     {
       "title": "Thành tích câu lạc bộ",
-      "startSeconds": 324.2,
-      "durationSeconds": 18.7
+      "startSeconds": 325.5,
+      "durationSeconds": 18.3,
+      "imageCount": 3,
+      "contentSeconds": 4,
+      "secondsPerImage": 4.767
     },
     {
       "title": "Hoạt động Công đoàn",
-      "startSeconds": 342.9,
-      "durationSeconds": 26.9
+      "startSeconds": 343.8,
+      "durationSeconds": 31.1,
+      "imageCount": 15,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.807
     },
     {
       "title": "Danh hiệu tập thể sư phạm",
-      "startSeconds": 369.8,
-      "durationSeconds": 17.5
+      "startSeconds": 374.9,
+      "durationSeconds": 17.1,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Kết quả thi đua các tổ chức",
-      "startSeconds": 387.3,
-      "durationSeconds": 8.5
+      "startSeconds": 392.0,
+      "durationSeconds": 8.3,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Chủ đề năm học 2026 - 2027",
-      "startSeconds": 395.8,
-      "durationSeconds": 7.0
+      "startSeconds": 400.3,
+      "durationSeconds": 6.9,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Quy mô năm học mới",
-      "startSeconds": 402.8,
-      "durationSeconds": 22.9
+      "startSeconds": 407.2,
+      "durationSeconds": 22.4,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Định hướng chiến lược",
-      "startSeconds": 425.7,
-      "durationSeconds": 14.5
+      "startSeconds": 429.6,
+      "durationSeconds": 14.3,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Đổi mới giảng dạy và chuyển đổi số",
-      "startSeconds": 440.2,
-      "durationSeconds": 14.2
+      "startSeconds": 443.9,
+      "durationSeconds": 13.9,
+      "imageCount": 4,
+      "contentSeconds": 4,
+      "secondsPerImage": 2.475
     },
     {
       "title": "STEM và không gian học tập mở",
-      "startSeconds": 454.4,
-      "durationSeconds": 12.3
+      "startSeconds": 457.8,
+      "durationSeconds": 13.1,
+      "imageCount": 5,
+      "contentSeconds": 4,
+      "secondsPerImage": 1.82
     },
     {
       "title": "Đổi mới kiểm tra đánh giá",
-      "startSeconds": 466.7,
-      "durationSeconds": 13.1
+      "startSeconds": 470.9,
+      "durationSeconds": 12.9,
+      "imageCount": 4,
+      "contentSeconds": 4,
+      "secondsPerImage": 2.225
     },
     {
       "title": "Hoạt động giáo dục tăng cường",
-      "startSeconds": 479.8,
-      "durationSeconds": 8.9
+      "startSeconds": 483.8,
+      "durationSeconds": 8.7,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Hoạt động giáo dục theo nhu cầu",
-      "startSeconds": 488.7,
-      "durationSeconds": 12.8
+      "startSeconds": 492.5,
+      "durationSeconds": 12.6,
+      "imageCount": 1,
+      "contentSeconds": 4,
+      "secondsPerImage": 8.6
     },
     {
       "title": "AI, nghệ thuật và kỹ năng sống",
-      "startSeconds": 501.5,
-      "durationSeconds": 14.7
+      "startSeconds": 505.1,
+      "durationSeconds": 14.5,
+      "imageCount": 3,
+      "contentSeconds": 4,
+      "secondsPerImage": 3.5
     },
     {
       "title": "Chỉ tiêu thi đua tập thể và cá nhân",
-      "startSeconds": 516.2,
-      "durationSeconds": 20.2
+      "startSeconds": 519.6,
+      "durationSeconds": 19.7,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Chỉ tiêu học tập và rèn luyện",
-      "startSeconds": 536.4,
-      "durationSeconds": 14.4
+      "startSeconds": 539.3,
+      "durationSeconds": 14.1,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
-      "startSeconds": 550.8,
-      "durationSeconds": 15.3
+      "startSeconds": 553.4,
+      "durationSeconds": 11.7,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Môi trường và quản lý giáo dục",
-      "startSeconds": 566.1,
-      "durationSeconds": 14.0
+      "startSeconds": 565.1,
+      "durationSeconds": 13.7,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Cơ sở vật chất",
-      "startSeconds": 580.1,
-      "durationSeconds": 11.0
+      "startSeconds": 578.8,
+      "durationSeconds": 10.8,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     },
     {
       "title": "Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất",
-      "startSeconds": 591.1,
-      "durationSeconds": 10.6
+      "startSeconds": 589.6,
+      "durationSeconds": 10.4,
+      "imageCount": 0,
+      "contentSeconds": 4,
+      "secondsPerImage": 0
     }
   ]
 }

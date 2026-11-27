@@ -22,7 +22,7 @@ wav_dir = root / 'voice/rendered'
 out = root / 'assets/voice'
 wav_dir.mkdir(parents=True, exist_ok=True)
 out.mkdir(parents=True, exist_ok=True)
-ffmpeg = root.parent / 'phu-nhuan-school-report-thu-nghiem/.local-tools/media-tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe'
+ffmpeg = root / '.local-tools/media-tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe'
 pending = []
 for item in scripts:
     if args.slides and item['slide'] not in args.slides:

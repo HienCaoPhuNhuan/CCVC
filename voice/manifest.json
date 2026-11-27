@@ -219,11 +219,11 @@
       "peak": 0.6647
     },
     "32": {
-      "src": "assets/voice/ec7efbc74e373e0adebc.mp3",
-      "duration": 14.41,
-      "textHash": "3fe8031d48e8c68bece5a518dce6016d361269a008b3bf60bfdd1791c0d6514b",
-      "rms": 0.1115,
-      "peak": 0.6618
+      "src": "assets/voice/a0a49161f20b58976ac6.mp3",
+      "duration": 11.14,
+      "textHash": "d558c16aee7e07d168bc1fe942b273c85755f97044136e0e26b14146f09b3bb1",
+      "rms": 0.1097,
+      "peak": 0.654
     },
     "33": {
       "src": "assets/voice/e7a9e8375d0368860f9b.mp3",

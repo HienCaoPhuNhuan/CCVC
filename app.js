@@ -4,7 +4,7 @@ const photoStage = window.createCcvcPhotoStage(reduced.matches);
 const make = (tag, className, text) => {
   const element = document.createElement(tag);
   if (className) element.className = className;
-  if (text) element.textContent = text.replace(/Hồ Chí Minh/gu, 'Hồ\u00a0Chí\u00a0Minh');
+  if (text) element.textContent = text;
   return element;
 };
 function assessmentChart(slide) {
@@ -105,6 +105,8 @@ function targetsTable(slide) {
 
 window.ccvcSlides.forEach((slide, position) => {
   const section = make('section', ['slide', slide.mode, slide.images.length && 'illustrated'].filter(Boolean).join(' '));
+  const contentLength = slide.body.join(' ').length;
+  section.classList.add(contentLength < 200 ? 'brief' : contentLength < 360 ? 'standard' : 'detailed');
   section.id = 'slide-' + (position + 1);
   const inner = make('div', 'inner');
   const header = make('header');
@@ -167,6 +169,7 @@ window.ccvcSlides.forEach((slide, position) => {
   deck.append(section);
 });
 const slides = [...deck.children];
+const compounds = /Hồ Chí Minh|Phú Nhuận|Tiếng Anh|tiếng Anh|chuyển đổi số|trí tuệ nhân tạo|Trí tuệ nhân tạo|học sinh|Học sinh|giáo viên|Giáo viên|nhân viên|Nhân viên|cán bộ|Cán bộ|công đoàn|Công đoàn|hướng nghiệp|kỹ năng|kỹ thuật|Kỹ thuật|chất lượng|kỷ cương|vượt khó|nhân văn|đáp nghĩa|sở thích|công tác|Công tác|giai đoạn|áp lực|đuối nước|Hội trại|năm học|thiên tai|đồng bào|học bổng|nhà trường|Nhà trường|cha mẹ|Cha mẹ|thành viên|phẩm chất|năng lực|đạo đức|trung học|thiện nguyện|tình nguyện|nghĩa tình|tình bạn|tinh khiết|khối (?:10|11|12)/gu;
 const phrases = /\b\d[\d.,/]*\s*(?:%|triệu đồng|đồng|tiết\/tuần|học sinh|giáo viên|nhân viên|điểm|bài(?: điểm 10)?|(?:huy chương|HC)(?: (?:Vàng|Bạc|Đồng))?|[Gg]iải(?: (?:Nhất|Nhì|Ba|Khuyến khích|tiềm năng))?)|Hoàn thành xuất sắc nhiệm vụ|[Gg]iải Khuyến khích|[Gg]iải tiềm năng|Cờ thi đua Thành phố|Tập thể Lao động [Xx]uất sắc/gu;
 for (const slide of slides) {
   const walker = document.createTreeWalker(slide.querySelector('.inner'), NodeFilter.SHOW_TEXT);
@@ -189,7 +192,47 @@ for (const slide of slides) {
   slide.querySelectorAll('.chart-table tbody td:last-child').forEach(cell => {
     cell.replaceChildren(make('mark', 'emphasis', cell.textContent));
   });
+  const phrasesWalker = document.createTreeWalker(slide.querySelector('.inner'), NodeFilter.SHOW_TEXT);
+  const phraseNodes = [];
+  while (phrasesWalker.nextNode()) phraseNodes.push(phrasesWalker.currentNode);
+  for (const node of phraseNodes) {
+    const matches = [...node.textContent.matchAll(compounds)];
+    if (!matches.length) continue;
+    const fragment = document.createDocumentFragment();
+    let start = 0;
+    for (const match of matches) {
+      fragment.append(document.createTextNode(node.textContent.slice(start, match.index)), make('span', 'keep-together', match[0]));
+      start = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(node.textContent.slice(start)));
+    node.replaceWith(fragment);
+  }
 }
+function limitWordSpacing() {
+  const paragraphs = [...deck.querySelectorAll('li')];
+  paragraphs.forEach(p => p.classList.remove('natural-spacing'));
+  const loose = paragraphs.filter(paragraph => {
+    const limit = parseFloat(getComputedStyle(paragraph).fontSize) * .42;
+    const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      if (walker.currentNode.parentElement.closest('.keep-together,.emphasis')) continue;
+      for (const match of walker.currentNode.textContent.matchAll(/ /g)) {
+        const range = document.createRange();
+        range.setStart(walker.currentNode, match.index);
+        range.setEnd(walker.currentNode, match.index + 1);
+        if (range.getBoundingClientRect().width > limit) return true;
+      }
+    }
+    return false;
+  });
+  loose.forEach(p => p.classList.add('natural-spacing'));
+}
+document.fonts.ready.then(limitWordSpacing);
+let spacingFrame;
+window.addEventListener('resize', () => {
+  cancelAnimationFrame(spacingFrame);
+  spacingFrame = requestAnimationFrame(limitWordSpacing);
+});
 const autoplay = new URLSearchParams(location.search).get('autoplay') === '1';
 const narration = autoplay && window.ccvcSlides.every(slide => slide.voice)
   ? window.createCcvcNarration(window.ccvcSlides) : null;

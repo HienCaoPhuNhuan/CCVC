@@ -5,12 +5,14 @@ import json
 from pathlib import Path
 import re
 import shutil
+import sys
 
+root = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(root / '.local-tools/media-tools'))
 from PIL import Image, ImageOps
 import pillow_heif
 
 pillow_heif.register_heif_opener()
-root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--source', type=Path, default=root.parent / 'Anh-kiem-duyet-CCVC')
 args = parser.parse_args()

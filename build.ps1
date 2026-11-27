@@ -1,6 +1,6 @@
 param(
-  [string]$Source = (Join-Path $PSScriptRoot '..\..\..\CCVC\BÁO CÁO NH 25-26-PHƯƠNG HƯỚNG-26-27-rut gon.docx'),
-  [string]$OldSlides = (Join-Path $PSScriptRoot '..\phu-nhuan-school-report-thu-nghiem')
+  [string]$Source = (Join-Path $PSScriptRoot '..\BÁO CÁO NH 25-26-PHƯƠNG HƯỚNG-26-27-rut gon.docx'),
+  [string]$OldSlides = (Join-Path $PSScriptRoot '..\..\CMHS\slide\phu-nhuan-school-report-thu-nghiem')
 )
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
@@ -36,9 +36,9 @@ $paragraphs[133] = $paragraphs[133] -replace '^[-\s]*Quản lý, Cải cách hà
 $paragraphs[134] = $paragraphs[134] -replace '^[-\s]*Cơ sở vật chất:\s*', ''
 $assets = Join-Path $PSScriptRoot 'assets'
 New-Item -ItemType Directory -Path $assets -Force | Out-Null
-$catalog = Get-Content -LiteralPath (Join-Path $OldSlides 'assets/media/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $reviewPath = Join-Path $PSScriptRoot 'review-media.json'
 $review = if (Test-Path -LiteralPath $reviewPath) { Get-Content -LiteralPath $reviewPath -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
+$catalog = if (!$review) { Get-Content -LiteralPath (Join-Path $OldSlides 'assets/media/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
 $slides = [Collections.Generic.List[object]]::new()
 $mapping = [Collections.Generic.List[object]]::new()
 function Slide($title, [int[]]$lines, [string[]]$photos = @(), $mode = '') {
@@ -117,7 +117,7 @@ Slide 'Hoạt động giáo dục theo nhu cầu' (103..105) @('40:0')
 Slide 'AI, nghệ thuật và kỹ năng sống' (106..108) @('07:8')
 Slide 'Chỉ tiêu thi đua tập thể và cá nhân' (114,115,117)
 Slide 'Chỉ tiêu học tập và rèn luyện' (119..124) @() 'targets-table'
-Slide 'Chỉ tiêu tốt nghiệp và các kỳ thi' (126,127,129,130)
+Slide 'Chỉ tiêu tốt nghiệp và các kỳ thi' (126,127,129)
 Slide 'Môi trường và quản lý giáo dục' (132..133) @()
 Slide 'Cơ sở vật chất' @(134)
 Slide 'Đổi mới tư duy · Chuyển biến mạnh mẽ · Kết quả thực chất' @() @('47:0') 'closing'
@@ -137,26 +137,34 @@ for ($i = 0; $i -lt $slides.Count; $i++) {
     $slide['voice'] = $track.src
     $slide['voiceDuration'] = $track.duration
     $weight = $track.duration
-    $base = [math]::Max($track.duration + 0.5, 4 + 1.6 * $slide.images.Count)
+    $photoCount = if ($slide.mode -in @('cover','closing')) { 0 } else { $slide.images.Count }
+    $base = [math]::Max($track.duration + 0.5, 4 + 1.8 * $photoCount)
   } else {
     $base = if ($fixed.ContainsKey($slide.mode)) { $fixed[$slide.mode] } else { [math]::Max(10, 4 + 1.6 * $slide.images.Count) }
   }
   $weights += $weight
+  $base = [math]::Ceiling(10 * $base) / 10
   $bases += $base
   $baseTotal += $base
 }
 $weightTotal = ($weights | Measure-Object -Sum).Sum
-$targetSeconds = [math]::Max(600, [math]::Ceiling($baseTotal))
-$assigned = 0.0
+$targetSeconds = 600.0
+$remainingTicks = 6000 - [int][math]::Round(10 * $baseTotal)
+if ($remainingTicks -lt 0) { throw 'The voice and image minimums exceed 10 minutes. Review the photo count or narration before rebuilding.' }
+$shares = @(for ($i = 0; $i -lt $slides.Count; $i++) {
+  $share = $remainingTicks * $weights[$i] / $weightTotal
+  [pscustomobject]@{Index=$i; Ticks=[int][math]::Floor($share); Remainder=$share - [math]::Floor($share)}
+})
+$roundingTicks = $remainingTicks - [int](($shares | Measure-Object -Property Ticks -Sum).Sum)
+# Largest remainders preserve each minimum and make the schedule exactly 600 seconds.
+@($shares | Sort-Object -Property @{Expression='Remainder';Descending=$true},Index | Select-Object -First $roundingTicks) | ForEach-Object { $_.Ticks++ }
 for ($i = 0; $i -lt $slides.Count; $i++) {
-  $seconds = [math]::Ceiling(10 * ($bases[$i] + ($targetSeconds - $baseTotal) * $weights[$i] / $weightTotal)) / 10
-  $slides[$i]['durationSeconds'] = $seconds
-  $assigned += $seconds
+  $slides[$i]['durationSeconds'] = [math]::Round($bases[$i] + $shares[$i].Ticks / 10.0, 1)
 }
-$targetSeconds = [math]::Round($assigned, 1)
 $offset = 0.0
 $timeline = @(foreach ($slide in $slides) {
-  [ordered]@{ title = $slide.title; startSeconds = [math]::Round($offset, 1); durationSeconds = $slide.durationSeconds }
+  $photoCount = if ($slide.mode -in @('cover','closing')) { 0 } else { $slide.images.Count }
+  [ordered]@{ title = $slide.title; startSeconds = [math]::Round($offset, 1); durationSeconds = $slide.durationSeconds; imageCount=$photoCount; contentSeconds=4; secondsPerImage=$(if ($photoCount) { [math]::Round(($slide.durationSeconds - 4) / $photoCount, 3) } else { 0 }) }
   $offset += $slide.durationSeconds
 })
 $utf8 = [Text.UTF8Encoding]::new($false)
