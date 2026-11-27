@@ -240,11 +240,11 @@
       "peak": 0.5875
     },
     "35": {
-      "src": "assets/voice/76e894e6a67a393d4161.mp3",
-      "duration": 10.79,
-      "textHash": "8412d2b97a71ad1166e4ffc8571b05fb2d50adc91f6869d0395d88ca41279aa8",
-      "rms": 0.1117,
-      "peak": 0.5901
+      "src": "assets/voice/ec1284fbc8fd5c12cec8.mp3",
+      "duration": 9.84,
+      "textHash": "520bd3ea7aaf27f1b995b0bedfbeea0b9d5b0d50f7c50c53ed455645db8cf2be",
+      "rms": 0.1131,
+      "peak": 0.5619
     }
   }
 }

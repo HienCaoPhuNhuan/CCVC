@@ -116,6 +116,7 @@ window.ccvcSlides.forEach((slide, position) => {
   title.id = section.id + '-title';
   section.setAttribute('aria-labelledby', title.id);
   header.append(title);
+  if (slide.mode === 'closing') header.prepend(make('p', 'closing-subject', 'Chủ đề năm học 2026 - 2027'));
   inner.append(header);
   if (slide.mode === 'cover') {
     inner.append(make('p', 'subtitle', 'Tổng kết năm học 2025–2026'), make('p', 'subtitle', 'Phương hướng, nhiệm vụ năm học 2026–2027'));
@@ -218,16 +219,19 @@ function activate(index) {
 let active = 0;
 let wheelAt = 0;
 const observer = new IntersectionObserver(entries => {
-  for (const entry of entries) if (entry.isIntersecting) {
-    const next = slides.indexOf(entry.target);
-    if (next !== active) {
-      photoStage.stop();
-      photoIndex = -1;
-      photoExpanded = false;
-      manualStart = performance.now();
+  for (const entry of entries) {
+    entry.target.classList.toggle('in-viewport', entry.isIntersecting);
+    if (entry.isIntersecting) {
+      const next = slides.indexOf(entry.target);
+      if (next !== active) {
+        photoStage.stop();
+        photoIndex = -1;
+        photoExpanded = false;
+        manualStart = performance.now();
+      }
+      active = next;
+      activate(active);
     }
-    active = next;
-    activate(active);
   }
 }, {threshold:.55});
 slides.forEach(slide => observer.observe(slide));

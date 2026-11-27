@@ -34,7 +34,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/a56c9014a13cbd752a6c.mp3",
     "voiceDuration": 12.26,
-    "durationSeconds": 21.9
+    "durationSeconds": 22.0
   },
   {
     "title": "Quy mô và các tổ chức",
@@ -264,7 +264,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/90c1dce9a8c02a205419.mp3",
     "voiceDuration": 11.84,
-    "durationSeconds": 21.9
+    "durationSeconds": 22.0
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -281,7 +281,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/967df8eb93ca167129fd.mp3",
     "voiceDuration": 14.35,
-    "durationSeconds": 15.2
+    "durationSeconds": 15.3
   },
   {
     "title": "Thành tích Đoàn Thanh niên",
@@ -315,7 +315,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/613d9d442e53f2df73c3.mp3",
     "voiceDuration": 11.78,
-    "durationSeconds": 13.9
+    "durationSeconds": 14.0
   },
   {
     "title": "Thành tích câu lạc bộ",
@@ -333,7 +333,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/d06aca5cdff48a5c46ea.mp3",
     "voiceDuration": 17.66,
-    "durationSeconds": 18.6
+    "durationSeconds": 18.7
   },
   {
     "title": "Hoạt động Công đoàn",
@@ -380,7 +380,7 @@ window.ccvcSlides = [
     "group": "TỔNG KẾT · 2025–2026",
     "voice": "assets/voice/fa86e6b68bf06c197ae5.mp3",
     "voiceDuration": 16.48,
-    "durationSeconds": 17.4
+    "durationSeconds": 17.5
   },
   {
     "title": "Kết quả thi đua các tổ chức",
@@ -449,7 +449,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/0c7309897112ce76ab4e.mp3",
     "voiceDuration": 13.27,
-    "durationSeconds": 14.1
+    "durationSeconds": 14.2
   },
   {
     "title": "STEM và không gian học tập mở",
@@ -548,7 +548,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/f2d2a56dfa8d0af6adad.mp3",
     "voiceDuration": 19.1,
-    "durationSeconds": 20.1
+    "durationSeconds": 20.2
   },
   {
     "title": "Chỉ tiêu học tập và rèn luyện",
@@ -566,7 +566,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/214ccb77876700a5ad8e.mp3",
     "voiceDuration": 13.45,
-    "durationSeconds": 14.3
+    "durationSeconds": 14.4
   },
   {
     "title": "Chỉ tiêu tốt nghiệp và các kỳ thi",
@@ -597,7 +597,7 @@ window.ccvcSlides = [
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
     "voice": "assets/voice/e7a9e8375d0368860f9b.mp3",
     "voiceDuration": 13.08,
-    "durationSeconds": 13.9
+    "durationSeconds": 14.0
   },
   {
     "title": "Cơ sở vật chất",
@@ -620,8 +620,8 @@ window.ccvcSlides = [
     ],
     "mode": "closing",
     "group": "PHƯƠNG HƯỚNG · 2026–2027",
-    "voice": "assets/voice/76e894e6a67a393d4161.mp3",
-    "voiceDuration": 10.79,
-    "durationSeconds": 11.6
+    "voice": "assets/voice/ec1284fbc8fd5c12cec8.mp3",
+    "voiceDuration": 9.84,
+    "durationSeconds": 10.6
   }
 ];
